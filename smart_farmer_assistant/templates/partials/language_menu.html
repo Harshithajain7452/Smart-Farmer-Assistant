@@ -1,0 +1,12 @@
+<div class="dropdown">
+  <button class="btn btn-ghost btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false" aria-label="Change language">
+    <i class="bi bi-translate"></i><span class="d-none d-sm-inline ms-1">{{ languages[current_lang] }}</span>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    {% for code, label in languages.items() %}
+      <li><a class="dropdown-item {{ 'active' if code == current_lang }}"
+             href="{{ url_for('main.set_language', lang=code) }}">{{ label }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

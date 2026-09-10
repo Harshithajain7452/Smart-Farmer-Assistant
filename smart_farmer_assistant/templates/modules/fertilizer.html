@@ -1,0 +1,90 @@
+{% extends 'app.html' %}
+{% block title %}Fertilizer recommendation · Smart Farmer Assistant{% endblock %}
+{% block page_title %}{{ t('nav_fertilizer') }}{% endblock %}
+{% block page_subtitle %}Enter your soil test values and get the right fertiliser with a dose plan.{% endblock %}
+{% block content %}
+<div class="row g-3">
+  <div class="col-lg-5">
+    <div class="card-soft fade-up">
+      <div class="card-header">Soil test values</div>
+      <div class="card-body">
+        <form method="post" data-loading>
+          <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+          <div class="row g-3">
+            <div class="col-12">
+              <label class="form-label" for="crop">{{ t('crop') }}</label>
+              <select class="form-select" id="crop" name="crop">
+                {% for c in crops %}<option value="{{ c }}" {{ 'selected' if form.crop == c }}>{{ c }}</option>{% endfor %}
+              </select>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="soil_type">Soil type</label>
+              <select class="form-select" id="soil_type" name="soil_type">
+                {% for s in soils %}<option value="{{ s }}" {{ 'selected' if form.soil_type == s }}>{{ s }}</option>{% endfor %}
+              </select>
+            </div>
+            {% set nutrients = [('nitrogen','Nitrogen (N) kg/ha'),('phosphorus','Phosphorus (P) kg/ha'),('potassium','Potassium (K) kg/ha')] %}
+            {% for name, label in nutrients %}
+            <div class="col-md-4">
+              <label class="form-label" for="{{ name }}">{{ label }}</label>
+              <input type="number" class="form-control" id="{{ name }}" name="{{ name }}"
+                     min="0" max="300" step="1" value="{{ form[name] }}">
+            </div>
+            {% endfor %}
+          </div>
+          <button class="btn btn-brand w-100 mt-3"><i class="bi bi-droplet-half me-2"></i>Recommend fertiliser</button>
+          <p class="small text-muted-2 mt-3 mb-0">No soil test yet? Apply for a free Soil Health Card
+            at your block agriculture office — values are printed on the card.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-7">
+    {% if result %}
+    <div class="card-soft fade-up">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span>Recommendation</span>
+        <span class="pill">{{ 'Random Forest' if result.source != 'rule_based' else 'Agronomic rules' }}</span>
+      </div>
+      <div class="card-body">
+        <div class="text-center mb-4">
+          <div class="section-label">Recommended fertiliser</div>
+          <h2 class="display-6 display-serif mb-2" style="color: var(--brand);">{{ result.fertilizer }}</h2>
+          <div class="mx-auto" style="max-width: 340px;">
+            <div class="confidence-track"><div class="confidence-fill" style="width: {{ result.confidence }}%"></div></div>
+            <div class="small text-muted-2 mt-1">{{ result.confidence }}% {{ t('confidence') }}</div>
+          </div>
+        </div>
+        <div class="card-soft p-3 mb-3">
+          <div class="d-flex gap-2 align-items-center mb-1">
+            <i class="bi bi-clipboard-check" style="color: var(--brand);"></i><strong class="small">Application advice</strong>
+          </div>
+          <p class="small text-muted-2 mb-0">{{ result.advice }}</p>
+        </div>
+        <div class="row g-2 text-center">
+          {% for label, value in [('Nitrogen', form.nitrogen), ('Phosphorus', form.phosphorus), ('Potassium', form.potassium)] %}
+          <div class="col-4">
+            <div class="card-soft p-3">
+              <div class="stat-value">{{ value }}</div>
+              <div class="stat-label">{{ label }} kg/ha</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="alert alert-warning small mt-3 mb-0">
+          <i class="bi bi-info-circle me-1"></i> Split nitrogen doses and never apply urea on
+          waterlogged fields — losses can exceed 40%.
+        </div>
+      </div>
+    </div>
+    {% else %}
+    <div class="card-soft p-5 text-center fade-up">
+      <i class="bi bi-droplet-half fs-1 text-muted-2 d-block mb-2"></i>
+      <h2 class="h5">Your fertiliser plan appears here</h2>
+      <p class="small text-muted-2 mb-0">Covers urea, DAP, MOP, NPK blends and organic compost options.</p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

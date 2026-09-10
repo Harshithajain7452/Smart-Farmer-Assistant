@@ -1,0 +1,143 @@
+{% extends 'app.html' %}
+{% block title %}Weather forecast · Smart Farmer Assistant{% endblock %}
+{% block page_title %}{{ t('nav_weather') }}{% endblock %}
+{% block page_subtitle %}Live conditions, a 48-hour outlook and a 7-day forecast for your farm.{% endblock %}
+{% block content %}
+
+<form class="card-soft p-3 mb-3 fade-up" method="get">
+  <div class="row g-2 align-items-end">
+    <div class="col-md-6">
+      <label class="form-label" for="city">Search a city or district</label>
+      <input class="form-control" id="city" name="city" value="{{ city or '' }}" placeholder="Patna">
+    </div>
+    <div class="col-md-3"><button class="btn btn-brand w-100"><i class="bi bi-search me-1"></i>Search</button></div>
+    <div class="col-md-3">
+      <button type="button" class="btn btn-ghost w-100" id="useLocation">
+        <i class="bi bi-crosshair me-1"></i>Use my location</button>
+    </div>
+  </div>
+</form>
+
+{% for severity, title, body in alerts %}
+<div class="alert alert-{{ severity }} d-flex gap-3 fade-up">
+  <i class="bi bi-exclamation-triangle fs-5"></i>
+  <div><strong>{{ title }}</strong><div class="small">{{ body }}</div></div>
+</div>
+{% endfor %}
+
+<div class="row g-3">
+  <div class="col-lg-5">
+    <div class="weather-hero fade-up">
+      <div class="d-flex justify-content-between align-items-start">
+        <div>
+          <div class="small opacity-75"><i class="bi bi-geo-alt"></i> {{ w.location }}</div>
+          <div class="temp">{{ w.current.temperature }}°</div>
+          <div>{{ w.current.condition }} · feels like {{ w.current.feels_like }}°</div>
+        </div>
+        <img src="https://openweathermap.org/img/wn/{{ w.current.icon }}@2x.png" alt="{{ w.current.condition }}" width="96" height="96">
+      </div>
+      <div class="row g-2 mt-3">
+        {% set metrics = [('bi-droplet-half', w.current.humidity ~ '%', t('humidity')),
+                          ('bi-wind', w.current.wind_speed ~ ' km/h', 'Wind'),
+                          ('bi-speedometer', w.current.pressure ~ ' hPa', 'Pressure'),
+                          ('bi-umbrella', w.current.rain_probability ~ '%', 'Rain chance'),
+                          ('bi-eye', w.current.visibility ~ ' km', 'Visibility'),
+                          ('bi-clouds', w.current.clouds ~ '%', 'Cloud cover')] %}
+        {% for icon, value, label in metrics %}
+        <div class="col-6 col-md-4">
+          <div class="weather-metric">
+            <i class="bi {{ icon }}"></i>
+            <div><div class="fw-semibold small">{{ value }}</div><div class="small opacity-75">{{ label }}</div></div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="d-flex gap-3 mt-3 small">
+        <span><i class="bi bi-sunrise"></i> Sunrise {{ w.current.sunrise }}</span>
+        <span><i class="bi bi-sunset"></i> Sunset {{ w.current.sunset }}</span>
+      </div>
+      {% if w.is_sample %}
+      <div class="small mt-3 opacity-75"><i class="bi bi-info-circle"></i>
+        Showing sample data. Add OPENWEATHER_API_KEY to your .env for live readings.</div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="col-lg-7">
+    <div class="card-soft fade-up h-100">
+      <div class="card-header">Next 48 hours</div>
+      <div class="card-body"><div style="height:280px;"><canvas id="hourlyChart"></canvas></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="card-soft mt-3 fade-up">
+  <div class="card-header">Hourly detail</div>
+  <div class="card-body">
+    <div class="d-flex gap-2 overflow-auto pb-2">
+      {% for h in w.hourly %}
+      <div class="card-soft p-3 text-center flex-shrink-0" style="min-width: 104px;">
+        <div class="small text-muted-2">{{ h.hour }}</div>
+        <img src="https://openweathermap.org/img/wn/{{ h.icon }}.png" alt="{{ h.condition }}" width="48" height="48">
+        <div class="fw-bold">{{ h.temp }}°</div>
+        <div class="small text-muted-2"><i class="bi bi-droplet"></i> {{ h.rain_probability }}%</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="card-soft mt-3 fade-up">
+  <div class="card-header">7-day outlook</div>
+  <div class="table-responsive">
+    <table class="table table-clean">
+      <thead><tr><th>Day</th><th></th><th>Condition</th><th>Min</th><th>Max</th><th>Rain</th></tr></thead>
+      <tbody>
+        {% for d in w.daily %}
+        <tr>
+          <td class="fw-semibold">{{ d.date }}</td>
+          <td><img src="https://openweathermap.org/img/wn/{{ d.icon }}.png" alt="" width="36" height="36"></td>
+          <td class="small">{{ d.condition }}</td>
+          <td>{{ d.min }}°</td>
+          <td class="fw-semibold">{{ d.max }}°</td>
+          <td><span class="pill {{ 'pill-amber' if d.rain_probability >= 60 }}">{{ d.rain_probability }}%</span></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function () {
+  const c = SFA.colors();
+  const hourly = {{ w.hourly | tojson }};
+  SFA.register(new Chart(document.getElementById('hourlyChart'), {
+    data: {
+      labels: hourly.map(h => h.time),
+      datasets: [
+        { type: 'line', label: 'Temperature (°C)', data: hourly.map(h => h.temp), borderColor: c.brand,
+          backgroundColor: 'rgba(34,139,74,.14)', fill: true, tension: .38, pointRadius: 0, borderWidth: 2.5 },
+        { type: 'line', label: 'Humidity (%)', data: hourly.map(h => h.humidity), borderColor: c.sky,
+          borderDash: [5, 4], tension: .38, pointRadius: 0, borderWidth: 2, yAxisID: 'y1' }
+      ]
+    },
+    options: Object.assign(SFA.baseOptions(), {
+      scales: Object.assign(SFA.baseOptions().scales, {
+        y1: { position: 'right', min: 0, max: 100, grid: { display: false },
+              ticks: { color: c.text, font: { size: 11 } } }
+      })
+    })
+  }));
+
+  document.getElementById('useLocation').addEventListener('click', function () {
+    if (!navigator.geolocation) return;
+    navigator.geolocation.getCurrentPosition(function (p) {
+      window.location = '?lat=' + p.coords.latitude.toFixed(4) + '&lon=' + p.coords.longitude.toFixed(4);
+    });
+  });
+})();
+</script>
+{% endblock %}

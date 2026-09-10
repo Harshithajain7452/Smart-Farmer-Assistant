@@ -1,0 +1,283 @@
+{% extends 'app.html' %}
+{% block title %}Dashboard · Smart Farmer Assistant{% endblock %}
+{% block page_title %}{{ t('welcome_back') }}, {{ current_user.name.split(' ')[0] }}{% endblock %}
+{% block page_subtitle %}
+  {% if current_user.profile and current_user.profile.district %}
+    {{ current_user.profile.district }}, {{ current_user.profile.state }} ·
+    {{ current_user.profile.farm_size }} {{ t('acres') }}
+  {% else %}Complete your profile for location-specific advice{% endif %}
+{% endblock %}
+
+{% block content %}
+
+{% if alerts %}
+<div class="mb-3">
+  {% for severity, title, body in alerts %}
+  <div class="alert alert-{{ severity }} d-flex gap-3 fade-up mb-2">
+    <i class="bi bi-exclamation-triangle fs-5"></i>
+    <div><strong>{{ title }}</strong><div class="small">{{ body }}</div></div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Quick actions ------------------------------------------------------- -->
+<div class="row g-2 mb-3">
+  {% set actions = [
+    ('detection.disease', 'bi-camera', 'Scan a leaf'),
+    ('detection.pest', 'bi-bug', 'Identify a pest'),
+    ('advisor.crop', 'bi-flower1', 'What to sow'),
+    ('market.prices', 'bi-currency-rupee', 'Check prices'),
+    ('chatbot.chat', 'bi-chat-dots', 'Ask Kisan Mitra')
+  ] %}
+  {% for endpoint, icon, label in actions %}
+  <div class="col-6 col-md-4 col-lg">
+    <a href="{{ url_for(endpoint) }}" class="card-soft card-hover p-3 d-flex align-items-center gap-2 h-100 fade-up"
+       style="color: var(--text);">
+      <span class="stat-icon" style="width:36px;height:36px;flex:0 0 36px;font-size:1rem;"><i class="bi {{ icon }}"></i></span>
+      <span class="small fw-semibold">{{ label }}</span>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="row g-3">
+  <!-- Weather widget --------------------------------------------------- -->
+  <div class="col-lg-5">
+    <div class="weather-hero fade-up h-100">
+      <div class="d-flex justify-content-between align-items-start">
+        <div>
+          <div class="small opacity-75"><i class="bi bi-geo-alt"></i> {{ w_location if w_location else weather.location }}</div>
+          <div class="temp">{{ weather.current.temperature }}°</div>
+          <div>{{ weather.current.condition }} · feels like {{ weather.current.feels_like }}°</div>
+        </div>
+        <img src="https://openweathermap.org/img/wn/{{ weather.current.icon }}@2x.png"
+             alt="{{ weather.current.condition }}" width="86" height="86">
+      </div>
+      <div class="row g-2 mt-2">
+        <div class="col-6 col-md-3"><div class="weather-metric small"><i class="bi bi-droplet-half"></i> {{ weather.current.humidity }}% {{ t('humidity') }}</div></div>
+        <div class="col-6 col-md-3"><div class="weather-metric small"><i class="bi bi-wind"></i> {{ weather.current.wind_speed }} km/h</div></div>
+        <div class="col-6 col-md-3"><div class="weather-metric small"><i class="bi bi-speedometer"></i> {{ weather.current.pressure }} hPa</div></div>
+        <div class="col-6 col-md-3"><div class="weather-metric small"><i class="bi bi-umbrella"></i> {{ weather.current.rain_probability }}% rain</div></div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center mt-3 small">
+        <span><i class="bi bi-sunrise"></i> {{ weather.current.sunrise }} · <i class="bi bi-sunset"></i> {{ weather.current.sunset }}</span>
+        <a href="{{ url_for('weather.forecast') }}" class="btn btn-accent btn-sm">7-day {{ t('forecast') }}</a>
+      </div>
+      {% if weather.is_sample %}
+      <div class="small mt-2 opacity-75"><i class="bi bi-info-circle"></i>
+        Sample data — set OPENWEATHER_API_KEY for live readings.</div>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- Stats ------------------------------------------------------------ -->
+  <div class="col-lg-7">
+    <div class="row g-3">
+      {% set cards = [
+        ('bi-camera', stats.diseases, 'Leaf scans'),
+        ('bi-bug', stats.pests, 'Pest scans'),
+        ('bi-chat-dots', stats.chats, 'Chat queries'),
+        ('bi-rulers', stats.farm_size, 'Acres farmed'),
+        ('bi-flower2', stats.crops, 'Crops tracked'),
+        ('bi-graph-up-arrow', stats.yields, 'Yield forecasts')
+      ] %}
+      {% for icon, value, label in cards %}
+      <div class="col-6 col-md-4">
+        <div class="card-soft p-3 stat-card fade-up delay-{{ loop.index % 4 }}">
+          <span class="stat-icon"><i class="bi {{ icon }}"></i></span>
+          <div>
+            <div class="stat-value">{{ value }}</div>
+            <div class="stat-label">{{ label }}</div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="row g-3 mt-0">
+  <!-- Hourly forecast chart -------------------------------------------- -->
+  <div class="col-lg-8">
+    <div class="card-soft fade-up">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span>Temperature &amp; rain outlook</span>
+        <span class="pill">Next 48 hours</span>
+      </div>
+      <div class="card-body">
+        <div style="height: 260px;"><canvas id="forecastChart"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Market snapshot --------------------------------------------------- -->
+  <div class="col-lg-4">
+    <div class="card-soft fade-up h-100">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span>{{ t('nav_prices') }}</span>
+        <a class="small" href="{{ url_for('market.prices') }}">View all</a>
+      </div>
+      <div class="card-body">
+        {% if prices %}
+        <div style="height: 220px;"><canvas id="priceChart"></canvas></div>
+        {% else %}
+        <p class="small text-muted-2 mb-0">No price data yet.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3 mt-0">
+  <!-- Recent scans ------------------------------------------------------ -->
+  <div class="col-lg-6">
+    <div class="card-soft fade-up h-100">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span>Recent leaf scans</span>
+        <a class="small" href="{{ url_for('detection.disease') }}">New scan</a>
+      </div>
+      <div class="card-body">
+        {% if recent_diseases %}
+        <div class="list-group list-group-flush">
+          {% for d in recent_diseases %}
+          <div class="list-group-item d-flex align-items-center gap-3 px-0">
+            <img src="{{ url_for('detection.uploaded_file', filename=d.image_path) }}"
+                 alt="{{ d.disease_name }}" width="48" height="48"
+                 style="object-fit: cover; border-radius: 10px;">
+            <div class="flex-grow-1">
+              <div class="fw-semibold small">{{ d.disease_name }}</div>
+              <div class="small text-muted-2">{{ d.created_at.strftime('%d %b %Y, %H:%M') }}</div>
+            </div>
+            <span class="pill {{ 'pill-amber' if not d.is_healthy }}">{{ d.confidence }}%</span>
+          </div>
+          {% endfor %}
+        </div>
+        {% else %}
+        <div class="text-center py-4">
+          <i class="bi bi-camera fs-1 text-muted-2 d-block mb-2"></i>
+          <p class="small text-muted-2">No scans yet. Photograph an affected leaf to get a diagnosis.</p>
+          <a class="btn btn-brand btn-sm" href="{{ url_for('detection.disease') }}">Scan a leaf</a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Schemes + notifications ------------------------------------------ -->
+  <div class="col-lg-6">
+    <div class="card-soft fade-up mb-3">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span>{{ t('nav_schemes') }}</span>
+        <a class="small" href="{{ url_for('knowledge.schemes') }}">All schemes</a>
+      </div>
+      <div class="card-body">
+        {% for s in schemes %}
+        <div class="d-flex gap-2 align-items-start mb-3">
+          <i class="bi bi-bank2" style="color: var(--brand);"></i>
+          <div>
+            <div class="fw-semibold small">{{ s.name }}</div>
+            <div class="small text-muted-2">{{ (s.benefits or s.description)|truncate(120) }}</div>
+          </div>
+        </div>
+        {% else %}
+        <p class="small text-muted-2 mb-0">No schemes available.</p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="card-soft fade-up">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span>{{ t('nav_notifications') }}</span>
+        <a class="small" href="{{ url_for('dashboard.notifications') }}">View all</a>
+      </div>
+      <div class="card-body">
+        {% if notifications %}
+        <div class="timeline">
+          {% for n in notifications[:4] %}
+          <div class="timeline-item">
+            <div class="fw-semibold small">{{ n.title }}</div>
+            <div class="small text-muted-2">{{ n.body|truncate(110) }}</div>
+            <div class="small text-muted-2">{{ n.created_at.strftime('%d %b, %H:%M') }}</div>
+          </div>
+          {% endfor %}
+        </div>
+        {% else %}
+        <p class="small text-muted-2 mb-0">You are all caught up.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Crop calendar --------------------------------------------------------- -->
+{% if calendar_rows %}
+<div class="card-soft mt-3 fade-up">
+  <div class="card-header d-flex justify-content-between align-items-center">
+    <span>{{ t('nav_calendar') }} — {{ current_user.profile.state }}</span>
+    <a class="small" href="{{ url_for('knowledge.calendar') }}">Full calendar</a>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-clean">
+      <thead><tr><th>Crop</th><th>Season</th><th>Sowing</th><th>Harvest</th><th>Duration</th></tr></thead>
+      <tbody>
+        {% for c in calendar_rows %}
+        <tr>
+          <td class="fw-semibold">{{ c.crop }}</td>
+          <td><span class="pill">{{ c.season }}</span></td>
+          <td class="small">{{ c.sowing_time }}</td>
+          <td class="small">{{ c.harvesting_time }}</td>
+          <td class="small">{{ c.duration_days }} days</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function () {
+  const c = SFA.colors();
+  const hourly = {{ weather.hourly[:16] | tojson }};
+  const prices = {{ prices | tojson }};
+
+  SFA.register(new Chart(document.getElementById('forecastChart'), {
+    data: {
+      labels: hourly.map(h => h.time),
+      datasets: [
+        { type: 'line', label: 'Temperature (°C)', data: hourly.map(h => h.temp),
+          borderColor: c.brand, backgroundColor: 'rgba(34,139,74,.14)', fill: true,
+          tension: .38, pointRadius: 0, borderWidth: 2.5, yAxisID: 'y' },
+        { type: 'bar', label: 'Rain probability (%)', data: hourly.map(h => h.rain_probability),
+          backgroundColor: c.sky, borderRadius: 4, yAxisID: 'y1', maxBarThickness: 16 }
+      ]
+    },
+    options: Object.assign(SFA.baseOptions(), {
+      scales: Object.assign(SFA.baseOptions().scales, {
+        y1: { position: 'right', min: 0, max: 100, grid: { display: false },
+              ticks: { color: c.text, font: { size: 11 } } }
+      })
+    })
+  }));
+
+  if (prices.length) {
+    SFA.register(new Chart(document.getElementById('priceChart'), {
+      type: 'bar',
+      data: {
+        labels: prices.map(p => p.crop),
+        datasets: [{ label: '₹ per quintal', data: prices.map(p => p.modal_price),
+          backgroundColor: [c.brand, c.brandLight, c.accent, c.sky, c.clay, '#7a8f60'],
+          borderRadius: 6 }]
+      },
+      options: Object.assign(SFA.baseOptions(), {
+        indexAxis: 'y',
+        plugins: { legend: { display: false } }
+      })
+    }));
+  }
+})();
+</script>
+{% endblock %}

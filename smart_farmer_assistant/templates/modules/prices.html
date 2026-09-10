@@ -1,0 +1,99 @@
+{% extends 'app.html' %}
+{% block title %}Market prices · Smart Farmer Assistant{% endblock %}
+{% block page_title %}{{ t('nav_prices') }}{% endblock %}
+{% block page_subtitle %}Minimum, maximum and modal mandi rates in ₹ per quintal, with a 30-day trend.{% endblock %}
+{% block content %}
+
+<form class="card-soft p-3 mb-3 fade-up" method="get">
+  <div class="row g-2 align-items-end">
+    <div class="col-md-3">
+      <label class="form-label" for="state">{{ t('state') }}</label>
+      <select class="form-select" id="state" name="state" data-state-select data-district-target="#district">
+        <option value="">All states</option>
+        {% for s in states %}<option value="{{ s }}" {{ 'selected' if sel.state == s }}>{{ s }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="col-md-3">
+      <label class="form-label" for="district">{{ t('district') }}</label>
+      <select class="form-select" id="district" name="district" data-selected="{{ sel.district or '' }}">
+        <option value="">All districts</option>
+        {% if sel.district %}<option selected>{{ sel.district }}</option>{% endif %}
+      </select>
+    </div>
+    <div class="col-md-3">
+      <label class="form-label" for="crop">{{ t('crop') }}</label>
+      <select class="form-select" id="crop" name="crop">
+        <option value="">All crops</option>
+        {% for c in crops %}<option value="{{ c }}" {{ 'selected' if sel.crop == c }}>{{ c }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="col-md-3 d-flex gap-2">
+      <button class="btn btn-brand flex-grow-1"><i class="bi bi-funnel me-1"></i>Apply</button>
+      <a class="btn btn-ghost" href="{{ url_for('market.prices') }}"><i class="bi bi-arrow-counterclockwise"></i></a>
+    </div>
+  </div>
+</form>
+
+{% if trend and trend.labels %}
+<div class="card-soft mb-3 fade-up">
+  <div class="card-header d-flex justify-content-between align-items-center">
+    <span>{{ sel.crop }} price trend — last 30 days</span>
+    {% if live %}<span class="pill"><i class="bi bi-broadcast"></i> Live data.gov.in feed</span>{% endif %}
+  </div>
+  <div class="card-body"><div style="height:280px;"><canvas id="trendChart"></canvas></div></div>
+</div>
+{% endif %}
+
+<div class="card-soft fade-up">
+  <div class="card-header d-flex justify-content-between align-items-center">
+    <span>{{ rows|length }} price records</span>
+    <span class="small text-muted-2">₹ per quintal</span>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-clean">
+      <thead><tr><th>{{ t('crop') }}</th><th>Market</th><th>{{ t('district') }}</th><th>{{ t('state') }}</th>
+        <th class="text-end">Min</th><th class="text-end">Max</th><th class="text-end">Modal</th><th>Updated</th></tr></thead>
+      <tbody>
+        {% for r in rows %}
+        <tr>
+          <td class="fw-semibold">{{ r.crop }}</td>
+          <td class="small">{{ r.market or '—' }}</td>
+          <td class="small">{{ r.district }}</td>
+          <td class="small">{{ r.state }}</td>
+          <td class="text-end">₹{{ '{:,.0f}'.format(r.min_price) }}</td>
+          <td class="text-end">₹{{ '{:,.0f}'.format(r.max_price) }}</td>
+          <td class="text-end fw-bold" style="color: var(--brand);">₹{{ '{:,.0f}'.format(r.modal_price) }}</td>
+          <td class="small text-muted-2">{{ r.price_date.strftime('%d %b %Y') }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="8" class="text-center text-muted-2 py-4">No records for this filter.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{% if trend and trend.labels %}
+<script>
+(function () {
+  const c = SFA.colors();
+  const trend = {{ trend | tojson }};
+  SFA.register(new Chart(document.getElementById('trendChart'), {
+    type: 'line',
+    data: {
+      labels: trend.labels,
+      datasets: [
+        { label: 'Modal price', data: trend.modal, borderColor: c.brand,
+          backgroundColor: 'rgba(34,139,74,.14)', fill: true, tension: .35, borderWidth: 2.5, pointRadius: 0 },
+        { label: 'Maximum', data: trend.max, borderColor: c.accent, tension: .35, borderWidth: 1.6, pointRadius: 0 },
+        { label: 'Minimum', data: trend.min, borderColor: c.sky, tension: .35, borderWidth: 1.6, pointRadius: 0 }
+      ]
+    },
+    options: SFA.baseOptions()
+  }));
+})();
+</script>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block title %}Sign in · Smart Farmer Assistant{% endblock %}
+{% block content %}
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-7 col-lg-5">
+      <div class="card-soft p-4 p-md-5 fade-up">
+        <div class="text-center mb-4">
+          <div style="color: var(--brand);">{% include 'partials/logo.html' %}</div>
+          <h1 class="h3 mt-2 mb-1">{{ t('welcome_back') }}</h1>
+          <p class="small text-muted-2 mb-0">Sign in to your farm dashboard</p>
+        </div>
+        {% include 'partials/flash.html' %}
+        <form method="post" novalidate>
+          <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+          <div class="mb-3">
+            <label class="form-label" for="email">Email address</label>
+            <div class="input-group">
+              <span class="input-group-text" style="background: var(--surface-2); border-color: var(--border); color: var(--text-muted);"><i class="bi bi-envelope"></i></span>
+              <input type="email" class="form-control" id="email" name="email" required autofocus
+                     placeholder="you@example.com" autocomplete="email">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="password">Password</label>
+            <div class="input-group">
+              <span class="input-group-text" style="background: var(--surface-2); border-color: var(--border); color: var(--text-muted);"><i class="bi bi-lock"></i></span>
+              <input type="password" class="form-control" id="password" name="password" required
+                     autocomplete="current-password">
+              <button class="btn btn-ghost" type="button" onclick="const p=document.getElementById('password');p.type=p.type==='password'?'text':'password';" aria-label="Show password"><i class="bi bi-eye"></i></button>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="remember" name="remember">
+              <label class="form-check-label small" for="remember">Keep me signed in</label>
+            </div>
+            <a class="small" href="{{ url_for('auth.forgot_password') }}">Forgot password?</a>
+          </div>
+          <button class="btn btn-brand w-100 mb-3" type="submit">{{ t('login') }}</button>
+          <p class="text-center small text-muted-2 mb-0">New here?
+            <a href="{{ url_for('auth.register') }}">Create an account</a></p>
+        </form>
+      </div>
+      <p class="text-center small text-muted-2 mt-3">
+        Demo admin: <code>admin@smartfarmer.in</code> / <code>Admin@1234</code>
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}

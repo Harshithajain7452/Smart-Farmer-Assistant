@@ -1,0 +1,57 @@
+{% extends 'app.html' %}
+{% block title %}Notifications · Smart Farmer Assistant{% endblock %}
+{% block page_title %}{{ t('nav_notifications') }}{% endblock %}
+{% block page_subtitle %}Weather warnings, new schemes and mandi price movements.{% endblock %}
+{% block content %}
+<div class="d-flex justify-content-end mb-3">
+  <button class="btn btn-ghost btn-sm" id="markAll"><i class="bi bi-check2-all me-1"></i>Mark all as read</button>
+</div>
+
+{% if items.items %}
+<div class="card-soft fade-up">
+  <div class="list-group list-group-flush">
+    {% for n in items.items %}
+    <div class="list-group-item d-flex gap-3 align-items-start {{ '' if n.is_read else 'fw-semibold' }}">
+      <span class="stat-icon" style="width:38px;height:38px;flex:0 0 38px;font-size:.95rem;
+        {% if n.severity == 'danger' %}background:#fde8e6;color:#b3261e;
+        {% elif n.severity == 'warning' %}background:var(--amber-100);color:var(--amber-600);{% endif %}">
+        <i class="bi {{ {'weather':'bi-cloud-lightning-rain','scheme':'bi-bank','price':'bi-graph-up'}.get(n.category,'bi-bell') }}"></i>
+      </span>
+      <div class="flex-grow-1">
+        <div>{{ n.title }}</div>
+        <div class="small text-muted-2 fw-normal">{{ n.body }}</div>
+        <div class="small text-muted-2 fw-normal mt-1">{{ n.created_at.strftime('%d %b %Y, %H:%M') }}</div>
+      </div>
+      {% if not n.is_read %}<span class="pill">New</span>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% if items.pages > 1 %}
+<nav class="mt-3"><ul class="pagination justify-content-center">
+  {% for p in items.iter_pages() %}
+    {% if p %}
+    <li class="page-item {{ 'active' if p == items.page }}">
+      <a class="page-link" href="{{ url_for('dashboard.notifications', page=p) }}">{{ p }}</a></li>
+    {% else %}<li class="page-item disabled"><span class="page-link">…</span></li>{% endif %}
+  {% endfor %}
+</ul></nav>
+{% endif %}
+
+{% else %}
+<div class="card-soft p-5 text-center fade-up">
+  <i class="bi bi-bell-slash fs-1 text-muted-2 d-block mb-2"></i>
+  <h2 class="h5">No notifications yet</h2>
+  <p class="small text-muted-2 mb-0">Weather warnings and price alerts will appear here automatically.</p>
+</div>
+{% endif %}
+{% endblock %}
+{% block scripts %}
+<script>
+document.getElementById('markAll').addEventListener('click', function () {
+  fetch('{{ url_for('dashboard.read_all') }}', { method: 'POST',
+    headers: { 'X-CSRFToken': '{{ csrf_token() }}' } }).then(function () { location.reload(); });
+});
+</script>
+{% endblock %}

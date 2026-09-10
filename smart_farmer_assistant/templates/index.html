@@ -1,0 +1,150 @@
+{% extends 'base.html' %}
+{% block title %}Smart Farmer Assistant — AI advice for Indian farmers{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 fade-up">
+        <span class="section-label">Kisan-first · 9 languages · Free to use</span>
+        <h1 class="mt-2 mb-3">Farm decisions backed by
+          <span class="display-serif" style="color: var(--brand);">artificial intelligence</span>.
+        </h1>
+        <p class="lead text-muted-2 mb-4" style="max-width: 34rem;">
+          Detect crop disease from a leaf photo, track mandi prices, read the 7-day forecast,
+          find the right fertiliser and claim the schemes you qualify for — all in one place,
+          in your language.
+        </p>
+        <div class="d-flex flex-wrap gap-2 mb-4">
+          <a href="{{ url_for('auth.register') }}" class="btn btn-brand btn-lg">
+            <i class="bi bi-person-plus me-2"></i>{{ t('get_started') }}</a>
+          <a href="{{ url_for('auth.login') }}" class="btn btn-ghost btn-lg">{{ t('login') }}</a>
+        </div>
+        <div class="d-flex flex-wrap gap-4 small text-muted-2">
+          <div><strong class="d-block fs-4" style="color: var(--text);">{{ stats.farmers }}</strong>farmers registered</div>
+          <div><strong class="d-block fs-4" style="color: var(--text);">{{ stats.schemes }}</strong>schemes catalogued</div>
+          <div><strong class="d-block fs-4" style="color: var(--text);">{{ stats.languages }}</strong>languages supported</div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 fade-up delay-2">
+        <div class="card-soft p-4">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <span class="section-label">Live preview</span>
+            <span class="pill"><i class="bi bi-activity"></i> AI ready</span>
+          </div>
+          <div class="weather-hero mb-3">
+            <div class="d-flex justify-content-between align-items-start">
+              <div>
+                <div class="small opacity-75">Today · Your farm</div>
+                <div class="temp">29°</div>
+                <div>Scattered clouds · feels like 33°</div>
+              </div>
+              <i class="bi bi-cloud-sun" style="font-size: 3rem; opacity: .85;"></i>
+            </div>
+            <div class="row g-2 mt-2">
+              <div class="col-4"><div class="weather-metric small"><i class="bi bi-droplet"></i> 71% humidity</div></div>
+              <div class="col-4"><div class="weather-metric small"><i class="bi bi-wind"></i> 12 km/h</div></div>
+              <div class="col-4"><div class="weather-metric small"><i class="bi bi-umbrella"></i> 35% rain</div></div>
+            </div>
+          </div>
+          <div class="row g-2">
+            <div class="col-6">
+              <div class="card-soft p-3">
+                <div class="stat-label">Tomato leaf scan</div>
+                <div class="fw-bold">Late Blight</div>
+                <div class="confidence-track mt-2"><div class="confidence-fill" style="width: 92%"></div></div>
+                <div class="small text-muted-2 mt-1">92% confidence</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card-soft p-3">
+                <div class="stat-label">Paddy · Patna mandi</div>
+                <div class="fw-bold">₹2,183<span class="small text-muted-2">/qtl</span></div>
+                <div class="small" style="color: var(--green-600);"><i class="bi bi-arrow-up-right"></i> 4.2% this week</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label">Why farmers use it</span>
+      <h2 class="mt-2">Everything a growing season demands</h2>
+    </div>
+    <div class="row g-3">
+      {% set features = [
+        ('bi-camera', 'Instant disease diagnosis', 'Upload a leaf photo and a convolutional neural network trained on the PlantVillage dataset returns the disease, confidence score, causes, symptoms, treatment and prevention.'),
+        ('bi-bug', 'Pest identification', 'Photograph the insect and get the species, the damage it causes, IPM prevention steps and the recommended dose.'),
+        ('bi-cloud-lightning-rain', 'Weather that warns you', 'Live conditions plus hourly and 7-day forecasts, with heat-wave, heavy-rain and disease-risk advisories pushed to your notification centre.'),
+        ('bi-graph-up', 'Mandi price intelligence', 'Minimum, maximum and modal rates by state, district and crop, with a 30-day trend chart so you know when to sell.'),
+        ('bi-bank', 'Schemes you qualify for', 'Central and state schemes with eligibility, benefits, documents, application steps and the official portal link.'),
+        ('bi-chat-dots', 'Kisan chatbot', 'Ask anything about cultivation, fertilisers, irrigation, organic farming or schemes and get a practical answer in seconds.')
+      ] %}
+      {% for icon, title, body in features %}
+      <div class="col-md-6 col-lg-4">
+        <div class="feature-tile fade-up">
+          <div class="feature-icon"><i class="bi {{ icon }}"></i></div>
+          <h3 class="h6 fw-bold">{{ title }}</h3>
+          <p class="small text-muted-2 mb-0">{{ body }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="modules" class="py-5" style="background: var(--surface);">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5">
+        <span class="section-label">Complete platform</span>
+        <h2 class="mt-2 mb-3">Seventeen modules, one login</h2>
+        <p class="text-muted-2">From sowing to selling, every module writes to a shared farm
+          profile — so the advice you get is specific to your state, district, soil and crops.</p>
+        <a href="{{ url_for('auth.register') }}" class="btn btn-brand">Create free account</a>
+      </div>
+      <div class="col-lg-7">
+        <div class="row g-2">
+          {% set modules = [
+            ('bi-shield-check','Authentication & profile'), ('bi-grid-1x2','Smart dashboard'),
+            ('bi-camera','Disease detection'), ('bi-bug','Pest detection'),
+            ('bi-cloud-sun','Weather forecast'), ('bi-geo-alt','Nearby markets'),
+            ('bi-currency-rupee','Market prices'), ('bi-bank','Government schemes'),
+            ('bi-layers','Soil information'), ('bi-chat-dots','AI chatbot'),
+            ('bi-calendar3','Crop calendar'), ('bi-flower1','Crop recommendation'),
+            ('bi-droplet-half','Fertilizer advice'), ('bi-graph-up-arrow','Yield prediction'),
+            ('bi-bell','Notifications'), ('bi-translate','9 Indian languages'),
+            ('bi-speedometer2','Admin panel')
+          ] %}
+          {% for icon, name in modules %}
+          <div class="col-6 col-md-4">
+            <div class="card-soft p-3 h-100 card-hover">
+              <i class="bi {{ icon }} mb-2 d-block" style="color: var(--brand); font-size: 1.2rem;"></i>
+              <div class="small fw-semibold">{{ name }}</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <div class="card-soft p-4 p-lg-5 text-center"
+         style="background: linear-gradient(135deg, var(--green-800), var(--green-600)); border: 0; color: #fff;">
+      <h2 class="text-white mb-2">Start with a single leaf photo</h2>
+      <p class="mb-4 opacity-90">Register in under a minute. No fees, no paperwork, works on any phone.</p>
+      <a href="{{ url_for('auth.register') }}" class="btn btn-accent btn-lg">
+        {{ t('get_started') }} <i class="bi bi-arrow-right ms-1"></i></a>
+    </div>
+  </div>
+</section>
+{% endblock %}

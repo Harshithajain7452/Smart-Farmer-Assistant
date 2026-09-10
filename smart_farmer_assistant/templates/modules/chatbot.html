@@ -1,0 +1,74 @@
+{% extends 'app.html' %}
+{% block title %}Kisan Mitra chatbot · Smart Farmer Assistant{% endblock %}
+{% block page_title %}{{ t('nav_chatbot') }}{% endblock %}
+{% block page_subtitle %}Ask about cultivation, fertilisers, irrigation, diseases, pests, organic farming or schemes.{% endblock %}
+
+{% block content %}
+<div class="row g-3">
+  <div class="col-lg-8">
+    <div class="card-soft d-flex flex-column fade-up" style="height: 640px;">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-robot me-2"></i>Kisan Mitra</span>
+        <button class="btn btn-ghost btn-sm" id="clearChat"><i class="bi bi-trash3 me-1"></i>Clear</button>
+      </div>
+
+      <div class="chat-window flex-grow-1 overflow-auto p-3" id="chatWindow">
+        {% if not history %}
+        <div class="chat-bubble chat-bot">
+          Namaste. I am Kisan Mitra. Ask me anything about your crop — for example
+          “How do I control late blight in tomato?” or “Am I eligible for PM-KISAN?”
+        </div>
+        {% endif %}
+        {% for h in history %}
+        <div class="chat-bubble chat-user">{{ h.message }}</div>
+        <div class="chat-bubble chat-bot">{{ h.response }}</div>
+        {% endfor %}
+      </div>
+
+      <div class="p-3" style="border-top: 1px solid var(--border);">
+        <form id="chatForm" class="d-flex gap-2">
+          <input class="form-control" id="chatInput" placeholder="Type your question…"
+                 autocomplete="off" required maxlength="1000">
+          <button class="btn btn-brand" type="submit" aria-label="Send"><i class="bi bi-send"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="card-soft fade-up mb-3">
+      <div class="card-header">Try asking</div>
+      <div class="card-body d-grid gap-2">
+        {% for p in quick_prompts %}
+        <button type="button" class="btn btn-ghost btn-sm text-start" data-quick-prompt>{{ p }}</button>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="card-soft p-3 fade-up mb-3">
+      <div class="section-label mb-2">How it works</div>
+      <p class="small text-muted-2 mb-0">Answers come from a curated agronomy knowledge base covering
+        eleven intents — cultivation, irrigation, fertilisers, diseases, pests, organic farming,
+        weather, prices, schemes, soil and storage. Set <code>GEMINI_API_KEY</code> in your
+        environment and the same endpoint switches to Gemini 1.5 Flash automatically, keeping the
+        rule engine as a fallback.</p>
+    </div>
+
+    <div class="card-soft p-3 fade-up">
+      <div class="section-label mb-2">Also useful</div>
+      <div class="d-grid gap-2">
+        <a class="btn btn-ghost btn-sm text-start" href="{{ url_for('detection.disease') }}">
+          <i class="bi bi-camera me-2"></i>Scan a diseased leaf</a>
+        <a class="btn btn-ghost btn-sm text-start" href="{{ url_for('knowledge.schemes') }}">
+          <i class="bi bi-bank me-2"></i>Browse schemes</a>
+        <a class="btn btn-ghost btn-sm text-start" href="{{ url_for('market.prices') }}">
+          <i class="bi bi-currency-rupee me-2"></i>Check today's prices</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/chatbot.js') }}"></script>
+{% endblock %}

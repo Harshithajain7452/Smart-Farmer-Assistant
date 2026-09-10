@@ -1,0 +1,68 @@
+{% extends 'app.html' %}
+{% block title %}My history · Smart Farmer Assistant{% endblock %}
+{% block page_title %}{{ t('nav_history') }}{% endblock %}
+{% block page_subtitle %}Every AI prediction you have run, stored against your account.{% endblock %}
+{% block content %}
+<ul class="nav nav-tabs mb-3" role="tablist">
+  <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-disease" type="button">Leaf scans ({{ diseases|length }})</button></li>
+  <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-pest" type="button">Pest scans ({{ pests|length }})</button></li>
+  <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-yield" type="button">Yield forecasts ({{ yields|length }})</button></li>
+</ul>
+
+<div class="tab-content">
+  <div class="tab-pane fade show active" id="tab-disease">
+    <div class="card-soft"><div class="table-responsive"><table class="table table-clean">
+      <thead><tr><th>Image</th><th>Disease</th><th>Crop</th><th>{{ t('confidence') }}</th><th>Date</th></tr></thead>
+      <tbody>
+        {% for d in diseases %}
+        <tr>
+          <td><img src="{{ url_for('detection.uploaded_file', filename=d.image_path) }}" width="42" height="42"
+                   alt="scan" style="object-fit:cover;border-radius:8px;"></td>
+          <td class="fw-semibold">{{ d.disease_name }}</td>
+          <td>{{ d.crop }}</td>
+          <td><span class="pill {{ 'pill-amber' if not d.is_healthy }}">{{ d.confidence }}%</span></td>
+          <td class="small text-muted-2">{{ d.created_at.strftime('%d %b %Y, %H:%M') }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="5" class="text-center text-muted-2 py-4">No leaf scans yet.</td></tr>
+        {% endfor %}
+      </tbody></table></div></div>
+  </div>
+
+  <div class="tab-pane fade" id="tab-pest">
+    <div class="card-soft"><div class="table-responsive"><table class="table table-clean">
+      <thead><tr><th>Image</th><th>Pest</th><th>{{ t('confidence') }}</th><th>Date</th></tr></thead>
+      <tbody>
+        {% for p in pests %}
+        <tr>
+          <td><img src="{{ url_for('detection.uploaded_file', filename=p.image_path) }}" width="42" height="42"
+                   alt="scan" style="object-fit:cover;border-radius:8px;"></td>
+          <td class="fw-semibold">{{ p.pest_name }}</td>
+          <td><span class="pill">{{ p.confidence }}%</span></td>
+          <td class="small text-muted-2">{{ p.created_at.strftime('%d %b %Y, %H:%M') }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="4" class="text-center text-muted-2 py-4">No pest scans yet.</td></tr>
+        {% endfor %}
+      </tbody></table></div></div>
+  </div>
+
+  <div class="tab-pane fade" id="tab-yield">
+    <div class="card-soft"><div class="table-responsive"><table class="table table-clean">
+      <thead><tr><th>Crop</th><th>Area</th><th>Predicted yield</th><th>Per acre</th><th>Date</th></tr></thead>
+      <tbody>
+        {% for y in yields %}
+        <tr>
+          <td class="fw-semibold">{{ y.crop }}</td>
+          <td>{{ y.area }} acres</td>
+          <td>{{ y.predicted_yield }} t</td>
+          <td>{{ y.yield_per_acre }} t/acre</td>
+          <td class="small text-muted-2">{{ y.created_at.strftime('%d %b %Y') }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="5" class="text-center text-muted-2 py-4">No yield forecasts yet.</td></tr>
+        {% endfor %}
+      </tbody></table></div></div>
+  </div>
+</div>
+{% endblock %}

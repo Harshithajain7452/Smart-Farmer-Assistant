@@ -1,0 +1,87 @@
+{% extends 'app.html' %}
+{% block title %}Crop recommendation · Smart Farmer Assistant{% endblock %}
+{% block page_title %}{{ t('nav_crop_rec') }}{% endblock %}
+{% block page_subtitle %}A Random Forest classifier matches your soil and climate to the most profitable crop.{% endblock %}
+{% block content %}
+<div class="row g-3">
+  <div class="col-lg-5">
+    <div class="card-soft fade-up">
+      <div class="card-header">Field conditions</div>
+      <div class="card-body">
+        <form method="post" data-loading>
+          <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+          <div class="mb-3">
+            <label class="form-label" for="soil_type">Soil type</label>
+            <select class="form-select" id="soil_type" name="soil_type">
+              {% for s in soils %}<option value="{{ s }}" {{ 'selected' if form.soil_type == s }}>{{ s }}</option>{% endfor %}
+            </select>
+          </div>
+          {% set fields = [('temperature','Temperature (°C)',-5,55,0.5),
+                           ('humidity','Humidity (%)',0,100,1),
+                           ('rainfall','Rainfall (mm/month)',0,2000,1),
+                           ('ph','Soil pH',3,10,0.1)] %}
+          {% for name, label, mn, mx, step in fields %}
+          <div class="mb-3">
+            <label class="form-label d-flex justify-content-between" for="{{ name }}">
+              <span>{{ label }}</span>
+              <output class="fw-semibold" id="out_{{ name }}">{{ form[name] }}</output>
+            </label>
+            <input type="range" class="form-range" id="{{ name }}" name="{{ name }}"
+                   min="{{ mn }}" max="{{ mx }}" step="{{ step }}" value="{{ form[name] }}"
+                   oninput="document.getElementById('out_{{ name }}').textContent = this.value">
+          </div>
+          {% endfor %}
+          <button class="btn btn-brand w-100"><i class="bi bi-stars me-2"></i>Recommend a crop</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-7">
+    {% if result %}
+    <div class="card-soft fade-up">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span>Recommendation</span>
+        <span class="pill">{{ 'Random Forest' if result.source == 'random_forest' else 'Agronomic rules' }}</span>
+      </div>
+      <div class="card-body text-center">
+        <div class="stat-icon mx-auto mb-3" style="width:72px;height:72px;flex:0 0 72px;font-size:1.6rem;">
+          <i class="bi bi-flower1"></i></div>
+        <div class="section-label">Best suited crop</div>
+        <h2 class="display-6 display-serif mb-2" style="color: var(--brand);">{{ result.crop }}</h2>
+        <div class="mx-auto" style="max-width: 360px;">
+          <div class="confidence-track"><div class="confidence-fill" style="width: {{ result.confidence }}%"></div></div>
+          <div class="small text-muted-2 mt-1">{{ result.confidence }}% {{ t('confidence') }}</div>
+        </div>
+        {% if result.alternatives %}
+        <hr class="my-4">
+        <div class="section-label mb-2">Alternatives worth considering</div>
+        <div class="row g-2">
+          {% for a in result.alternatives %}
+          <div class="col-6 col-md-4">
+            <div class="card-soft p-3">
+              <div class="fw-semibold">{{ a.crop }}</div>
+              <div class="small text-muted-2">{{ a.score }}% match</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <div class="d-flex flex-wrap gap-2 justify-content-center mt-4">
+          <a class="btn btn-brand btn-sm" href="{{ url_for('advisor.fertilizer') }}">Fertiliser plan</a>
+          <a class="btn btn-ghost btn-sm" href="{{ url_for('knowledge.calendar') }}">Sowing calendar</a>
+          <a class="btn btn-ghost btn-sm" href="{{ url_for('advisor.yield_predict') }}">Yield forecast</a>
+        </div>
+      </div>
+    </div>
+    {% else %}
+    <div class="card-soft p-5 text-center fade-up">
+      <i class="bi bi-flower1 fs-1 text-muted-2 d-block mb-2"></i>
+      <h2 class="h5">Set your field conditions</h2>
+      <p class="small text-muted-2 mb-0">A Random Forest classifier weighs soil type, temperature, humidity, rainfall and
+        pH against agronomic suitability envelopes, then ranks the best crop and three alternatives.</p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------------
+# One-command local stack: Flask app + MySQL 8
+#   docker compose up --build
+#   App  -> http://localhost:5000
+# ---------------------------------------------------------------------
+services:
+  db:
+    image: mysql:8.0
+    container_name: sfa-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: farmer123
+      MYSQL_DATABASE: smart_farmer
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./database.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-pfarmer123"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  web:
+    build: .
+    container_name: sfa-web
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      FLASK_ENV: production
+      SECRET_KEY: change-me-in-production
+      DATABASE_URL: mysql+pymysql://root:farmer123@db:3306/smart_farmer
+      OPENWEATHER_API_KEY: ${OPENWEATHER_API_KEY:-}
+      DATA_GOV_API_KEY: ${DATA_GOV_API_KEY:-}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./uploads:/app/uploads
+
+volumes:
+  mysql_data:

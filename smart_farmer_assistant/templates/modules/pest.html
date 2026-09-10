@@ -1,0 +1,103 @@
+{% extends 'app.html' %}
+{% block title %}Pest detection · Smart Farmer Assistant{% endblock %}
+{% block page_title %}{{ t('nav_pest') }}{% endblock %}
+{% block page_subtitle %}Photograph the insect or the damage it caused and get an integrated pest management plan.{% endblock %}
+{% block content %}
+<div class="row g-3">
+  <div class="col-lg-5">
+    <div class="card-soft p-4 fade-up">
+      <form method="post" enctype="multipart/form-data" data-loading>
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <label class="upload-zone" for="image" data-upload-zone>
+          <input type="file" id="image" name="image" accept="image/png,image/jpeg,image/webp" required hidden data-upload-input>
+          <img alt="Preview" data-upload-preview hidden>
+          <div data-upload-placeholder>
+            <i class="bi bi-bug"></i>
+            <div class="fw-semibold mt-2">Drop a pest photo here</div>
+            <div class="small text-muted-2">or tap to browse · JPG, PNG or WebP up to 8 MB</div>
+          </div>
+        </label>
+        <button class="btn btn-brand w-100 mt-3" type="submit"><i class="bi bi-search me-2"></i>Identify the pest</button>
+      </form>
+      <hr class="my-4">
+      <div class="section-label mb-2">Covered pests</div>
+      <p class="small text-muted-2 mb-0">Fall armyworm, pink bollworm, brown planthopper, aphids,
+        whitefly, stem borer, thrips and mealybug — the eight pests responsible for most kharif and
+        rabi losses in India.</p>
+    </div>
+  </div>
+
+  <div class="col-lg-7">
+    {% if result %}
+    <div class="card-soft fade-up">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span>Identification</span>
+        <span class="pill">{{ 'CNN model' if result.source == 'cnn' else 'Heuristic engine' }}</span>
+      </div>
+      <div class="card-body">
+        <div class="row g-3 align-items-center mb-3">
+          <div class="col-auto">
+            <img src="{{ url_for('detection.uploaded_file', filename=result.image) }}" alt="Uploaded pest"
+                 width="120" height="120" style="object-fit: cover; border-radius: 14px;">
+          </div>
+          <div class="col">
+            <h2 class="h4 mb-1">{{ result.pest }}</h2>
+            <div class="confidence-track"><div class="confidence-fill" style="width: {{ result.confidence }}%"></div></div>
+            <div class="small text-muted-2 mt-1">{{ result.confidence }}% {{ t('confidence') }}</div>
+          </div>
+        </div>
+        <div class="row g-3">
+          {% set blocks = [('bi-exclamation-octagon','Damage caused', result.damage),
+                           ('bi-shield-check','Prevention', result.prevention),
+                           ('bi-capsule','Treatment', result.treatment)] %}
+          {% for icon, label, body in blocks %}
+          <div class="col-12">
+            <div class="card-soft p-3">
+              <div class="d-flex gap-2 align-items-center mb-1">
+                <i class="bi {{ icon }}" style="color: var(--brand);"></i>
+                <strong class="small">{{ label }}</strong>
+              </div>
+              <p class="small text-muted-2 mb-0">{{ body }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% if result.top_predictions %}
+        <div class="mt-3">
+          <div class="section-label mb-2">Other possibilities</div>
+          {% for p in result.top_predictions[1:] %}
+          <div class="d-flex justify-content-between small py-1">
+            <span>{{ p.label }}</span><span class="text-muted-2">{{ p.confidence }}%</span></div>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% else %}
+    <div class="card-soft p-5 text-center fade-up">
+      <i class="bi bi-bug fs-1 text-muted-2 d-block mb-2"></i>
+      <h2 class="h5">Your identification appears here</h2>
+      <p class="small text-muted-2 mb-0">Photograph the insect on the plant, not in your palm — context improves accuracy.</p>
+    </div>
+    {% endif %}
+
+    {% if history %}
+    <div class="card-soft mt-3 fade-up">
+      <div class="card-header">Recent pest scans</div>
+      <div class="card-body"><div class="row g-2">
+        {% for h in history %}
+        <div class="col-6 col-md-3">
+          <div class="card-soft p-2 h-100">
+            <img src="{{ url_for('detection.uploaded_file', filename=h.image_path) }}" alt="{{ h.pest_name }}"
+                 class="w-100 mb-2" style="height:76px;object-fit:cover;border-radius:8px;">
+            <div class="small fw-semibold text-truncate" title="{{ h.pest_name }}">{{ h.pest_name }}</div>
+            <div class="small text-muted-2">{{ h.confidence }}% · {{ h.created_at.strftime('%d %b') }}</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div></div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

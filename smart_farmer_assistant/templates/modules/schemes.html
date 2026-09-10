@@ -1,0 +1,81 @@
+{% extends 'app.html' %}
+{% block title %}Government schemes · Smart Farmer Assistant{% endblock %}
+{% block page_title %}{{ t('nav_schemes') }}{% endblock %}
+{% block page_subtitle %}Central and state schemes with eligibility, benefits, documents and how to apply.{% endblock %}
+{% block content %}
+
+<form class="card-soft p-3 mb-3 fade-up" method="get">
+  <div class="row g-2 align-items-end">
+    <div class="col-md-4">
+      <label class="form-label" for="q">Search</label>
+      <input class="form-control" id="q" name="q" value="{{ sel.q or '' }}" placeholder="PM-KISAN, insurance, subsidy…">
+    </div>
+    <div class="col-md-3">
+      <label class="form-label" for="state">{{ t('state') }}</label>
+      <select class="form-select" id="state" name="state">
+        <option value="">All states</option>
+        {% for s in states %}<option value="{{ s }}" {{ 'selected' if sel.state == s }}>{{ s }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="col-md-3">
+      <label class="form-label" for="type">Scheme type</label>
+      <select class="form-select" id="type" name="type">
+        <option value="">Central and state</option>
+        <option value="central" {{ 'selected' if sel.type == 'central' }}>Central only</option>
+        <option value="state" {{ 'selected' if sel.type == 'state' }}>State only</option>
+      </select>
+    </div>
+    <div class="col-md-2 d-flex gap-2">
+      <button class="btn btn-brand flex-grow-1">Filter</button>
+      <a class="btn btn-ghost" href="{{ url_for('knowledge.schemes') }}"><i class="bi bi-arrow-counterclockwise"></i></a>
+    </div>
+  </div>
+</form>
+
+<div class="row g-3">
+  {% for s in items %}
+  <div class="col-lg-6">
+    <div class="card-soft h-100 fade-up">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span class="text-truncate" title="{{ s.name }}">{{ s.name }}</span>
+        <span class="pill {{ 'pill-amber' if s.scheme_type == 'state' }}">
+          {{ s.state if s.scheme_type == 'state' else 'Central' }}</span>
+      </div>
+      <div class="card-body">
+        <p class="small text-muted-2">{{ s.description }}</p>
+        <div class="accordion accordion-flush" id="acc{{ s.id }}">
+          {% set blocks = [('elig','Eligibility','bi-person-check', s.eligibility),
+                           ('ben','Benefits','bi-cash-coin', s.benefits),
+                           ('doc','Documents required','bi-file-earmark-text', s.documents),
+                           ('app','How to apply','bi-send', s.application_process)] %}
+          {% for key, label, icon, body in blocks %}
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed small" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#{{ key }}{{ s.id }}">
+                <i class="bi {{ icon }} me-2"></i>{{ label }}</button>
+            </h3>
+            <div id="{{ key }}{{ s.id }}" class="accordion-collapse collapse" data-bs-parent="#acc{{ s.id }}">
+              <div class="accordion-body small text-muted-2">{{ body or 'Not specified.' }}</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% if s.website %}
+        <a class="btn btn-brand btn-sm mt-3" href="{{ s.website }}" target="_blank" rel="noopener">
+          <i class="bi bi-box-arrow-up-right me-1"></i>Official portal</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <div class="col-12">
+    <div class="card-soft p-5 text-center">
+      <i class="bi bi-search fs-1 text-muted-2 d-block mb-2"></i>
+      <h2 class="h5">No schemes match your filter</h2>
+      <p class="small text-muted-2 mb-0">Try clearing the search box or selecting a different state.</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends 'app.html' %}
+{% block title %}Chatbot analytics · Admin{% endblock %}
+{% block page_title %}Chatbot analytics{% endblock %}
+{% block page_subtitle %}What farmers are actually asking — {{ total }} messages processed.{% endblock %}
+{% block content %}
+<div class="row g-3">
+  <div class="col-lg-5">
+    <div class="card-soft fade-up h-100">
+      <div class="card-header">Questions by intent</div>
+      <div class="card-body"><div style="height:320px;"><canvas id="intentChart"></canvas></div></div>
+    </div>
+  </div>
+  <div class="col-lg-7">
+    <div class="card-soft fade-up h-100">
+      <div class="card-header">Recent conversations</div>
+      <div class="table-responsive" style="max-height: 520px; overflow-y: auto;">
+        <table class="table table-clean">
+          <thead><tr><th>Farmer</th><th>Question</th><th>Intent</th><th>Lang</th><th>When</th></tr></thead>
+          <tbody>
+            {% for h in recent %}
+            <tr>
+              <td class="small">{{ h.user.name if h.user else '—' }}</td>
+              <td class="small">{{ h.message|truncate(70) }}</td>
+              <td><span class="pill">{{ h.intent or 'unknown' }}</span></td>
+              <td class="small text-uppercase">{{ h.language }}</td>
+              <td class="small text-muted-2">{{ h.created_at.strftime('%d %b, %H:%M') }}</td>
+            </tr>
+            {% else %}
+            <tr><td colspan="5" class="text-center text-muted-2 py-4">No conversations yet.</td></tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+(function () {
+  const c = SFA.colors();
+  const chart = {{ chart | tojson }};
+  const el = document.getElementById('intentChart');
+  if (!chart.labels.length) {
+    el.closest('.card-body').innerHTML =
+      '<p class="small text-muted-2 text-center py-5 mb-0">No chatbot activity yet.</p>';
+    return;
+  }
+  SFA.register(new Chart(el, {
+    type: 'doughnut',
+    data: { labels: chart.labels, datasets: [{ data: chart.values,
+      backgroundColor: [c.brand, c.accent, c.sky, c.brandLight, c.clay, '#7a8f60', '#b3745e', '#4a6fa5', '#9a6f3f'] }] },
+    options: { responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { position: 'bottom', labels: { color: c.text, boxWidth: 10 } } } }
+  }));
+})();
+</script>
+{% endblock %}

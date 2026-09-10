@@ -1,0 +1,62 @@
+{% extends 'app.html' %}
+{% block title %}Soil information · Smart Farmer Assistant{% endblock %}
+{% block page_title %}{{ t('nav_soil') }}{% endblock %}
+{% block page_subtitle %}Indian soil types with nutrient profile, suitable crops and fertiliser and irrigation guidance.{% endblock %}
+{% block content %}
+<div class="row g-3">
+  <div class="col-lg-3">
+    <div class="card-soft fade-up">
+      <div class="card-header">Soil types</div>
+      <div class="list-group list-group-flush">
+        {% for s in soils %}
+        <a class="list-group-item list-group-item-action {{ 'active' if active and active.id == s.id }}"
+           href="{{ url_for('knowledge.soil', soil_type=s.soil_type) }}">
+          <i class="bi bi-layers me-2"></i>{{ s.soil_type }}
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-9">
+    {% if active %}
+    <div class="card-soft fade-up">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span>{{ active.soil_type }} soil</span>
+        <span class="pill">{{ active.regions }}</span>
+      </div>
+      <div class="card-body">
+        <p>{{ active.description }}</p>
+        <div class="row g-3 mt-1">
+          {% set panels = [('bi-droplet','Nutrient profile', active.nutrients),
+                           ('bi-hand-thumbs-up','Advantages', active.advantages),
+                           ('bi-exclamation-triangle','Limitations', active.limitations),
+                           ('bi-flower1','Suitable crops', active.suitable_crops),
+                           ('bi-basket','Fertiliser recommendation', active.fertilizer_recommendation),
+                           ('bi-moisture','Irrigation recommendation', active.irrigation_recommendation)] %}
+          {% for icon, label, body in panels %}
+          <div class="col-md-6">
+            <div class="card-soft p-3 h-100">
+              <div class="d-flex gap-2 align-items-center mb-1">
+                <i class="bi {{ icon }}" style="color: var(--brand);"></i>
+                <strong class="small">{{ label }}</strong>
+              </div>
+              <p class="small text-muted-2 mb-0">{{ body }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="mt-4 d-flex flex-wrap gap-2">
+          <a class="btn btn-brand btn-sm" href="{{ url_for('advisor.crop') }}">
+            <i class="bi bi-flower1 me-1"></i>Get a crop recommendation</a>
+          <a class="btn btn-ghost btn-sm" href="{{ url_for('advisor.fertilizer') }}">
+            <i class="bi bi-droplet-half me-1"></i>Fertiliser advice</a>
+        </div>
+      </div>
+    </div>
+    {% else %}
+    <div class="card-soft p-5 text-center"><p class="text-muted-2 mb-0">No soil records seeded yet.</p></div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

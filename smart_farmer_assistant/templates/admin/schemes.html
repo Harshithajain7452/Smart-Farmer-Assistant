@@ -1,0 +1,105 @@
+{% extends 'app.html' %}
+{% block title %}Manage schemes · Admin{% endblock %}
+{% block page_title %}Government schemes{% endblock %}
+{% block page_subtitle %}Add, edit or retire central and state schemes shown to farmers.{% endblock %}
+{% block content %}
+<div class="row g-3">
+  <div class="col-lg-5">
+    <div class="card-soft fade-up">
+      <div class="card-header" id="formTitle">Add a scheme</div>
+      <div class="card-body">
+        <form method="post" id="schemeForm">
+          <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+          <input type="hidden" name="id" id="f_id">
+          <div class="mb-2"><label class="form-label" for="f_name">Name</label>
+            <input class="form-control" id="f_name" name="name" required></div>
+          <div class="row g-2 mb-2">
+            <div class="col-6"><label class="form-label" for="f_type">Type</label>
+              <select class="form-select" id="f_type" name="scheme_type">
+                <option value="central">Central</option><option value="state">State</option></select></div>
+            <div class="col-6"><label class="form-label" for="f_state">State</label>
+              <select class="form-select" id="f_state" name="state">
+                <option value="">— (central) —</option>
+                {% for s in states %}<option value="{{ s }}">{{ s }}</option>{% endfor %}</select></div>
+          </div>
+          {% set areas = [('description','Description'),('eligibility','Eligibility'),
+                          ('benefits','Benefits'),('documents','Documents required'),
+                          ('application_process','Application process')] %}
+          {% for name, label in areas %}
+          <div class="mb-2"><label class="form-label" for="f_{{ name }}">{{ label }}</label>
+            <textarea class="form-control" id="f_{{ name }}" name="{{ name }}" rows="2"></textarea></div>
+          {% endfor %}
+          <div class="mb-2"><label class="form-label" for="f_website">Official website</label>
+            <input class="form-control" id="f_website" name="website" type="url" placeholder="https://"></div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="f_active" name="is_active" checked>
+            <label class="form-check-label small" for="f_active">Visible to farmers</label></div>
+          <div class="d-flex gap-2">
+            <button class="btn btn-brand flex-grow-1">Save scheme</button>
+            <button type="reset" class="btn btn-ghost" onclick="document.getElementById('f_id').value='';
+              document.getElementById('formTitle').textContent='Add a scheme';">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-7">
+    <div class="card-soft fade-up">
+      <div class="card-header">{{ items|length }} schemes</div>
+      <div class="table-responsive" style="max-height: 720px; overflow-y: auto;">
+        <table class="table table-clean align-middle">
+          <thead><tr><th>Name</th><th>Type</th><th>Status</th><th class="text-end">Actions</th></tr></thead>
+          <tbody>
+            {% for s in items %}
+            <tr>
+              <td><div class="fw-semibold small">{{ s.name }}</div>
+                <div class="small text-muted-2">{{ (s.description or '')|truncate(70) }}</div></td>
+              <td><span class="pill {{ 'pill-amber' if s.scheme_type == 'state' }}">
+                {{ s.state if s.scheme_type == 'state' else 'Central' }}</span></td>
+              <td><span class="pill {{ 'pill-amber' if not s.is_active }}">
+                {{ 'Live' if s.is_active else 'Hidden' }}</span></td>
+              <td class="text-end">
+                <div class="d-inline-flex gap-1">
+                  <button class="btn btn-ghost btn-sm edit-btn" title="Edit"
+                          data-scheme='{{ {"id": s.id, "name": s.name, "scheme_type": s.scheme_type,
+                                          "state": s.state or "", "description": s.description or "",
+                                          "eligibility": s.eligibility or "", "benefits": s.benefits or "",
+                                          "documents": s.documents or "",
+                                          "application_process": s.application_process or "",
+                                          "website": s.website or "", "is_active": s.is_active } | tojson }}'>
+                    <i class="bi bi-pencil"></i></button>
+                  <form method="post" action="{{ url_for('admin.delete_scheme', sid=s.id) }}"
+                        onsubmit="return confirm('Delete this scheme?');">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                    <button class="btn btn-ghost btn-sm text-danger"><i class="bi bi-trash3"></i></button>
+                  </form>
+                </div>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+document.querySelectorAll('.edit-btn').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    const s = JSON.parse(btn.dataset.scheme);
+    Object.keys(s).forEach(function (k) {
+      const el = document.getElementById('f_' + (k === 'scheme_type' ? 'type' : k));
+      if (!el) return;
+      if (el.type === 'checkbox') el.checked = !!s[k]; else el.value = s[k];
+    });
+    document.getElementById('f_id').value = s.id;
+    document.getElementById('f_active').checked = !!s.is_active;
+    document.getElementById('formTitle').textContent = 'Edit: ' + s.name;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,125 @@
+{% extends 'app.html' %}
+{% block title %}Admin · Smart Farmer Assistant{% endblock %}
+{% block page_title %}Administration{% endblock %}
+{% block page_subtitle %}Platform statistics, model status and content management.{% endblock %}
+{% block content %}
+
+<div class="row g-3 mb-3">
+  {% set cards = [('bi-people', stats.users, 'Total users'), ('bi-person-badge', stats.farmers, 'Farmers'),
+                  ('bi-camera', stats.diseases, 'Leaf scans'), ('bi-bug', stats.pests, 'Pest scans'),
+                  ('bi-chat-dots', stats.chats, 'Chat messages'), ('bi-bank', stats.schemes, 'Schemes'),
+                  ('bi-currency-rupee', stats.prices, 'Price records')] %}
+  {% for icon, value, label in cards %}
+  <div class="col-6 col-md-4 col-xl-3">
+    <div class="card-soft p-3 stat-card fade-up">
+      <span class="stat-icon"><i class="bi {{ icon }}"></i></span>
+      <div><div class="stat-value">{{ value }}</div><div class="stat-label">{{ label }}</div></div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="row g-3">
+  <div class="col-lg-8">
+    <div class="card-soft fade-up">
+      <div class="card-header">New registrations — last 30 days</div>
+      <div class="card-body"><div style="height:260px;"><canvas id="signupChart"></canvas></div></div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="card-soft fade-up h-100">
+      <div class="card-header">ML model status</div>
+      <div class="card-body">
+        {% for name, present in models.items() %}
+        <div class="d-flex justify-content-between align-items-center py-2"
+             style="border-bottom: 1px solid var(--border);">
+          <span class="small text-capitalize">{{ name.replace('_', ' ') }}</span>
+          <span class="pill {{ 'pill-amber' if not present }}">
+            <i class="bi {{ 'bi-check-circle' if present else 'bi-exclamation-circle' }}"></i>
+            {{ 'Loaded' if present else 'Missing' }}</span>
+        </div>
+        {% endfor %}
+        <p class="small text-muted-2 mt-3 mb-0">Missing artefacts fall back to the rule engine.
+          Run the scripts in <code>ml/</code> to train and save them.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3 mt-0">
+  <div class="col-lg-4">
+    <div class="card-soft fade-up h-100">
+      <div class="card-header">Farmers by state</div>
+      <div class="card-body"><div style="height:260px;"><canvas id="stateChart"></canvas></div></div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="card-soft fade-up h-100">
+      <div class="card-header">Most detected diseases</div>
+      <div class="card-body"><div style="height:260px;"><canvas id="diseaseChart"></canvas></div></div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="card-soft fade-up h-100">
+      <div class="card-header">Chatbot intents</div>
+      <div class="card-body"><div style="height:260px;"><canvas id="intentChart"></canvas></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="card-soft mt-3 fade-up">
+  <div class="card-header d-flex justify-content-between align-items-center">
+    <span>Recent registrations</span>
+    <a class="small" href="{{ url_for('admin.users') }}">Manage users</a>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-clean">
+      <thead><tr><th>Name</th><th>Email</th><th>Phone</th><th>State</th><th>Joined</th></tr></thead>
+      <tbody>
+        {% for u in recent_users %}
+        <tr>
+          <td class="fw-semibold">{{ u.name }}</td>
+          <td class="small">{{ u.email }}</td>
+          <td class="small">{{ u.phone }}</td>
+          <td class="small">{{ u.profile.state if u.profile else '—' }}</td>
+          <td class="small text-muted-2">{{ u.created_at.strftime('%d %b %Y') }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function () {
+  const c = SFA.colors();
+  const palette = [c.brand, c.accent, c.sky, c.brandLight, c.clay, '#7a8f60', '#b3745e', '#4a6fa5'];
+
+  function make(id, type, data, extra) {
+    const el = document.getElementById(id);
+    if (!el || !data.labels.length) {
+      if (el) el.closest('.card-body').innerHTML =
+        '<p class="small text-muted-2 text-center py-5 mb-0">Not enough data yet.</p>';
+      return;
+    }
+    SFA.register(new Chart(el, {
+      type: type,
+      data: { labels: data.labels, datasets: [{ label: 'Count', data: data.values,
+        backgroundColor: type === 'line' ? 'rgba(34,139,74,.16)' : palette,
+        borderColor: c.brand, borderRadius: 6, fill: type === 'line', tension: .35 }] },
+      options: Object.assign(SFA.baseOptions(), extra || {})
+    }));
+  }
+
+  make('signupChart', 'line', {{ signups | tojson }});
+  make('stateChart', 'doughnut', {{ states | tojson }},
+       { scales: {}, plugins: { legend: { position: 'bottom', labels: { color: c.text, boxWidth: 10 } } } });
+  make('diseaseChart', 'bar', {{ diseases | tojson }},
+       { indexAxis: 'y', plugins: { legend: { display: false } } });
+  make('intentChart', 'bar', {{ intents | tojson }},
+       { indexAxis: 'y', plugins: { legend: { display: false } } });
+})();
+</script>
+{% endblock %}

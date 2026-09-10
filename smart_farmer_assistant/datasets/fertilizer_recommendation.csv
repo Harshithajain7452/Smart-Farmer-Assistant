@@ -1,0 +1,3601 @@
+crop,soil_type,nitrogen,phosphorus,potassium,fertilizer
+Millets,Desert,119.7,33.8,2.5,NPK 10-26-26
+Onion,Red,48.6,22.2,97.0,DAP
+Mustard,Black,70.5,105.1,37.7,MOP
+Potato,Laterite,56.5,50.3,20.4,MOP
+Rice,Desert,14.3,134.2,15.0,Urea
+Mustard,Loamy,117.3,20.1,19.8,NPK 10-26-26
+Maize,Red,90.2,114.9,10.8,MOP
+Cotton,Alluvial,125.8,136.6,93.4,Organic Compost
+Chickpea,Clay,6.2,0.5,2.9,NPK 20-20-20
+Tomato,Loamy,67.4,94.8,62.9,Organic Compost
+Onion,Black,139.0,48.4,45.5,MOP
+Millets,Desert,32.3,90.6,5.9,MOP
+Cotton,Sandy,88.9,95.2,32.3,MOP
+Soybean,Loamy,135.7,23.0,56.7,DAP
+Sugarcane,Clay,104.7,68.1,2.3,MOP
+Cotton,Alluvial,118.6,40.6,16.5,MOP
+Sugarcane,Alluvial,137.0,44.1,130.6,Organic Compost
+Rice,Loamy,66.6,96.2,96.1,Organic Compost
+Banana,Desert,49.5,56.9,95.9,Urea
+Soybean,Black,8.9,58.3,20.9,Urea
+Soybean,Laterite,134.5,95.8,105.9,Organic Compost
+Cotton,Alluvial,79.4,5.7,14.1,NPK 10-26-26
+Sugarcane,Desert,116.4,35.9,104.9,DAP
+Tomato,Black,7.6,82.0,69.6,Urea
+Rice,Loamy,79.5,114.5,9.6,MOP
+Rice,Red,67.1,6.8,129.3,DAP
+Potato,Black,120.6,118.4,101.8,Organic Compost
+Soybean,Clay,106.5,45.9,121.4,Organic Compost
+Wheat,Laterite,58.0,105.9,70.1,Urea
+Rice,Laterite,24.8,78.9,53.9,Urea
+Rice,Desert,92.4,58.4,75.9,Organic Compost
+Millets,Desert,112.4,42.2,104.2,Organic Compost
+Tomato,Clay,123.4,126.0,16.3,MOP
+Onion,Desert,67.0,95.6,67.8,Organic Compost
+Wheat,Clay,92.5,81.6,74.0,Organic Compost
+Tomato,Loamy,9.6,75.2,101.3,Urea
+Soybean,Black,127.7,120.9,86.6,Organic Compost
+Wheat,Black,79.7,34.2,89.4,DAP
+Millets,Laterite,3.7,128.4,105.5,Urea
+Tomato,Clay,101.0,115.6,132.0,Organic Compost
+Chickpea,Clay,54.1,121.7,123.0,Urea
+Soybean,Clay,111.2,41.5,56.9,Organic Compost
+Onion,Clay,90.4,85.8,34.5,MOP
+Millets,Laterite,139.3,120.8,73.6,Organic Compost
+Onion,Black,14.2,88.3,101.8,Urea
+Wheat,Black,75.2,8.8,59.4,DAP
+Tomato,Desert,44.2,23.6,1.1,NPK 20-20-20
+Potato,Clay,62.3,27.8,130.6,DAP
+Maize,Alluvial,37.7,118.9,96.9,Urea
+Mustard,Alluvial,108.6,10.7,47.1,DAP
+Chickpea,Sandy,0.3,28.3,109.0,Urea
+Maize,Red,25.7,15.6,117.1,Urea
+Rice,Loamy,97.0,8.1,88.7,DAP
+Mustard,Clay,111.7,111.1,55.8,Organic Compost
+Cotton,Sandy,53.0,11.3,9.4,NPK 20-20-20
+Chickpea,Red,129.9,140.0,20.1,MOP
+Chickpea,Sandy,69.8,133.7,99.9,Organic Compost
+Wheat,Black,34.2,127.6,30.1,NPK 20-20-20
+Sugarcane,Sandy,53.5,131.0,58.6,Urea
+Groundnut,Sandy,73.4,22.4,37.9,NPK 10-26-26
+Potato,Loamy,62.6,127.3,114.7,Organic Compost
+Onion,Loamy,111.8,113.2,12.8,MOP
+Potato,Sandy,35.2,15.3,88.0,Urea
+Soybean,Desert,82.1,8.7,53.6,DAP
+Maize,Clay,34.3,120.3,124.8,Urea
+Banana,Black,34.5,9.7,118.1,Urea
+Millets,Red,7.7,9.0,12.7,NPK 20-20-20
+Cotton,Loamy,39.4,114.4,2.7,MOP
+Millets,Loamy,25.9,39.8,115.7,Urea
+Banana,Alluvial,135.2,56.7,92.1,Organic Compost
+Rice,Black,64.4,94.5,41.1,Urea
+Sugarcane,Alluvial,77.2,64.3,86.7,Organic Compost
+Onion,Clay,119.4,68.5,130.9,Organic Compost
+Wheat,Sandy,53.8,73.7,75.5,Urea
+Rice,Red,87.1,132.0,139.5,Urea
+Maize,Desert,17.1,75.2,34.5,Urea
+Groundnut,Alluvial,33.4,42.1,128.2,Urea
+Sugarcane,Sandy,94.6,54.9,2.0,MOP
+Potato,Laterite,131.8,34.8,97.8,DAP
+Rice,Desert,41.1,130.4,85.1,Urea
+Cotton,Clay,33.4,113.8,91.0,Urea
+Maize,Clay,86.4,5.1,41.7,NPK 10-26-26
+Potato,Sandy,124.6,53.8,70.7,Organic Compost
+Wheat,Clay,52.9,3.2,123.2,DAP
+Chickpea,Laterite,76.5,28.6,57.7,DAP
+Wheat,Black,118.5,50.7,114.1,Organic Compost
+Mustard,Alluvial,50.6,22.2,97.1,DAP
+Sugarcane,Clay,109.0,120.7,108.7,Organic Compost
+Chickpea,Sandy,58.2,9.9,98.8,DAP
+Sugarcane,Black,133.6,7.4,103.0,DAP
+Mustard,Red,127.7,115.7,104.2,Organic Compost
+Rice,Sandy,69.3,94.6,57.7,Urea
+Onion,Alluvial,52.9,112.4,132.4,Urea
+Chickpea,Black,80.0,80.6,24.6,MOP
+Soybean,Red,131.9,35.7,116.9,DAP
+Chickpea,Sandy,30.1,36.5,136.0,Urea
+Sugarcane,Alluvial,137.0,108.8,104.5,Organic Compost
+Maize,Laterite,117.7,46.0,27.0,Organic Compost
+Potato,Desert,120.9,39.7,21.2,NPK 10-26-26
+Cotton,Loamy,95.9,130.0,22.7,MOP
+Millets,Desert,67.0,110.8,118.3,DAP
+Chickpea,Laterite,139.2,82.5,41.5,MOP
+Tomato,Red,62.7,62.2,71.0,Organic Compost
+Banana,Loamy,3.9,7.6,52.0,Urea
+Onion,Clay,15.4,69.3,84.6,Urea
+Potato,Sandy,139.6,13.5,72.2,DAP
+Sugarcane,Loamy,23.4,89.4,6.2,Urea
+Tomato,Sandy,46.3,138.5,116.0,Urea
+Rice,Desert,116.2,19.3,82.7,DAP
+Potato,Sandy,131.7,68.9,10.8,MOP
+Onion,Clay,50.2,3.8,42.5,NPK 20-20-20
+Onion,Alluvial,52.6,18.6,66.6,DAP
+Onion,Alluvial,97.7,22.1,21.7,NPK 10-26-26
+Millets,Alluvial,4.6,60.4,51.1,Urea
+Cotton,Desert,60.9,80.6,128.7,Organic Compost
+Chickpea,Clay,76.8,89.2,130.6,Organic Compost
+Banana,Desert,84.9,63.0,36.5,MOP
+Groundnut,Clay,87.3,122.3,40.7,MOP
+Millets,Loamy,32.3,69.7,131.1,Urea
+Cotton,Alluvial,48.8,85.6,85.7,Urea
+Groundnut,Sandy,3.7,10.6,136.3,Urea
+Chickpea,Alluvial,47.5,74.9,45.1,Urea
+Millets,Sandy,97.1,24.5,14.7,NPK 10-26-26
+Cotton,Clay,118.2,139.9,87.2,Organic Compost
+Chickpea,Clay,8.9,113.3,106.2,Urea
+Mustard,Alluvial,28.3,51.8,131.8,Urea
+Rice,Clay,68.4,109.2,45.3,Urea
+Chickpea,Desert,46.1,45.6,63.7,Urea
+Tomato,Black,118.6,138.8,135.0,Organic Compost
+Banana,Laterite,97.8,2.2,139.1,MOP
+Potato,Loamy,93.6,128.0,90.2,Organic Compost
+Banana,Red,82.7,105.0,72.2,Organic Compost
+Tomato,Alluvial,47.0,134.4,45.3,MOP
+Banana,Loamy,131.1,22.8,41.9,NPK 10-26-26
+Cotton,Sandy,76.0,55.3,57.6,Organic Compost
+Potato,Sandy,130.1,136.1,76.6,Organic Compost
+Potato,Sandy,117.5,92.3,16.1,MOP
+Soybean,Sandy,121.8,59.5,66.5,Organic Compost
+Onion,Clay,11.0,57.0,107.8,Urea
+Wheat,Alluvial,37.1,65.1,31.2,DAP
+Chickpea,Desert,58.2,51.8,138.0,Urea
+Tomato,Loamy,40.2,116.2,115.3,Urea
+Mustard,Red,95.5,62.0,108.3,Organic Compost
+Tomato,Laterite,138.6,25.0,20.7,NPK 10-26-26
+Groundnut,Red,22.4,26.6,97.3,Urea
+Millets,Desert,137.6,5.4,86.9,DAP
+Chickpea,Laterite,125.9,77.4,34.5,MOP
+Cotton,Loamy,125.6,35.0,127.0,DAP
+Wheat,Black,116.7,16.3,12.0,NPK 10-26-26
+Millets,Laterite,36.7,112.2,127.1,Urea
+Wheat,Alluvial,78.4,109.1,48.2,Organic Compost
+Banana,Black,80.5,138.9,65.8,Organic Compost
+Tomato,Alluvial,36.5,46.3,137.0,Urea
+Chickpea,Red,79.4,124.6,106.1,Organic Compost
+Tomato,Laterite,99.7,22.6,70.5,DAP
+Cotton,Black,139.6,130.1,104.7,Organic Compost
+Rice,Sandy,88.3,135.3,6.0,MOP
+Millets,Red,127.0,24.6,44.4,NPK 10-26-26
+Tomato,Sandy,112.0,129.3,94.5,Organic Compost
+Millets,Laterite,17.4,99.3,84.2,Urea
+Chickpea,Clay,109.8,114.9,51.0,Organic Compost
+Sugarcane,Red,15.1,23.3,69.2,Urea
+Soybean,Loamy,111.3,76.9,125.1,Organic Compost
+Onion,Alluvial,12.5,32.4,92.1,Urea
+Groundnut,Red,93.3,84.8,22.1,MOP
+Tomato,Laterite,115.4,95.5,90.3,Organic Compost
+Soybean,Alluvial,5.5,28.2,19.6,NPK 20-20-20
+Chickpea,Desert,110.3,16.1,15.6,NPK 10-26-26
+Cotton,Sandy,28.3,2.0,38.7,NPK 20-20-20
+Sugarcane,Loamy,29.6,69.4,32.1,Urea
+Cotton,Black,125.6,129.9,99.8,Organic Compost
+Soybean,Sandy,42.8,111.8,4.1,MOP
+Groundnut,Laterite,67.3,45.2,51.1,Organic Compost
+Cotton,Alluvial,34.2,6.1,119.8,DAP
+Potato,Black,68.4,86.7,87.8,NPK 10-26-26
+Wheat,Loamy,70.3,13.4,104.4,DAP
+Soybean,Alluvial,112.4,121.1,33.7,MOP
+Maize,Alluvial,101.0,65.1,110.9,Organic Compost
+Wheat,Red,117.7,5.4,26.2,NPK 10-26-26
+Chickpea,Loamy,0.7,80.5,53.0,Urea
+Soybean,Desert,61.7,77.6,64.8,Organic Compost
+Soybean,Clay,123.9,113.6,132.7,Organic Compost
+Cotton,Sandy,23.6,136.8,81.3,Urea
+Potato,Clay,82.1,133.0,107.8,Organic Compost
+Groundnut,Loamy,72.4,106.0,14.7,MOP
+Banana,Desert,128.3,133.8,8.7,MOP
+Potato,Desert,12.5,63.2,47.8,Urea
+Sugarcane,Loamy,40.7,73.4,15.7,Urea
+Cotton,Loamy,84.1,61.3,41.2,MOP
+Groundnut,Desert,58.3,69.4,52.6,Urea
+Potato,Clay,13.4,85.1,67.8,Urea
+Millets,Desert,104.2,121.1,70.4,Organic Compost
+Sugarcane,Sandy,104.9,31.9,70.5,DAP
+Groundnut,Black,123.5,20.3,113.6,DAP
+Maize,Sandy,127.4,109.3,115.6,Organic Compost
+Soybean,Red,102.6,108.8,110.6,Organic Compost
+Cotton,Black,40.5,131.9,77.5,Urea
+Potato,Loamy,129.4,121.6,36.6,MOP
+Groundnut,Red,61.7,119.2,45.4,Organic Compost
+Soybean,Sandy,140.0,18.3,98.1,DAP
+Rice,Laterite,105.0,77.7,111.7,Organic Compost
+Tomato,Desert,113.5,9.4,109.1,DAP
+Onion,Alluvial,84.8,105.1,27.6,MOP
+Chickpea,Loamy,57.8,122.6,23.6,MOP
+Sugarcane,Clay,62.7,75.5,21.5,MOP
+Soybean,Loamy,31.5,112.9,86.3,Urea
+Chickpea,Red,120.2,38.8,100.8,DAP
+Chickpea,Desert,62.9,68.8,79.8,Organic Compost
+Millets,Sandy,2.0,22.7,26.4,NPK 20-20-20
+Soybean,Desert,8.9,119.3,114.7,Urea
+Millets,Black,49.0,16.1,106.2,DAP
+Millets,Laterite,101.5,41.0,122.0,Organic Compost
+Wheat,Red,75.6,36.3,137.9,DAP
+Tomato,Desert,136.9,75.0,102.2,Organic Compost
+Maize,Alluvial,133.3,63.9,125.2,Organic Compost
+Mustard,Alluvial,58.4,27.4,23.8,NPK 20-20-20
+Onion,Alluvial,135.3,63.0,68.6,Organic Compost
+Onion,Alluvial,82.4,48.3,87.4,Organic Compost
+Maize,Black,64.6,43.1,33.6,MOP
+Sugarcane,Alluvial,37.6,74.4,66.7,Urea
+Rice,Clay,105.2,72.0,60.0,MOP
+Mustard,Red,44.9,84.9,105.6,Urea
+Groundnut,Sandy,129.0,15.8,135.7,DAP
+Maize,Clay,128.1,56.9,112.0,Organic Compost
+Millets,Clay,49.8,85.4,1.3,MOP
+Wheat,Alluvial,120.2,32.5,73.9,DAP
+Millets,Red,129.2,139.7,34.0,MOP
+Sugarcane,Red,62.4,12.5,20.7,NPK 20-20-20
+Soybean,Sandy,118.3,105.2,75.1,Organic Compost
+Sugarcane,Black,23.2,124.2,6.9,Urea
+Mustard,Red,113.7,2.5,114.1,DAP
+Wheat,Black,108.4,14.2,75.6,DAP
+Rice,Laterite,119.5,65.0,106.1,Organic Compost
+Onion,Clay,45.1,64.9,32.2,MOP
+Tomato,Desert,113.0,85.4,88.7,Organic Compost
+Sugarcane,Black,110.5,75.9,130.4,Organic Compost
+Rice,Alluvial,97.8,98.1,9.2,MOP
+Sugarcane,Black,35.6,4.4,87.8,Urea
+Maize,Black,111.0,106.7,57.4,Organic Compost
+Sugarcane,Red,23.2,134.2,114.5,Urea
+Sugarcane,Laterite,37.4,4.5,45.1,Urea
+Chickpea,Desert,45.7,57.2,65.6,Urea
+Sugarcane,Clay,69.8,58.5,135.0,Urea
+Soybean,Red,27.1,52.6,76.5,Urea
+Potato,Laterite,69.1,36.0,110.8,DAP
+Millets,Clay,118.5,56.5,78.0,Organic Compost
+Chickpea,Sandy,138.1,25.0,47.0,DAP
+Rice,Laterite,13.6,27.6,69.1,Urea
+Soybean,Desert,43.7,131.6,39.6,Urea
+Mustard,Clay,117.7,44.4,55.3,Organic Compost
+Millets,Laterite,41.3,74.4,116.0,Urea
+Wheat,Black,134.7,16.3,109.2,DAP
+Groundnut,Black,76.0,37.1,76.1,DAP
+Onion,Black,0.9,7.9,88.6,Urea
+Groundnut,Red,34.0,100.2,42.6,Urea
+Soybean,Red,75.5,135.2,82.9,Organic Compost
+Soybean,Laterite,40.8,134.3,45.5,Urea
+Mustard,Alluvial,121.0,5.5,119.0,DAP
+Banana,Black,68.6,89.6,132.1,Urea
+Cotton,Laterite,90.4,26.0,59.4,DAP
+Soybean,Clay,109.7,71.4,53.2,Organic Compost
+Potato,Alluvial,137.0,132.8,123.3,Organic Compost
+Wheat,Desert,69.7,114.8,39.7,MOP
+Chickpea,Loamy,123.1,75.8,118.0,Organic Compost
+Maize,Desert,129.8,58.5,30.8,MOP
+Potato,Sandy,85.6,86.9,5.2,NPK 10-26-26
+Soybean,Desert,97.4,15.9,10.4,NPK 10-26-26
+Banana,Clay,101.2,89.4,89.7,Organic Compost
+Mustard,Red,45.1,59.6,138.6,Urea
+Maize,Loamy,113.3,24.9,56.8,DAP
+Sugarcane,Desert,21.6,63.3,126.8,Urea
+Tomato,Loamy,36.0,26.2,52.4,NPK 20-20-20
+Maize,Clay,100.9,116.9,24.0,MOP
+Onion,Clay,22.9,20.4,53.6,NPK 20-20-20
+Mustard,Alluvial,43.8,122.6,7.9,MOP
+Millets,Loamy,74.3,70.8,2.4,MOP
+Mustard,Loamy,135.6,57.1,66.1,Organic Compost
+Sugarcane,Clay,107.8,70.7,125.7,Organic Compost
+Wheat,Sandy,110.3,56.9,133.5,Organic Compost
+Banana,Loamy,31.1,108.5,45.1,Urea
+Mustard,Alluvial,113.0,134.3,13.2,MOP
+Wheat,Clay,15.3,34.6,54.9,Urea
+Maize,Laterite,19.2,35.9,65.4,Urea
+Potato,Desert,109.3,102.7,121.2,Organic Compost
+Rice,Alluvial,109.3,72.2,18.3,MOP
+Potato,Clay,69.7,130.1,116.7,Organic Compost
+Potato,Black,97.2,12.9,10.9,NPK 10-26-26
+Millets,Black,129.4,16.6,27.8,NPK 10-26-26
+Soybean,Laterite,121.4,13.9,53.5,DAP
+Mustard,Red,33.5,84.0,20.1,Urea
+Banana,Clay,140.0,12.9,95.9,DAP
+Wheat,Sandy,35.7,83.5,88.3,Urea
+Sugarcane,Black,24.4,129.4,23.3,Urea
+Potato,Alluvial,127.8,23.5,33.4,NPK 10-26-26
+Banana,Desert,102.3,73.1,37.3,MOP
+Cotton,Black,109.9,51.7,14.7,MOP
+Tomato,Sandy,106.4,123.2,134.7,Organic Compost
+Potato,Alluvial,36.7,78.4,75.5,Urea
+Banana,Laterite,39.9,124.0,124.8,Urea
+Onion,Clay,138.2,109.9,91.4,Organic Compost
+Groundnut,Loamy,107.0,82.0,139.6,Organic Compost
+Mustard,Black,45.0,64.1,47.5,Urea
+Potato,Black,7.9,5.6,101.5,Urea
+Soybean,Sandy,11.4,27.4,6.7,NPK 20-20-20
+Rice,Loamy,55.2,74.6,15.8,MOP
+Chickpea,Black,18.3,21.4,88.0,Urea
+Millets,Alluvial,93.9,86.6,30.5,MOP
+Wheat,Loamy,46.6,103.4,85.9,Urea
+Wheat,Desert,90.5,122.4,79.6,Organic Compost
+Tomato,Alluvial,36.3,106.3,39.2,Urea
+Onion,Red,87.9,12.0,62.5,DAP
+Onion,Black,65.4,12.0,51.3,NPK 10-26-26
+Millets,Sandy,121.0,75.4,58.3,Organic Compost
+Wheat,Desert,72.6,66.6,48.4,Organic Compost
+Rice,Loamy,80.0,123.9,50.9,Organic Compost
+Soybean,Alluvial,50.1,61.5,112.1,Urea
+Banana,Sandy,65.9,67.1,6.0,MOP
+Millets,Red,26.2,63.5,39.7,NPK 10-26-26
+Cotton,Laterite,90.5,47.4,108.7,Organic Compost
+Rice,Alluvial,130.9,129.0,56.9,Organic Compost
+Millets,Clay,74.3,16.4,16.1,NPK 10-26-26
+Groundnut,Clay,84.3,42.0,22.7,MOP
+Banana,Sandy,124.0,74.4,108.2,Organic Compost
+Cotton,Loamy,61.3,12.3,68.2,DAP
+Chickpea,Alluvial,66.8,122.3,110.6,Organic Compost
+Millets,Black,118.8,21.4,38.8,NPK 10-26-26
+Rice,Laterite,88.1,115.8,64.6,Organic Compost
+Maize,Loamy,84.6,24.5,26.6,NPK 10-26-26
+Groundnut,Sandy,28.7,67.8,49.9,Urea
+Maize,Black,19.7,44.9,121.6,Urea
+Mustard,Alluvial,12.3,69.0,38.8,Urea
+Sugarcane,Laterite,119.4,15.1,135.8,DAP
+Wheat,Sandy,131.6,65.8,20.8,MOP
+Maize,Clay,120.3,68.4,102.5,Organic Compost
+Maize,Black,82.1,59.0,22.5,MOP
+Potato,Loamy,72.9,26.5,33.8,NPK 10-26-26
+Tomato,Clay,24.8,113.7,110.3,Urea
+Cotton,Loamy,49.3,107.9,67.2,Urea
+Sugarcane,Laterite,64.1,70.7,125.7,Urea
+Onion,Red,134.7,33.9,1.6,NPK 10-26-26
+Sugarcane,Desert,95.5,57.1,76.1,Organic Compost
+Millets,Desert,14.4,121.5,86.4,NPK 10-26-26
+Wheat,Sandy,132.8,59.7,100.2,Urea
+Chickpea,Clay,67.5,129.3,72.9,Organic Compost
+Cotton,Sandy,72.9,132.8,69.4,Organic Compost
+Chickpea,Alluvial,92.0,127.6,125.9,Organic Compost
+Soybean,Laterite,113.5,46.9,131.2,Organic Compost
+Maize,Alluvial,108.1,56.7,49.8,Organic Compost
+Groundnut,Desert,80.0,138.9,48.1,Organic Compost
+Banana,Black,60.3,8.7,0.1,NPK 20-20-20
+Maize,Sandy,61.2,72.5,62.4,Urea
+Onion,Clay,112.5,117.3,29.7,MOP
+Millets,Clay,131.9,76.0,69.0,Organic Compost
+Chickpea,Desert,59.6,23.1,116.8,DAP
+Maize,Black,45.3,77.5,102.4,Urea
+Soybean,Black,30.3,104.2,16.3,Urea
+Millets,Loamy,47.5,111.5,7.8,MOP
+Maize,Sandy,71.0,122.1,28.3,MOP
+Potato,Black,138.7,4.6,77.4,DAP
+Wheat,Laterite,20.7,27.1,8.5,NPK 10-26-26
+Onion,Black,6.4,131.5,93.2,Urea
+Groundnut,Clay,68.5,79.8,120.0,Organic Compost
+Groundnut,Desert,101.8,138.4,77.1,Organic Compost
+Millets,Clay,105.7,3.4,17.8,NPK 10-26-26
+Onion,Red,126.8,101.2,20.1,MOP
+Sugarcane,Red,116.2,128.5,23.0,MOP
+Sugarcane,Alluvial,92.0,121.5,50.1,Organic Compost
+Millets,Loamy,19.2,117.6,105.7,Urea
+Tomato,Red,111.9,130.9,49.3,MOP
+Groundnut,Laterite,126.5,96.1,21.4,MOP
+Maize,Loamy,103.9,48.3,103.6,Organic Compost
+Onion,Desert,29.1,124.3,86.9,Urea
+Cotton,Clay,19.0,113.5,68.7,Urea
+Banana,Sandy,108.9,30.1,129.3,DAP
+Millets,Desert,17.8,26.1,105.6,Urea
+Mustard,Red,64.5,21.7,66.9,DAP
+Sugarcane,Desert,90.0,89.6,63.7,Organic Compost
+Rice,Black,7.2,69.4,74.6,Urea
+Wheat,Alluvial,35.5,37.8,113.5,Urea
+Millets,Black,2.7,49.8,31.4,Urea
+Chickpea,Alluvial,54.9,75.2,106.4,Urea
+Tomato,Alluvial,112.8,5.2,21.1,DAP
+Potato,Loamy,84.0,74.3,58.0,MOP
+Millets,Black,115.7,137.3,75.7,Organic Compost
+Maize,Clay,27.0,44.9,131.6,Urea
+Maize,Alluvial,76.5,82.2,83.6,Organic Compost
+Soybean,Sandy,33.9,132.7,31.9,MOP
+Chickpea,Alluvial,88.0,32.1,59.9,DAP
+Maize,Clay,19.1,47.3,27.9,Urea
+Groundnut,Black,23.4,11.6,3.6,NPK 20-20-20
+Onion,Black,56.0,136.0,110.9,Urea
+Groundnut,Red,3.7,19.4,74.1,Urea
+Maize,Clay,16.5,93.7,2.7,Urea
+Rice,Loamy,47.1,66.5,72.5,Urea
+Soybean,Red,47.6,45.1,3.8,MOP
+Groundnut,Desert,93.6,131.7,66.2,Organic Compost
+Potato,Loamy,66.9,88.6,30.2,MOP
+Groundnut,Laterite,9.6,33.1,111.1,Urea
+Chickpea,Desert,8.5,128.7,133.9,Urea
+Rice,Sandy,51.5,42.8,109.9,Urea
+Maize,Laterite,50.5,121.7,60.1,Urea
+Onion,Clay,82.9,125.2,64.1,Organic Compost
+Groundnut,Clay,45.4,41.3,3.0,MOP
+Soybean,Laterite,46.8,35.1,104.2,Urea
+Wheat,Red,44.8,63.8,34.6,Urea
+Mustard,Laterite,133.3,113.9,99.6,Organic Compost
+Wheat,Sandy,41.4,53.4,25.4,MOP
+Cotton,Alluvial,124.0,123.0,21.8,MOP
+Groundnut,Sandy,16.6,96.5,103.3,Urea
+Soybean,Desert,118.1,84.8,139.1,Organic Compost
+Groundnut,Alluvial,17.3,116.6,42.8,Urea
+Onion,Red,46.4,15.2,27.9,NPK 20-20-20
+Groundnut,Alluvial,132.0,114.9,56.3,Organic Compost
+Tomato,Alluvial,40.1,136.5,130.0,Urea
+Potato,Red,10.9,130.0,87.4,Urea
+Mustard,Alluvial,72.2,8.3,111.8,DAP
+Mustard,Laterite,102.4,5.6,44.5,NPK 10-26-26
+Groundnut,Laterite,63.1,130.5,115.7,Organic Compost
+Sugarcane,Black,124.2,120.8,12.4,MOP
+Potato,Laterite,11.7,40.9,85.5,Urea
+Maize,Laterite,59.2,59.1,21.5,MOP
+Banana,Loamy,136.6,17.9,105.9,DAP
+Wheat,Clay,122.2,131.1,33.6,MOP
+Chickpea,Loamy,112.7,2.1,74.9,DAP
+Sugarcane,Clay,117.8,41.8,119.4,Organic Compost
+Mustard,Sandy,0.2,33.0,16.6,NPK 20-20-20
+Sugarcane,Alluvial,82.0,17.7,98.6,DAP
+Maize,Black,89.7,131.5,138.8,Organic Compost
+Cotton,Red,85.7,126.9,3.9,Organic Compost
+Soybean,Alluvial,112.6,19.3,24.7,NPK 10-26-26
+Sugarcane,Desert,79.4,102.6,26.3,MOP
+Maize,Alluvial,39.6,63.5,31.7,Urea
+Soybean,Sandy,29.7,1.2,10.4,Urea
+Banana,Alluvial,19.4,13.0,114.5,Urea
+Potato,Sandy,22.3,73.1,17.0,MOP
+Banana,Loamy,97.4,4.2,108.9,DAP
+Soybean,Sandy,26.0,110.6,18.8,Urea
+Mustard,Desert,54.1,34.2,48.2,Urea
+Onion,Loamy,6.2,5.8,40.3,NPK 20-20-20
+Potato,Alluvial,100.4,3.3,129.4,DAP
+Maize,Black,120.3,86.5,79.8,Organic Compost
+Soybean,Alluvial,19.6,73.5,16.3,Urea
+Tomato,Black,21.8,31.1,113.9,Urea
+Potato,Red,46.3,130.9,97.1,Urea
+Wheat,Black,92.4,113.6,92.0,Organic Compost
+Mustard,Red,37.1,5.8,14.7,NPK 20-20-20
+Potato,Desert,106.3,108.6,92.9,Organic Compost
+Millets,Desert,36.2,69.9,56.6,Urea
+Onion,Laterite,39.9,24.3,30.4,NPK 20-20-20
+Sugarcane,Desert,115.9,9.0,137.5,DAP
+Cotton,Clay,73.6,88.8,50.5,Organic Compost
+Banana,Black,7.0,5.1,122.5,Urea
+Onion,Clay,27.9,51.3,41.1,Urea
+Onion,Clay,122.6,31.1,47.3,NPK 10-26-26
+Mustard,Desert,16.4,67.1,110.6,Urea
+Wheat,Loamy,135.5,131.4,91.3,Organic Compost
+Rice,Laterite,90.1,110.4,64.9,Organic Compost
+Millets,Clay,95.8,40.5,87.3,Organic Compost
+Mustard,Clay,107.5,10.1,87.5,DAP
+Sugarcane,Black,122.6,95.3,64.6,Organic Compost
+Banana,Loamy,77.4,75.6,76.1,Organic Compost
+Cotton,Red,46.2,31.5,61.4,Urea
+Cotton,Black,9.8,117.2,33.8,Urea
+Banana,Clay,128.9,121.8,98.2,Organic Compost
+Onion,Loamy,47.6,124.0,122.1,Urea
+Chickpea,Sandy,47.4,94.9,85.9,Urea
+Tomato,Alluvial,34.4,111.6,96.5,Urea
+Banana,Black,9.7,83.7,124.3,Urea
+Soybean,Clay,66.4,39.4,38.8,NPK 10-26-26
+Wheat,Black,118.3,60.0,86.1,Organic Compost
+Soybean,Red,66.0,100.9,133.4,Organic Compost
+Sugarcane,Laterite,89.0,12.0,116.1,DAP
+Chickpea,Clay,77.4,21.3,103.5,DAP
+Banana,Loamy,113.1,80.6,38.0,MOP
+Onion,Sandy,93.2,88.7,56.1,MOP
+Chickpea,Desert,97.5,38.1,65.7,DAP
+Onion,Alluvial,113.1,121.3,32.4,MOP
+Mustard,Sandy,23.3,5.6,14.8,NPK 20-20-20
+Banana,Alluvial,27.3,74.0,110.0,Urea
+Soybean,Clay,124.0,84.6,117.2,Organic Compost
+Onion,Laterite,125.4,96.1,60.3,Organic Compost
+Mustard,Sandy,18.5,6.6,58.0,Urea
+Cotton,Desert,91.0,118.1,62.2,Organic Compost
+Banana,Desert,119.7,17.1,97.8,DAP
+Cotton,Black,0.4,67.1,18.0,Urea
+Cotton,Alluvial,35.1,2.1,139.0,DAP
+Wheat,Sandy,72.6,121.5,20.2,MOP
+Tomato,Alluvial,5.1,18.6,76.6,Urea
+Mustard,Alluvial,56.5,22.0,98.6,DAP
+Sugarcane,Clay,66.4,57.7,68.9,Urea
+Potato,Laterite,89.9,116.8,87.0,Organic Compost
+Soybean,Clay,82.7,101.8,107.6,Organic Compost
+Wheat,Clay,108.3,84.6,138.3,Organic Compost
+Rice,Alluvial,94.7,86.2,47.2,Organic Compost
+Groundnut,Clay,12.3,102.6,53.8,Urea
+Maize,Red,113.4,103.5,107.0,Organic Compost
+Groundnut,Black,56.7,111.0,68.5,Urea
+Millets,Black,65.7,37.0,53.6,DAP
+Potato,Desert,90.0,24.3,107.0,DAP
+Millets,Sandy,81.8,8.5,28.5,NPK 10-26-26
+Onion,Alluvial,105.5,2.1,112.7,DAP
+Onion,Alluvial,38.1,107.7,137.5,Urea
+Tomato,Black,84.7,38.2,41.2,NPK 10-26-26
+Onion,Clay,6.7,122.4,82.5,Urea
+Sugarcane,Loamy,72.3,107.8,4.5,MOP
+Potato,Laterite,132.2,55.1,136.5,Organic Compost
+Potato,Laterite,60.1,18.1,86.1,DAP
+Groundnut,Black,33.3,133.9,50.9,Urea
+Groundnut,Desert,19.2,49.4,109.1,Urea
+Soybean,Red,114.9,0.6,115.7,DAP
+Groundnut,Laterite,132.7,114.7,2.7,MOP
+Banana,Laterite,76.3,50.4,65.9,Organic Compost
+Mustard,Black,3.9,90.2,54.7,Urea
+Groundnut,Sandy,129.1,77.9,90.6,Organic Compost
+Rice,Black,57.8,87.9,35.4,Urea
+Potato,Loamy,128.4,71.3,32.7,MOP
+Maize,Black,60.8,121.2,107.5,Urea
+Wheat,Alluvial,62.6,1.6,84.0,DAP
+Groundnut,Red,19.2,1.7,35.4,Urea
+Groundnut,Laterite,66.7,61.2,27.9,MOP
+Mustard,Clay,40.8,43.8,76.0,Urea
+Potato,Red,63.3,54.1,114.6,Organic Compost
+Rice,Laterite,62.7,134.0,70.4,Urea
+Millets,Clay,37.0,32.1,22.3,NPK 20-20-20
+Chickpea,Red,94.6,75.6,115.6,Organic Compost
+Sugarcane,Alluvial,47.4,72.8,112.5,Urea
+Soybean,Loamy,113.2,60.9,7.8,MOP
+Tomato,Loamy,113.2,54.9,82.4,Organic Compost
+Chickpea,Laterite,20.6,103.8,39.2,Urea
+Mustard,Red,60.5,80.7,95.6,Organic Compost
+Mustard,Laterite,67.5,19.6,73.0,DAP
+Groundnut,Laterite,131.3,21.8,103.2,DAP
+Banana,Sandy,92.8,3.1,103.9,DAP
+Onion,Loamy,7.1,26.4,127.5,Urea
+Wheat,Laterite,26.5,88.5,103.7,Urea
+Chickpea,Loamy,38.6,9.9,37.3,NPK 20-20-20
+Wheat,Desert,11.1,54.4,93.4,Urea
+Onion,Sandy,64.8,37.4,67.6,DAP
+Potato,Sandy,24.0,69.5,134.3,Urea
+Chickpea,Black,131.0,34.2,105.2,DAP
+Soybean,Clay,25.3,55.2,135.2,Urea
+Wheat,Red,0.1,1.0,38.4,NPK 20-20-20
+Millets,Laterite,129.1,107.0,129.5,Organic Compost
+Soybean,Laterite,79.3,52.1,29.5,MOP
+Cotton,Sandy,45.6,62.5,31.6,Urea
+Sugarcane,Red,122.6,74.0,57.6,Organic Compost
+Wheat,Desert,114.4,69.3,49.9,Organic Compost
+Millets,Clay,137.0,64.0,93.6,Organic Compost
+Banana,Alluvial,35.4,2.0,71.3,Urea
+Rice,Sandy,86.1,23.5,94.3,DAP
+Banana,Alluvial,135.8,3.8,47.8,DAP
+Soybean,Red,53.4,101.2,84.3,Urea
+Banana,Desert,15.1,65.8,33.5,NPK 10-26-26
+Millets,Laterite,30.3,56.3,31.6,Urea
+Onion,Clay,128.8,29.1,49.0,NPK 10-26-26
+Cotton,Red,41.0,67.6,123.7,Urea
+Banana,Sandy,92.5,128.9,72.4,Organic Compost
+Potato,Desert,102.0,68.9,43.9,MOP
+Groundnut,Black,134.8,49.3,100.4,Organic Compost
+Groundnut,Alluvial,65.8,4.1,110.6,DAP
+Wheat,Alluvial,70.0,134.6,39.8,MOP
+Rice,Red,0.9,74.3,33.5,Urea
+Maize,Black,96.2,94.3,95.1,Organic Compost
+Tomato,Desert,116.8,78.1,49.1,MOP
+Tomato,Black,46.6,58.2,53.9,Urea
+Groundnut,Sandy,105.9,47.3,132.3,Organic Compost
+Mustard,Sandy,4.1,52.0,64.0,Urea
+Mustard,Loamy,95.0,107.4,132.8,Organic Compost
+Potato,Black,114.1,47.3,113.9,Organic Compost
+Banana,Loamy,138.9,60.0,64.5,Organic Compost
+Maize,Desert,33.2,10.9,73.2,Urea
+Soybean,Sandy,113.8,46.0,81.1,Organic Compost
+Rice,Laterite,88.5,63.0,47.2,Organic Compost
+Chickpea,Laterite,16.2,69.4,19.4,Urea
+Wheat,Clay,112.3,63.0,77.4,Organic Compost
+Maize,Laterite,41.8,53.5,74.9,Urea
+Soybean,Red,127.9,102.5,9.3,MOP
+Wheat,Black,13.7,24.3,130.6,Urea
+Maize,Alluvial,90.0,72.6,51.2,Organic Compost
+Mustard,Laterite,55.3,74.9,7.2,MOP
+Tomato,Clay,74.1,69.5,47.2,MOP
+Tomato,Laterite,96.1,6.3,0.2,Urea
+Tomato,Black,79.8,95.4,58.9,MOP
+Cotton,Loamy,83.6,118.3,114.7,Organic Compost
+Groundnut,Clay,123.2,77.7,83.3,Organic Compost
+Rice,Black,50.5,127.8,73.2,Urea
+Soybean,Laterite,22.5,49.9,76.3,Urea
+Cotton,Laterite,2.6,62.3,4.1,Urea
+Mustard,Sandy,17.6,128.3,88.3,Urea
+Banana,Laterite,13.6,3.1,128.2,Urea
+Cotton,Clay,87.1,126.9,125.4,Organic Compost
+Rice,Black,55.4,47.8,73.6,Urea
+Chickpea,Clay,1.0,110.8,55.1,NPK 20-20-20
+Mustard,Loamy,101.5,123.0,4.8,MOP
+Groundnut,Alluvial,13.7,132.4,112.8,Urea
+Wheat,Loamy,128.7,30.9,2.0,NPK 10-26-26
+Tomato,Laterite,22.4,68.6,22.5,Urea
+Onion,Alluvial,38.7,109.3,66.3,Urea
+Tomato,Clay,63.1,41.0,28.6,MOP
+Potato,Desert,39.3,135.4,113.4,Urea
+Potato,Desert,76.2,14.3,135.0,DAP
+Maize,Loamy,62.1,31.1,68.7,Urea
+Rice,Sandy,101.0,126.9,27.7,MOP
+Mustard,Laterite,52.3,53.1,138.0,Urea
+Mustard,Sandy,57.0,82.0,63.1,Urea
+Banana,Loamy,117.9,54.7,81.5,Organic Compost
+Wheat,Desert,27.8,86.6,69.4,Urea
+Onion,Red,88.2,109.2,131.8,Organic Compost
+Rice,Clay,22.8,137.8,118.9,Urea
+Soybean,Laterite,29.4,80.2,52.1,Urea
+Groundnut,Black,10.2,53.0,129.7,Urea
+Wheat,Loamy,32.8,102.8,56.9,Urea
+Onion,Loamy,18.4,119.5,117.6,Urea
+Soybean,Alluvial,50.9,21.6,90.9,DAP
+Potato,Red,20.9,71.8,3.3,MOP
+Onion,Clay,8.0,46.7,50.1,Urea
+Wheat,Clay,19.7,132.6,122.6,Urea
+Cotton,Alluvial,23.5,134.3,49.8,Urea
+Soybean,Black,99.6,33.7,45.0,DAP
+Onion,Sandy,40.4,112.2,105.3,Urea
+Sugarcane,Laterite,73.1,49.1,100.9,Urea
+Tomato,Red,17.7,102.6,82.8,Urea
+Wheat,Clay,115.9,17.0,53.7,DAP
+Groundnut,Loamy,60.9,31.4,132.5,DAP
+Tomato,Alluvial,108.9,120.6,2.4,MOP
+Banana,Sandy,38.4,37.8,54.5,Urea
+Sugarcane,Black,42.1,38.2,50.5,Urea
+Potato,Sandy,104.6,47.5,80.7,Organic Compost
+Rice,Sandy,90.6,128.8,4.2,MOP
+Chickpea,Red,117.2,86.4,32.1,MOP
+Banana,Laterite,97.8,40.0,18.5,NPK 10-26-26
+Banana,Loamy,134.9,56.9,48.9,Organic Compost
+Potato,Clay,45.2,10.2,43.7,NPK 20-20-20
+Groundnut,Sandy,33.0,64.2,94.2,Urea
+Mustard,Loamy,118.6,81.8,67.5,Organic Compost
+Chickpea,Black,114.9,57.2,85.6,Organic Compost
+Millets,Alluvial,60.9,116.1,42.1,MOP
+Cotton,Red,42.9,17.2,134.0,DAP
+Millets,Laterite,5.5,33.0,36.4,NPK 20-20-20
+Onion,Desert,24.5,24.3,96.8,Urea
+Banana,Red,108.2,4.3,115.4,DAP
+Soybean,Clay,89.2,131.8,54.6,Organic Compost
+Banana,Laterite,37.6,128.9,109.1,Urea
+Onion,Red,117.8,44.1,135.0,MOP
+Millets,Loamy,15.7,100.6,50.9,Urea
+Groundnut,Clay,51.5,113.4,95.4,Urea
+Potato,Red,29.4,8.8,72.4,DAP
+Banana,Laterite,133.1,1.9,119.0,DAP
+Wheat,Clay,73.5,26.6,120.8,DAP
+Maize,Clay,33.0,77.6,58.2,Urea
+Groundnut,Clay,24.3,24.4,6.1,NPK 20-20-20
+Potato,Black,10.2,49.8,94.5,Urea
+Soybean,Red,11.7,106.3,54.8,Urea
+Rice,Laterite,135.8,52.2,134.3,Organic Compost
+Chickpea,Alluvial,22.0,108.3,75.3,Urea
+Chickpea,Desert,70.7,16.4,100.6,DAP
+Millets,Loamy,119.6,66.8,44.0,MOP
+Sugarcane,Black,43.1,70.6,35.6,Urea
+Potato,Laterite,54.7,139.6,15.6,MOP
+Soybean,Clay,18.2,128.5,94.1,Urea
+Banana,Red,50.3,115.6,8.1,MOP
+Sugarcane,Loamy,98.8,7.6,104.0,DAP
+Mustard,Red,124.9,18.5,134.5,DAP
+Rice,Clay,96.6,19.2,25.9,DAP
+Soybean,Clay,5.3,88.6,81.5,Urea
+Rice,Laterite,41.9,134.0,110.0,Urea
+Tomato,Sandy,116.1,135.0,63.5,Organic Compost
+Rice,Alluvial,15.1,68.7,63.6,Urea
+Rice,Loamy,75.4,121.9,48.4,Organic Compost
+Millets,Sandy,90.8,116.2,43.3,MOP
+Millets,Clay,95.2,45.1,59.3,Organic Compost
+Rice,Desert,20.2,105.6,2.8,Urea
+Soybean,Desert,61.3,86.8,53.4,Organic Compost
+Chickpea,Sandy,124.2,2.4,131.5,DAP
+Cotton,Loamy,101.6,54.4,86.3,Organic Compost
+Soybean,Alluvial,72.2,100.3,54.9,Organic Compost
+Mustard,Black,6.4,75.7,30.1,Urea
+Maize,Black,1.2,94.6,70.1,Urea
+Wheat,Alluvial,17.3,3.2,62.2,Urea
+Sugarcane,Desert,10.1,128.9,75.7,Urea
+Onion,Desert,12.5,49.5,72.9,Urea
+Wheat,Desert,38.2,137.4,38.2,Urea
+Cotton,Clay,42.5,59.0,87.3,Urea
+Soybean,Desert,21.9,6.4,110.7,Urea
+Tomato,Black,63.8,100.3,22.9,MOP
+Cotton,Alluvial,137.6,40.0,101.6,DAP
+Cotton,Clay,64.7,121.9,105.6,Organic Compost
+Mustard,Black,36.4,138.8,129.6,Urea
+Sugarcane,Clay,15.0,28.2,40.6,NPK 20-20-20
+Maize,Black,123.5,136.1,39.4,MOP
+Wheat,Loamy,28.8,102.4,81.2,Urea
+Chickpea,Loamy,42.3,21.9,137.5,DAP
+Banana,Black,33.3,44.7,60.7,Urea
+Rice,Desert,78.3,0.8,53.9,DAP
+Soybean,Black,103.7,42.6,68.3,Organic Compost
+Onion,Alluvial,99.5,63.9,10.2,MOP
+Banana,Sandy,50.3,3.3,60.9,DAP
+Rice,Red,77.7,31.7,72.7,DAP
+Potato,Laterite,122.4,53.4,87.2,Organic Compost
+Groundnut,Red,125.6,61.7,106.0,Organic Compost
+Tomato,Sandy,3.4,0.0,123.6,Urea
+Mustard,Laterite,40.9,110.3,112.2,Urea
+Millets,Red,19.4,95.3,84.6,Urea
+Tomato,Loamy,123.9,19.9,59.1,NPK 10-26-26
+Maize,Red,93.9,42.7,8.5,MOP
+Millets,Desert,114.7,52.7,13.8,MOP
+Cotton,Laterite,0.4,66.5,9.7,Urea
+Rice,Laterite,118.2,107.0,93.9,Organic Compost
+Millets,Sandy,66.0,13.8,42.1,NPK 10-26-26
+Mustard,Alluvial,35.3,47.0,64.9,Urea
+Groundnut,Loamy,27.7,83.6,33.5,Urea
+Chickpea,Loamy,91.9,4.3,74.9,DAP
+Mustard,Black,74.5,62.7,119.0,Organic Compost
+Rice,Desert,91.3,78.6,40.9,MOP
+Sugarcane,Black,58.3,39.8,93.8,Urea
+Soybean,Desert,31.1,123.9,118.4,Urea
+Onion,Sandy,37.5,122.9,83.9,Urea
+Sugarcane,Black,22.0,38.8,71.6,Urea
+Groundnut,Desert,1.8,11.2,45.6,Urea
+Maize,Laterite,100.5,139.1,28.3,MOP
+Millets,Clay,38.1,98.5,81.7,Urea
+Millets,Alluvial,137.2,135.0,3.1,MOP
+Potato,Laterite,35.6,136.9,24.4,MOP
+Onion,Alluvial,81.2,120.5,87.1,Organic Compost
+Soybean,Alluvial,100.1,57.3,66.3,Organic Compost
+Soybean,Desert,104.7,95.7,60.5,NPK 10-26-26
+Chickpea,Alluvial,98.6,85.1,42.1,MOP
+Tomato,Clay,98.4,135.9,73.5,Organic Compost
+Wheat,Sandy,22.6,26.9,29.1,NPK 20-20-20
+Tomato,Loamy,75.8,52.8,92.3,Organic Compost
+Rice,Loamy,46.4,129.6,82.5,Urea
+Millets,Laterite,77.4,19.4,98.6,DAP
+Onion,Loamy,103.3,91.5,51.3,MOP
+Chickpea,Sandy,80.5,42.0,16.9,MOP
+Sugarcane,Sandy,23.1,118.9,98.3,Urea
+Maize,Laterite,86.4,130.5,39.6,MOP
+Cotton,Laterite,125.6,39.4,68.8,DAP
+Maize,Black,42.2,73.0,134.1,Urea
+Millets,Alluvial,8.9,36.8,9.7,NPK 20-20-20
+Potato,Red,111.8,64.9,56.7,MOP
+Maize,Clay,42.2,9.3,15.4,NPK 20-20-20
+Millets,Loamy,66.6,20.7,73.7,DAP
+Mustard,Sandy,11.6,45.1,96.7,Urea
+Cotton,Alluvial,128.0,63.9,92.9,Organic Compost
+Maize,Desert,8.6,37.2,112.4,Urea
+Chickpea,Clay,81.7,37.6,33.7,NPK 10-26-26
+Cotton,Alluvial,38.4,57.3,128.9,Urea
+Soybean,Red,49.5,8.5,10.5,DAP
+Maize,Black,89.7,27.5,52.9,DAP
+Rice,Alluvial,29.3,139.4,83.6,Urea
+Chickpea,Loamy,135.2,20.2,9.4,NPK 10-26-26
+Maize,Alluvial,78.6,0.2,48.8,DAP
+Mustard,Loamy,78.4,22.0,41.3,NPK 10-26-26
+Rice,Alluvial,83.3,72.4,48.2,Organic Compost
+Tomato,Clay,53.5,11.2,134.7,DAP
+Sugarcane,Clay,2.0,51.0,72.1,Urea
+Onion,Sandy,75.8,110.9,82.8,Organic Compost
+Sugarcane,Sandy,6.3,127.8,82.9,Urea
+Cotton,Black,52.2,6.5,23.7,NPK 20-20-20
+Groundnut,Desert,6.2,76.4,65.0,Urea
+Sugarcane,Red,83.9,0.2,106.7,DAP
+Onion,Sandy,124.5,15.3,83.9,DAP
+Chickpea,Desert,61.2,39.7,0.2,NPK 10-26-26
+Rice,Loamy,60.8,1.6,56.2,DAP
+Cotton,Loamy,100.4,138.8,3.9,MOP
+Groundnut,Alluvial,87.6,137.7,99.9,Organic Compost
+Mustard,Sandy,38.5,81.7,73.1,Urea
+Wheat,Black,29.0,60.0,121.4,Urea
+Millets,Sandy,86.9,139.0,50.1,Organic Compost
+Mustard,Red,61.0,112.7,63.4,Organic Compost
+Wheat,Desert,100.1,21.4,72.8,DAP
+Soybean,Red,60.3,84.6,71.3,Organic Compost
+Groundnut,Red,41.2,17.0,9.1,NPK 20-20-20
+Banana,Black,124.4,129.5,32.3,MOP
+Sugarcane,Black,52.9,122.0,138.4,Urea
+Mustard,Black,52.0,31.8,139.0,DAP
+Onion,Sandy,37.0,69.5,15.5,MOP
+Groundnut,Red,58.7,50.8,81.2,Urea
+Chickpea,Alluvial,117.8,62.4,116.8,Organic Compost
+Banana,Red,94.4,56.0,68.0,Organic Compost
+Potato,Loamy,104.6,49.6,82.0,Organic Compost
+Cotton,Clay,33.6,78.6,14.9,MOP
+Rice,Laterite,3.6,85.4,4.8,Urea
+Onion,Laterite,135.1,76.4,43.7,MOP
+Soybean,Laterite,86.7,37.5,27.6,NPK 10-26-26
+Chickpea,Loamy,114.3,83.0,96.9,Organic Compost
+Tomato,Black,89.0,33.1,130.8,DAP
+Chickpea,Laterite,78.5,119.5,15.9,MOP
+Potato,Desert,20.2,120.7,36.0,Urea
+Wheat,Loamy,130.8,109.5,46.9,Organic Compost
+Groundnut,Black,86.2,105.2,98.4,Organic Compost
+Sugarcane,Laterite,77.9,130.0,20.3,MOP
+Mustard,Sandy,43.1,62.0,108.2,Urea
+Onion,Desert,24.5,42.2,42.4,Urea
+Maize,Laterite,39.6,112.3,136.3,Urea
+Mustard,Desert,26.8,90.6,138.8,Urea
+Millets,Desert,36.0,36.7,132.0,Urea
+Sugarcane,Loamy,49.0,50.6,57.2,Urea
+Chickpea,Laterite,59.6,61.7,70.8,Urea
+Potato,Sandy,70.5,71.3,29.4,NPK 20-20-20
+Rice,Clay,119.8,33.8,50.4,DAP
+Cotton,Sandy,26.2,137.0,8.7,MOP
+Maize,Alluvial,44.5,35.1,36.3,NPK 20-20-20
+Wheat,Laterite,16.7,137.5,34.0,Urea
+Maize,Alluvial,64.9,128.6,2.4,MOP
+Chickpea,Red,30.7,98.5,104.7,Urea
+Onion,Black,0.9,103.2,83.9,Urea
+Millets,Black,106.7,9.9,90.0,DAP
+Potato,Black,67.7,72.8,82.8,Organic Compost
+Potato,Loamy,9.4,48.3,88.0,Urea
+Rice,Clay,26.6,20.0,32.3,NPK 20-20-20
+Onion,Sandy,72.8,42.0,128.6,Organic Compost
+Mustard,Laterite,105.4,127.9,43.9,MOP
+Cotton,Loamy,57.2,106.6,75.2,Urea
+Sugarcane,Red,94.0,7.5,47.9,NPK 20-20-20
+Mustard,Red,10.8,110.1,12.5,Urea
+Wheat,Clay,115.0,25.6,11.8,NPK 10-26-26
+Soybean,Desert,116.1,40.0,28.9,MOP
+Millets,Sandy,28.7,124.3,2.8,MOP
+Sugarcane,Loamy,115.8,59.6,10.8,MOP
+Rice,Clay,122.9,105.3,137.4,Organic Compost
+Sugarcane,Laterite,57.3,97.5,44.2,Urea
+Sugarcane,Red,92.8,47.9,7.7,MOP
+Sugarcane,Red,42.5,18.1,102.9,Urea
+Mustard,Desert,109.1,38.1,39.8,NPK 10-26-26
+Potato,Red,83.6,21.8,133.4,DAP
+Cotton,Laterite,74.3,54.8,53.5,Organic Compost
+Maize,Laterite,30.1,21.0,24.4,NPK 20-20-20
+Wheat,Red,91.2,137.9,80.8,Organic Compost
+Millets,Clay,9.4,14.3,132.7,Urea
+Banana,Desert,18.6,107.6,32.9,Urea
+Millets,Black,57.6,93.9,124.2,Urea
+Banana,Clay,22.2,128.6,78.7,Urea
+Rice,Alluvial,3.5,133.5,66.3,Urea
+Rice,Loamy,33.2,78.4,122.6,Urea
+Sugarcane,Black,77.1,5.6,53.0,DAP
+Cotton,Clay,89.3,7.1,100.8,DAP
+Rice,Clay,94.3,78.6,43.1,MOP
+Mustard,Clay,99.0,3.5,57.9,DAP
+Wheat,Red,48.0,62.0,82.2,Urea
+Tomato,Black,35.6,118.6,7.7,MOP
+Tomato,Red,62.6,89.2,74.3,Organic Compost
+Wheat,Sandy,32.6,75.1,103.0,Urea
+Chickpea,Black,74.1,76.7,43.5,MOP
+Groundnut,Laterite,4.6,103.8,117.9,Urea
+Maize,Laterite,136.5,51.9,56.8,Organic Compost
+Groundnut,Loamy,77.7,135.3,33.2,MOP
+Groundnut,Loamy,70.6,99.8,133.7,Organic Compost
+Soybean,Clay,34.5,29.2,42.9,NPK 20-20-20
+Millets,Red,27.5,57.6,44.5,Urea
+Maize,Alluvial,19.4,76.5,12.4,Urea
+Banana,Desert,81.1,77.7,90.0,Organic Compost
+Cotton,Laterite,104.1,93.4,11.2,MOP
+Maize,Loamy,12.6,39.7,34.0,NPK 20-20-20
+Rice,Alluvial,80.9,102.9,139.9,Organic Compost
+Banana,Loamy,91.2,128.9,111.6,Organic Compost
+Chickpea,Desert,35.3,35.7,76.6,Urea
+Tomato,Red,44.0,100.3,21.3,MOP
+Maize,Loamy,82.0,11.3,133.6,DAP
+Groundnut,Laterite,92.8,111.0,17.1,MOP
+Maize,Sandy,70.9,129.3,6.7,MOP
+Mustard,Alluvial,21.8,60.3,86.9,Urea
+Millets,Laterite,46.8,111.7,57.4,Urea
+Maize,Clay,136.2,19.8,132.8,DAP
+Chickpea,Desert,16.5,89.8,117.6,Urea
+Banana,Red,63.3,16.1,21.4,NPK 20-20-20
+Rice,Red,88.8,14.3,34.2,NPK 10-26-26
+Millets,Loamy,118.7,27.2,18.1,NPK 10-26-26
+Wheat,Clay,57.4,72.2,11.2,MOP
+Wheat,Sandy,93.6,30.7,49.9,DAP
+Groundnut,Red,16.2,39.7,14.9,Urea
+Banana,Desert,63.8,74.7,35.7,NPK 10-26-26
+Onion,Alluvial,136.2,3.0,19.2,NPK 10-26-26
+Onion,Sandy,8.9,42.1,12.3,Urea
+Cotton,Black,89.2,54.0,107.6,Organic Compost
+Banana,Sandy,71.5,134.2,40.6,MOP
+Mustard,Clay,125.1,132.5,55.3,Organic Compost
+Mustard,Red,90.9,25.8,59.0,DAP
+Cotton,Red,69.5,20.6,55.8,DAP
+Mustard,Sandy,126.9,68.8,12.5,MOP
+Rice,Red,55.5,32.2,23.0,NPK 20-20-20
+Wheat,Black,68.2,114.9,128.4,Organic Compost
+Onion,Sandy,130.1,116.6,41.0,MOP
+Millets,Desert,118.4,115.2,90.1,Organic Compost
+Onion,Clay,93.2,6.5,64.5,NPK 20-20-20
+Wheat,Alluvial,75.7,6.6,127.9,DAP
+Mustard,Sandy,20.7,118.7,66.9,Urea
+Groundnut,Sandy,75.6,78.8,104.2,Organic Compost
+Chickpea,Red,129.1,49.5,38.1,MOP
+Wheat,Red,44.4,118.1,78.6,Urea
+Chickpea,Alluvial,86.0,13.4,64.2,DAP
+Cotton,Sandy,104.4,33.3,27.1,NPK 10-26-26
+Tomato,Black,94.7,72.5,115.8,Organic Compost
+Groundnut,Laterite,127.7,108.8,20.9,MOP
+Wheat,Laterite,99.3,98.4,124.0,Organic Compost
+Onion,Clay,44.9,136.2,92.6,Urea
+Soybean,Clay,17.3,47.1,117.0,Urea
+Groundnut,Clay,67.5,35.2,73.5,DAP
+Soybean,Desert,79.4,54.9,69.8,Organic Compost
+Cotton,Loamy,32.1,70.0,65.2,Urea
+Wheat,Sandy,37.6,69.0,61.7,Urea
+Chickpea,Loamy,95.7,20.0,40.4,NPK 10-26-26
+Potato,Desert,6.3,10.3,130.7,Urea
+Millets,Desert,116.0,16.9,14.4,NPK 10-26-26
+Banana,Red,75.4,33.1,84.1,DAP
+Rice,Sandy,6.5,83.3,92.5,Urea
+Soybean,Clay,87.8,1.3,133.1,DAP
+Millets,Black,12.1,52.4,43.1,Urea
+Wheat,Clay,90.4,18.6,99.1,DAP
+Cotton,Loamy,139.4,39.7,8.2,NPK 10-26-26
+Cotton,Black,11.0,79.2,126.1,Urea
+Groundnut,Sandy,92.6,102.2,69.2,Organic Compost
+Tomato,Alluvial,13.9,78.7,66.2,Urea
+Cotton,Loamy,110.2,35.8,59.6,DAP
+Sugarcane,Clay,105.9,9.3,39.9,NPK 10-26-26
+Maize,Loamy,84.9,89.7,27.5,MOP
+Groundnut,Laterite,32.3,32.8,85.1,Urea
+Soybean,Black,80.3,62.9,85.7,Urea
+Wheat,Sandy,119.0,73.4,117.7,Organic Compost
+Groundnut,Alluvial,52.9,62.5,121.2,Urea
+Onion,Red,124.3,35.1,89.9,DAP
+Onion,Desert,26.5,101.4,77.0,Urea
+Onion,Desert,111.1,14.5,65.7,DAP
+Sugarcane,Sandy,123.1,111.9,43.8,MOP
+Chickpea,Red,97.4,67.3,6.1,MOP
+Tomato,Alluvial,57.3,64.7,70.4,Urea
+Millets,Sandy,118.9,97.7,133.1,Organic Compost
+Onion,Black,9.4,101.0,22.7,Urea
+Sugarcane,Loamy,112.6,60.9,102.9,Organic Compost
+Mustard,Loamy,108.3,33.3,123.8,DAP
+Sugarcane,Sandy,33.3,12.6,10.2,NPK 20-20-20
+Banana,Black,139.9,134.5,4.1,MOP
+Soybean,Red,47.7,33.6,116.3,Urea
+Millets,Alluvial,37.8,62.8,73.1,Urea
+Potato,Clay,130.8,56.4,120.0,Organic Compost
+Maize,Loamy,114.7,66.2,76.7,Organic Compost
+Tomato,Sandy,22.3,34.0,67.2,Urea
+Millets,Black,26.9,120.5,82.7,Urea
+Soybean,Clay,115.5,15.5,79.4,DAP
+Cotton,Loamy,100.5,1.2,71.9,DAP
+Banana,Loamy,15.4,114.5,76.1,Urea
+Rice,Clay,5.3,83.0,70.2,Urea
+Sugarcane,Clay,102.5,98.8,12.5,MOP
+Wheat,Laterite,28.1,42.5,95.8,Urea
+Banana,Clay,3.2,118.9,50.5,Urea
+Millets,Black,136.2,74.1,8.3,MOP
+Soybean,Alluvial,7.7,6.4,115.7,Urea
+Maize,Red,132.2,85.6,40.0,MOP
+Maize,Desert,69.2,46.8,87.2,Urea
+Sugarcane,Alluvial,20.1,49.8,106.1,Urea
+Cotton,Desert,136.4,115.5,135.6,Organic Compost
+Onion,Red,85.1,27.7,11.9,NPK 10-26-26
+Sugarcane,Red,99.2,50.8,0.4,MOP
+Soybean,Alluvial,29.5,35.3,17.4,NPK 20-20-20
+Potato,Desert,131.7,37.0,111.9,DAP
+Groundnut,Laterite,51.7,46.8,138.9,Urea
+Potato,Red,105.3,18.1,129.6,DAP
+Soybean,Black,38.2,21.7,130.3,Urea
+Potato,Black,113.8,29.9,13.2,NPK 10-26-26
+Onion,Alluvial,116.5,78.8,34.6,MOP
+Tomato,Red,74.6,80.0,108.0,Organic Compost
+Wheat,Clay,9.7,129.0,26.0,Urea
+Tomato,Laterite,14.7,50.4,128.6,Urea
+Maize,Sandy,53.2,82.4,32.5,Urea
+Potato,Red,116.1,98.6,54.1,MOP
+Mustard,Red,21.8,32.9,38.0,NPK 20-20-20
+Groundnut,Sandy,103.6,64.0,138.3,Organic Compost
+Onion,Alluvial,64.5,127.2,30.8,MOP
+Wheat,Desert,108.6,116.5,123.1,Organic Compost
+Cotton,Sandy,112.4,31.7,6.1,NPK 10-26-26
+Rice,Sandy,97.2,124.8,44.4,MOP
+Potato,Alluvial,130.9,77.6,104.8,Organic Compost
+Cotton,Alluvial,8.8,114.1,21.3,Urea
+Wheat,Red,75.8,36.7,7.0,NPK 10-26-26
+Soybean,Red,60.9,84.2,43.9,MOP
+Banana,Sandy,12.5,49.0,12.6,MOP
+Rice,Clay,11.8,121.6,106.3,NPK 10-26-26
+Groundnut,Loamy,1.4,15.3,138.4,Urea
+Soybean,Alluvial,119.0,128.4,76.8,Organic Compost
+Onion,Clay,102.9,69.2,116.6,Organic Compost
+Onion,Red,0.6,50.2,11.6,Urea
+Mustard,Laterite,132.1,14.8,38.3,NPK 10-26-26
+Potato,Laterite,106.2,75.9,84.6,Organic Compost
+Cotton,Red,87.0,3.7,26.4,NPK 10-26-26
+Banana,Sandy,71.3,100.6,101.8,MOP
+Banana,Red,37.9,67.8,43.1,Urea
+Mustard,Desert,55.4,127.7,84.1,Urea
+Soybean,Black,111.2,47.3,73.8,Organic Compost
+Potato,Loamy,139.9,71.0,90.1,Organic Compost
+Chickpea,Laterite,6.1,136.2,102.5,Urea
+Wheat,Desert,23.3,1.4,55.5,DAP
+Rice,Desert,89.6,133.6,138.7,Organic Compost
+Maize,Red,76.6,70.5,21.8,MOP
+Groundnut,Alluvial,89.3,30.8,21.4,NPK 10-26-26
+Tomato,Clay,10.3,87.6,98.6,Urea
+Maize,Sandy,110.4,130.1,66.7,Organic Compost
+Maize,Sandy,98.5,78.0,118.0,Organic Compost
+Cotton,Desert,20.9,113.1,4.6,MOP
+Sugarcane,Red,10.5,96.4,67.6,Urea
+Groundnut,Laterite,0.3,18.3,37.7,NPK 20-20-20
+Maize,Red,16.6,137.4,15.2,Urea
+Soybean,Black,91.4,44.8,135.8,Organic Compost
+Banana,Loamy,0.9,131.7,39.4,Urea
+Rice,Laterite,20.6,119.9,139.2,Urea
+Rice,Black,101.2,74.1,56.8,Organic Compost
+Maize,Clay,24.1,37.1,45.4,Urea
+Millets,Loamy,47.8,85.1,51.5,Urea
+Chickpea,Red,71.4,45.1,2.3,MOP
+Banana,Black,91.0,110.3,21.7,MOP
+Onion,Clay,37.3,71.7,0.7,MOP
+Maize,Alluvial,104.9,106.1,86.2,Organic Compost
+Maize,Clay,115.8,71.0,69.5,Organic Compost
+Cotton,Loamy,50.5,97.8,118.3,Urea
+Sugarcane,Desert,63.4,107.2,45.0,Urea
+Soybean,Sandy,33.1,39.1,49.9,Urea
+Tomato,Alluvial,29.1,20.9,113.3,Urea
+Sugarcane,Desert,115.0,19.2,13.7,NPK 10-26-26
+Banana,Sandy,102.6,31.2,130.3,DAP
+Chickpea,Loamy,121.0,73.3,105.5,Organic Compost
+Potato,Desert,113.5,54.9,50.9,MOP
+Mustard,Red,85.1,57.7,28.2,MOP
+Potato,Black,40.7,38.1,18.3,NPK 20-20-20
+Millets,Red,96.2,18.9,34.6,NPK 10-26-26
+Cotton,Black,114.0,126.8,106.9,Organic Compost
+Rice,Sandy,125.7,65.2,107.6,Organic Compost
+Wheat,Desert,37.1,16.5,57.8,DAP
+Cotton,Desert,5.2,82.6,73.5,Organic Compost
+Onion,Red,59.2,69.2,32.7,Organic Compost
+Cotton,Clay,113.1,25.3,90.5,DAP
+Mustard,Alluvial,18.0,3.1,24.1,NPK 20-20-20
+Maize,Red,75.7,46.7,112.9,Organic Compost
+Mustard,Sandy,12.5,119.2,100.1,Urea
+Wheat,Alluvial,20.1,53.9,114.0,Urea
+Onion,Laterite,17.1,137.0,55.3,Urea
+Chickpea,Clay,1.8,84.5,85.7,Urea
+Wheat,Alluvial,73.9,61.0,42.5,MOP
+Maize,Laterite,137.7,49.8,97.7,Organic Compost
+Banana,Sandy,127.1,69.9,77.9,Organic Compost
+Rice,Alluvial,109.5,102.5,13.4,MOP
+Sugarcane,Sandy,122.0,87.6,27.8,MOP
+Millets,Alluvial,115.1,109.0,127.5,Organic Compost
+Maize,Sandy,135.3,94.4,123.4,Organic Compost
+Millets,Black,21.6,4.4,5.9,NPK 20-20-20
+Cotton,Alluvial,7.6,15.7,93.1,Urea
+Cotton,Laterite,108.9,136.3,99.2,Organic Compost
+Soybean,Loamy,136.9,42.0,109.6,Organic Compost
+Potato,Desert,103.5,116.1,120.9,Organic Compost
+Maize,Red,73.9,131.4,29.3,MOP
+Onion,Black,81.5,95.2,114.2,MOP
+Chickpea,Clay,84.0,133.4,48.7,Organic Compost
+Mustard,Clay,72.3,21.8,7.0,NPK 10-26-26
+Mustard,Laterite,89.5,79.9,99.8,Urea
+Wheat,Loamy,109.4,98.3,104.4,Organic Compost
+Onion,Alluvial,90.2,44.7,2.0,MOP
+Millets,Clay,20.6,30.1,131.1,Urea
+Groundnut,Clay,126.3,96.4,8.6,MOP
+Mustard,Sandy,38.8,88.2,19.1,MOP
+Tomato,Laterite,73.0,133.3,61.3,Organic Compost
+Banana,Clay,12.4,127.8,127.5,Urea
+Onion,Black,31.4,4.3,29.1,NPK 20-20-20
+Mustard,Black,22.4,133.1,69.1,Urea
+Rice,Loamy,12.4,109.3,48.8,Urea
+Maize,Sandy,44.3,66.2,88.9,Urea
+Millets,Red,63.2,24.5,60.3,DAP
+Onion,Loamy,131.2,107.1,53.5,MOP
+Potato,Clay,3.9,16.3,30.5,NPK 20-20-20
+Mustard,Black,47.7,136.2,66.2,Urea
+Groundnut,Black,71.9,10.2,11.3,NPK 10-26-26
+Millets,Loamy,87.4,119.0,95.4,Organic Compost
+Groundnut,Laterite,94.4,18.9,67.6,DAP
+Onion,Alluvial,54.8,86.9,54.9,Urea
+Chickpea,Desert,126.2,52.3,102.3,Organic Compost
+Soybean,Red,113.1,129.9,106.5,Organic Compost
+Soybean,Loamy,127.9,122.7,106.7,Organic Compost
+Groundnut,Clay,71.7,77.3,58.5,Organic Compost
+Onion,Black,103.6,70.7,49.4,MOP
+Cotton,Laterite,89.6,51.8,4.6,MOP
+Sugarcane,Clay,32.8,40.1,98.7,Urea
+Soybean,Alluvial,16.5,43.6,10.8,Urea
+Millets,Clay,28.7,82.2,50.2,Urea
+Rice,Loamy,117.5,55.0,39.0,MOP
+Potato,Loamy,5.9,63.3,30.5,Urea
+Onion,Sandy,114.3,20.7,78.9,DAP
+Mustard,Red,102.3,22.7,130.5,DAP
+Cotton,Laterite,93.9,29.7,110.8,DAP
+Millets,Loamy,21.8,36.2,132.0,Urea
+Groundnut,Alluvial,20.4,14.8,73.1,Urea
+Cotton,Red,20.3,5.3,3.4,NPK 20-20-20
+Rice,Red,2.1,42.6,79.1,Urea
+Onion,Red,138.4,38.6,0.0,NPK 20-20-20
+Rice,Alluvial,136.5,79.8,111.9,Organic Compost
+Tomato,Clay,57.1,122.6,60.7,Urea
+Cotton,Loamy,128.2,109.8,56.3,Organic Compost
+Chickpea,Laterite,95.8,46.6,27.3,MOP
+Mustard,Desert,138.6,36.9,23.2,NPK 10-26-26
+Wheat,Clay,73.9,77.9,6.3,MOP
+Tomato,Desert,80.7,30.7,29.0,NPK 10-26-26
+Chickpea,Alluvial,7.0,100.8,36.9,Urea
+Onion,Loamy,44.8,67.0,121.1,Urea
+Tomato,Clay,37.0,26.2,10.2,NPK 20-20-20
+Groundnut,Laterite,107.9,18.6,84.5,Urea
+Sugarcane,Desert,7.8,52.8,78.6,Urea
+Potato,Red,20.7,10.5,52.7,NPK 20-20-20
+Tomato,Laterite,47.9,55.6,72.6,DAP
+Groundnut,Red,37.0,33.1,110.4,Urea
+Maize,Black,119.3,53.6,25.8,MOP
+Chickpea,Sandy,132.3,122.9,97.2,Organic Compost
+Wheat,Laterite,16.6,76.9,128.3,NPK 20-20-20
+Banana,Alluvial,21.2,119.8,75.2,Urea
+Chickpea,Desert,20.6,15.8,92.6,Urea
+Groundnut,Sandy,117.7,118.3,4.5,MOP
+Tomato,Desert,49.0,57.4,104.4,Urea
+Onion,Loamy,66.3,110.5,65.2,Organic Compost
+Millets,Laterite,131.1,139.6,46.2,Organic Compost
+Tomato,Loamy,33.3,0.4,95.7,DAP
+Tomato,Laterite,77.3,4.3,58.3,NPK 10-26-26
+Sugarcane,Black,87.4,22.2,120.8,DAP
+Rice,Laterite,101.3,122.9,72.4,Organic Compost
+Mustard,Laterite,74.7,73.1,84.9,Organic Compost
+Rice,Alluvial,63.6,83.4,92.5,Urea
+Chickpea,Alluvial,55.3,107.2,111.5,Urea
+Chickpea,Loamy,95.0,108.4,1.5,MOP
+Sugarcane,Clay,107.3,20.1,109.0,DAP
+Cotton,Desert,138.6,66.7,97.9,Organic Compost
+Mustard,Alluvial,72.5,15.1,137.1,DAP
+Mustard,Loamy,35.8,68.9,133.1,Urea
+Millets,Laterite,45.6,40.9,4.6,MOP
+Potato,Sandy,31.4,53.8,131.7,Urea
+Groundnut,Laterite,137.2,64.7,48.9,Organic Compost
+Groundnut,Alluvial,37.5,31.1,134.5,Urea
+Banana,Sandy,103.6,95.6,12.8,MOP
+Onion,Red,18.5,137.6,3.9,DAP
+Groundnut,Red,118.2,136.9,16.6,MOP
+Banana,Sandy,90.4,32.7,46.1,DAP
+Banana,Alluvial,106.2,38.6,116.0,DAP
+Groundnut,Sandy,107.4,10.5,36.4,NPK 10-26-26
+Banana,Clay,118.9,53.5,111.1,Organic Compost
+Groundnut,Alluvial,34.5,126.4,76.2,Urea
+Cotton,Sandy,1.4,16.6,13.9,NPK 20-20-20
+Onion,Laterite,39.3,110.0,117.5,Urea
+Chickpea,Black,70.4,6.8,33.6,NPK 10-26-26
+Soybean,Laterite,96.7,117.5,8.3,MOP
+Banana,Alluvial,137.4,89.3,6.1,MOP
+Cotton,Red,111.8,31.6,115.7,DAP
+Rice,Desert,37.9,95.9,112.0,Urea
+Maize,Alluvial,77.2,94.8,114.4,Organic Compost
+Groundnut,Clay,128.2,109.1,1.1,MOP
+Potato,Desert,102.8,87.8,126.2,NPK 20-20-20
+Onion,Black,118.8,108.9,67.9,Organic Compost
+Tomato,Red,106.9,49.9,137.7,Organic Compost
+Banana,Clay,136.5,93.5,123.1,Organic Compost
+Soybean,Clay,37.4,118.6,70.3,Urea
+Chickpea,Clay,1.3,6.4,86.3,Urea
+Chickpea,Desert,26.7,56.9,107.6,Urea
+Groundnut,Black,98.3,58.2,84.2,Organic Compost
+Chickpea,Red,18.9,8.5,101.7,Urea
+Maize,Red,136.7,99.1,40.4,MOP
+Tomato,Alluvial,94.6,73.3,73.8,Organic Compost
+Tomato,Alluvial,88.8,104.7,113.9,Organic Compost
+Cotton,Loamy,42.4,42.7,112.8,Urea
+Banana,Red,15.6,40.4,106.4,Urea
+Millets,Sandy,2.3,70.3,4.4,Urea
+Chickpea,Red,18.8,99.7,87.0,Urea
+Tomato,Laterite,128.1,77.4,124.4,Organic Compost
+Soybean,Loamy,133.6,17.4,36.8,NPK 10-26-26
+Potato,Black,38.1,139.6,14.3,MOP
+Soybean,Red,110.1,61.9,6.2,MOP
+Mustard,Black,33.2,47.7,71.8,Urea
+Mustard,Black,129.1,43.1,129.4,Organic Compost
+Mustard,Black,135.7,45.5,128.2,Organic Compost
+Onion,Sandy,77.3,17.2,103.2,DAP
+Groundnut,Sandy,81.4,18.9,28.0,NPK 10-26-26
+Groundnut,Alluvial,108.2,74.1,92.3,Organic Compost
+Millets,Sandy,12.1,77.7,36.8,Urea
+Sugarcane,Desert,80.2,58.8,104.0,Organic Compost
+Sugarcane,Alluvial,6.2,92.6,18.1,Urea
+Soybean,Desert,14.4,18.0,61.5,Urea
+Tomato,Clay,38.7,56.1,99.1,Urea
+Banana,Red,88.4,87.4,42.4,MOP
+Cotton,Red,37.5,44.6,80.1,Urea
+Tomato,Alluvial,62.5,123.0,108.1,Organic Compost
+Sugarcane,Loamy,138.2,91.5,96.0,Organic Compost
+Cotton,Red,41.2,117.9,127.5,Urea
+Wheat,Black,122.4,123.0,64.2,Organic Compost
+Tomato,Red,38.7,35.4,28.8,NPK 20-20-20
+Millets,Clay,79.9,132.1,70.7,Organic Compost
+Wheat,Loamy,110.9,85.1,123.3,Organic Compost
+Banana,Loamy,129.5,70.3,127.1,Organic Compost
+Maize,Alluvial,107.2,88.8,61.6,Organic Compost
+Cotton,Clay,1.8,97.0,8.8,Urea
+Chickpea,Loamy,33.9,137.2,15.9,MOP
+Maize,Alluvial,27.3,130.9,28.2,Urea
+Potato,Desert,106.9,44.8,117.5,Organic Compost
+Mustard,Sandy,91.3,51.0,49.6,Organic Compost
+Groundnut,Laterite,96.5,23.2,0.7,NPK 10-26-26
+Maize,Desert,78.7,72.9,19.2,MOP
+Wheat,Red,83.2,41.0,99.8,Organic Compost
+Rice,Sandy,3.0,44.8,45.5,Urea
+Soybean,Loamy,23.0,37.8,116.5,Urea
+Millets,Clay,75.6,7.4,113.1,DAP
+Groundnut,Laterite,42.4,62.1,102.9,Urea
+Groundnut,Loamy,4.8,108.1,29.5,Urea
+Chickpea,Red,64.0,50.4,72.3,Organic Compost
+Groundnut,Red,27.4,48.3,113.6,Urea
+Soybean,Red,120.6,93.3,4.3,MOP
+Mustard,Black,51.2,39.6,45.0,NPK 20-20-20
+Mustard,Sandy,33.3,90.6,66.1,Urea
+Rice,Black,41.4,18.1,27.9,NPK 20-20-20
+Millets,Loamy,9.3,119.7,122.8,Urea
+Chickpea,Red,84.0,118.4,38.8,MOP
+Onion,Sandy,1.3,122.5,41.2,Urea
+Wheat,Sandy,122.8,53.8,25.1,MOP
+Sugarcane,Alluvial,36.5,94.2,134.3,Urea
+Maize,Sandy,43.8,111.5,38.5,Urea
+Wheat,Black,123.8,50.3,130.8,Organic Compost
+Groundnut,Desert,27.3,74.3,43.4,NPK 20-20-20
+Millets,Laterite,24.1,134.2,113.2,Urea
+Soybean,Laterite,36.3,45.4,28.6,Urea
+Maize,Clay,26.2,0.6,17.6,NPK 20-20-20
+Chickpea,Alluvial,56.5,15.6,15.1,NPK 20-20-20
+Potato,Desert,27.2,32.1,41.5,NPK 20-20-20
+Mustard,Loamy,79.9,76.5,131.2,Organic Compost
+Maize,Loamy,68.3,16.0,125.0,DAP
+Soybean,Desert,131.7,71.8,119.4,Organic Compost
+Millets,Sandy,92.0,133.4,107.0,Organic Compost
+Soybean,Black,116.4,54.6,87.4,Organic Compost
+Sugarcane,Alluvial,23.2,97.6,34.6,Urea
+Chickpea,Red,86.8,16.4,48.3,DAP
+Wheat,Laterite,125.2,69.0,25.0,MOP
+Groundnut,Sandy,135.3,36.7,115.1,DAP
+Cotton,Loamy,25.6,88.7,15.8,Urea
+Mustard,Sandy,59.9,91.8,67.0,Urea
+Sugarcane,Desert,18.3,108.3,59.3,Urea
+Tomato,Sandy,59.2,114.4,129.7,Urea
+Sugarcane,Sandy,11.0,62.0,27.0,Urea
+Tomato,Sandy,136.9,27.2,7.4,NPK 10-26-26
+Maize,Desert,3.4,76.7,135.7,Urea
+Maize,Sandy,33.2,78.1,45.2,Urea
+Soybean,Laterite,130.0,93.8,95.6,Organic Compost
+Groundnut,Red,44.0,70.6,26.9,MOP
+Cotton,Loamy,18.3,32.3,74.9,Urea
+Soybean,Red,110.8,2.2,139.6,DAP
+Sugarcane,Laterite,91.1,66.5,57.1,Organic Compost
+Groundnut,Sandy,120.6,70.3,117.1,Organic Compost
+Millets,Red,63.0,45.5,128.6,Organic Compost
+Chickpea,Black,88.9,52.7,106.0,Organic Compost
+Banana,Laterite,4.0,114.5,98.6,Urea
+Mustard,Laterite,63.3,42.0,121.4,Organic Compost
+Maize,Sandy,36.5,17.8,36.4,NPK 20-20-20
+Soybean,Clay,128.0,56.7,33.7,NPK 20-20-20
+Soybean,Laterite,5.6,0.6,84.7,Urea
+Chickpea,Loamy,80.3,101.3,53.6,Organic Compost
+Millets,Red,13.7,43.4,1.1,Urea
+Groundnut,Sandy,109.9,32.5,14.8,NPK 10-26-26
+Banana,Desert,43.7,60.1,10.6,MOP
+Rice,Laterite,12.2,66.2,99.9,Urea
+Wheat,Desert,122.0,72.1,131.7,Organic Compost
+Tomato,Red,108.0,70.8,75.5,Organic Compost
+Chickpea,Clay,128.6,44.7,89.9,Organic Compost
+Groundnut,Desert,62.6,26.6,28.4,NPK 10-26-26
+Rice,Alluvial,42.2,14.4,122.0,Urea
+Rice,Red,106.1,42.2,100.1,Organic Compost
+Mustard,Red,66.9,45.1,59.2,Organic Compost
+Millets,Red,65.0,69.5,3.4,MOP
+Mustard,Loamy,0.4,98.6,126.8,Urea
+Groundnut,Red,63.0,91.1,95.3,Organic Compost
+Wheat,Laterite,34.9,50.7,129.1,Urea
+Onion,Clay,101.4,135.2,70.2,Organic Compost
+Onion,Desert,118.0,131.5,73.6,Organic Compost
+Maize,Loamy,108.7,106.9,106.2,Organic Compost
+Groundnut,Clay,122.7,89.1,63.7,Organic Compost
+Wheat,Clay,65.7,81.2,96.0,Organic Compost
+Banana,Red,41.0,124.2,131.2,Urea
+Mustard,Desert,65.9,23.4,102.6,DAP
+Millets,Alluvial,131.7,72.5,37.3,MOP
+Mustard,Loamy,89.4,48.8,54.2,Organic Compost
+Millets,Sandy,129.0,54.9,122.5,Organic Compost
+Groundnut,Red,3.8,84.6,126.5,Urea
+Mustard,Black,94.7,113.4,12.1,MOP
+Soybean,Black,135.1,95.5,66.6,Organic Compost
+Soybean,Loamy,127.6,33.4,3.8,NPK 10-26-26
+Rice,Black,117.0,74.6,40.4,MOP
+Banana,Loamy,70.4,25.3,139.3,DAP
+Soybean,Clay,106.4,70.4,1.4,MOP
+Potato,Alluvial,134.6,34.9,51.4,NPK 10-26-26
+Groundnut,Loamy,91.7,109.7,106.1,Organic Compost
+Chickpea,Laterite,74.8,122.4,39.5,MOP
+Maize,Alluvial,103.4,96.3,38.7,MOP
+Onion,Alluvial,68.3,27.1,111.1,DAP
+Groundnut,Clay,119.2,138.7,103.7,Organic Compost
+Onion,Clay,78.9,60.6,4.6,MOP
+Maize,Desert,97.0,56.6,86.4,Organic Compost
+Mustard,Clay,68.8,50.6,55.6,Organic Compost
+Groundnut,Black,120.8,27.3,137.3,DAP
+Groundnut,Sandy,102.1,108.2,110.5,MOP
+Sugarcane,Clay,97.8,95.7,41.6,MOP
+Sugarcane,Clay,48.0,55.8,104.2,DAP
+Wheat,Desert,96.9,82.1,33.2,MOP
+Millets,Clay,70.2,40.9,53.3,Organic Compost
+Soybean,Red,99.7,47.9,115.0,Organic Compost
+Millets,Sandy,132.7,62.4,23.8,MOP
+Maize,Laterite,109.6,120.4,99.8,Organic Compost
+Maize,Red,33.5,40.8,93.9,Urea
+Millets,Alluvial,136.9,44.0,31.1,MOP
+Cotton,Black,5.0,42.8,47.3,Urea
+Maize,Laterite,103.1,103.0,110.5,Organic Compost
+Rice,Laterite,14.6,5.4,26.2,NPK 20-20-20
+Mustard,Loamy,19.6,18.6,124.8,Urea
+Wheat,Black,125.5,100.9,66.9,Organic Compost
+Wheat,Sandy,47.4,140.0,109.8,Urea
+Groundnut,Sandy,139.5,1.5,3.2,NPK 10-26-26
+Soybean,Black,95.9,70.5,44.6,MOP
+Mustard,Clay,23.9,22.2,61.9,Urea
+Rice,Sandy,138.9,104.7,84.5,Organic Compost
+Millets,Desert,123.2,114.9,32.2,MOP
+Mustard,Black,36.2,11.4,124.4,DAP
+Cotton,Black,124.3,134.1,31.0,MOP
+Rice,Clay,135.8,91.0,62.0,Organic Compost
+Chickpea,Clay,15.8,60.9,120.0,Urea
+Maize,Black,105.7,93.4,37.1,MOP
+Cotton,Red,139.1,25.7,116.1,DAP
+Tomato,Desert,137.5,134.6,119.6,Organic Compost
+Banana,Red,44.7,91.4,47.9,Urea
+Soybean,Alluvial,107.9,15.6,47.2,DAP
+Mustard,Loamy,125.0,92.2,110.5,Organic Compost
+Maize,Black,104.1,21.5,116.8,DAP
+Rice,Red,106.5,61.2,41.9,MOP
+Mustard,Sandy,138.3,42.0,98.8,Organic Compost
+Millets,Red,88.5,106.6,100.4,Organic Compost
+Wheat,Alluvial,75.7,40.7,114.4,Organic Compost
+Tomato,Black,108.1,49.6,95.5,Organic Compost
+Onion,Laterite,74.6,136.5,104.5,Organic Compost
+Wheat,Clay,72.2,110.2,83.8,Organic Compost
+Maize,Clay,0.3,124.3,114.6,Urea
+Wheat,Alluvial,61.3,23.7,52.4,DAP
+Sugarcane,Loamy,61.2,135.2,38.9,Urea
+Maize,Sandy,38.7,101.3,99.2,Urea
+Onion,Sandy,114.4,139.3,7.7,MOP
+Groundnut,Clay,0.0,76.3,92.4,Urea
+Cotton,Laterite,110.5,9.3,18.9,NPK 10-26-26
+Millets,Clay,82.7,58.3,14.8,MOP
+Rice,Black,127.8,108.6,11.3,MOP
+Banana,Desert,123.1,85.9,24.1,MOP
+Soybean,Sandy,82.4,37.2,126.0,DAP
+Banana,Red,35.7,39.3,64.6,Urea
+Onion,Loamy,26.9,37.9,16.8,NPK 20-20-20
+Tomato,Laterite,56.5,101.5,67.7,Urea
+Tomato,Alluvial,61.1,12.6,64.7,DAP
+Rice,Clay,77.0,53.1,37.0,MOP
+Chickpea,Black,5.9,17.6,139.7,Urea
+Chickpea,Red,0.5,107.4,42.1,Urea
+Groundnut,Loamy,50.6,91.5,101.6,Urea
+Soybean,Sandy,3.1,123.4,26.1,Urea
+Rice,Desert,32.1,67.9,33.0,Urea
+Wheat,Sandy,110.4,84.3,35.6,MOP
+Soybean,Desert,16.8,93.8,88.3,Urea
+Millets,Laterite,3.9,41.3,11.2,Urea
+Rice,Laterite,49.6,55.0,37.5,Urea
+Banana,Alluvial,116.3,58.9,55.6,Organic Compost
+Mustard,Black,43.5,48.0,60.2,Urea
+Millets,Sandy,130.3,10.4,33.7,NPK 10-26-26
+Cotton,Sandy,133.6,99.2,128.8,Organic Compost
+Sugarcane,Red,78.4,71.3,96.5,Organic Compost
+Potato,Loamy,62.9,94.6,21.9,MOP
+Potato,Loamy,74.9,71.5,105.0,Organic Compost
+Chickpea,Loamy,49.1,2.3,15.9,NPK 20-20-20
+Cotton,Red,111.7,34.7,121.8,DAP
+Onion,Loamy,65.4,99.8,49.9,MOP
+Mustard,Sandy,97.6,128.5,88.0,Organic Compost
+Sugarcane,Laterite,106.4,117.0,57.8,Organic Compost
+Rice,Desert,24.4,7.9,102.4,Urea
+Rice,Black,129.0,117.5,80.7,Organic Compost
+Wheat,Sandy,31.2,133.6,62.0,Urea
+Banana,Black,95.8,138.3,62.3,Organic Compost
+Maize,Black,118.4,16.1,81.5,DAP
+Cotton,Clay,131.7,136.4,65.4,Organic Compost
+Rice,Black,16.3,11.8,96.5,Urea
+Mustard,Alluvial,80.1,101.7,21.7,MOP
+Tomato,Laterite,58.3,106.3,116.4,Urea
+Sugarcane,Red,41.3,66.6,131.7,Urea
+Potato,Alluvial,5.9,48.3,92.2,Urea
+Mustard,Red,121.7,114.9,86.5,Organic Compost
+Potato,Black,86.1,91.9,55.2,MOP
+Soybean,Laterite,0.0,64.6,116.3,Urea
+Maize,Red,93.7,32.7,94.8,DAP
+Millets,Red,67.4,86.6,3.6,MOP
+Potato,Loamy,57.9,125.0,26.3,MOP
+Maize,Sandy,121.5,74.4,52.7,Organic Compost
+Onion,Desert,116.4,26.5,126.3,DAP
+Tomato,Sandy,12.2,128.6,73.9,Urea
+Onion,Black,41.0,22.8,4.9,NPK 20-20-20
+Soybean,Sandy,93.3,102.7,83.4,Organic Compost
+Groundnut,Loamy,93.4,104.0,45.4,Organic Compost
+Groundnut,Laterite,119.2,93.3,57.9,Organic Compost
+Mustard,Alluvial,116.0,124.8,128.3,Organic Compost
+Banana,Loamy,75.4,86.2,108.3,Organic Compost
+Maize,Black,139.4,63.3,18.2,MOP
+Chickpea,Red,34.8,88.0,133.6,Urea
+Soybean,Laterite,65.2,96.3,55.4,Organic Compost
+Soybean,Red,137.9,44.3,81.9,Organic Compost
+Tomato,Red,114.6,49.7,15.5,DAP
+Onion,Alluvial,111.7,94.5,111.1,Organic Compost
+Millets,Laterite,130.6,122.9,48.8,Organic Compost
+Mustard,Clay,68.4,16.9,46.8,DAP
+Banana,Sandy,108.5,127.7,28.4,MOP
+Rice,Loamy,104.3,44.5,46.1,Organic Compost
+Potato,Red,8.8,43.3,90.6,Urea
+Mustard,Alluvial,2.3,82.9,98.0,Urea
+Chickpea,Desert,32.0,67.4,128.2,Urea
+Tomato,Loamy,130.6,47.4,22.0,MOP
+Wheat,Clay,120.0,32.7,64.0,DAP
+Groundnut,Black,118.8,58.6,120.9,Organic Compost
+Rice,Red,100.3,103.7,43.6,MOP
+Maize,Clay,94.9,103.5,43.8,MOP
+Banana,Sandy,46.7,37.9,60.4,Urea
+Banana,Black,122.4,35.7,117.5,DAP
+Tomato,Sandy,78.6,92.6,136.4,Organic Compost
+Maize,Black,11.1,72.7,112.4,Urea
+Onion,Clay,60.6,131.8,53.6,MOP
+Soybean,Loamy,138.6,88.5,48.5,Organic Compost
+Onion,Laterite,43.2,67.0,122.1,Urea
+Onion,Black,117.4,60.4,11.6,MOP
+Chickpea,Alluvial,94.7,36.1,13.5,NPK 10-26-26
+Cotton,Clay,88.0,68.1,102.6,Organic Compost
+Cotton,Desert,24.9,3.0,50.7,DAP
+Maize,Black,103.5,56.7,1.0,MOP
+Chickpea,Sandy,126.3,21.6,120.0,DAP
+Millets,Loamy,36.6,64.1,27.8,Urea
+Mustard,Sandy,26.8,35.4,126.2,Urea
+Banana,Loamy,134.2,29.0,87.8,DAP
+Maize,Red,43.2,125.6,13.9,Urea
+Wheat,Laterite,111.8,63.7,37.9,MOP
+Millets,Laterite,101.8,121.6,45.0,MOP
+Rice,Sandy,107.4,80.5,2.1,MOP
+Soybean,Loamy,85.6,39.4,13.7,NPK 10-26-26
+Onion,Black,24.3,34.2,9.6,NPK 20-20-20
+Tomato,Desert,71.6,48.2,100.9,Organic Compost
+Soybean,Alluvial,76.6,42.6,80.0,Organic Compost
+Wheat,Laterite,27.1,41.8,96.2,Urea
+Cotton,Laterite,10.2,96.2,75.5,Urea
+Onion,Loamy,139.2,33.8,103.9,DAP
+Potato,Laterite,102.4,133.8,105.8,Organic Compost
+Banana,Loamy,30.4,86.8,56.4,Urea
+Onion,Alluvial,129.5,11.0,46.1,NPK 10-26-26
+Millets,Laterite,27.3,103.1,31.5,Urea
+Soybean,Black,41.7,89.9,29.3,Urea
+Sugarcane,Laterite,27.6,33.6,73.8,Urea
+Cotton,Loamy,113.8,6.4,55.1,DAP
+Sugarcane,Red,61.9,79.3,81.9,Urea
+Banana,Alluvial,64.4,106.1,63.7,Urea
+Chickpea,Loamy,65.1,11.0,88.7,DAP
+Millets,Alluvial,29.0,8.6,79.8,MOP
+Mustard,Black,136.6,31.7,69.3,DAP
+Millets,Laterite,41.8,116.8,80.4,Urea
+Tomato,Desert,139.7,70.7,21.9,MOP
+Millets,Laterite,80.1,59.1,81.4,Organic Compost
+Tomato,Red,117.3,55.1,79.9,Organic Compost
+Millets,Clay,8.1,99.8,102.4,Urea
+Chickpea,Loamy,137.7,113.8,129.9,Organic Compost
+Banana,Loamy,130.9,87.3,21.1,MOP
+Banana,Alluvial,103.0,70.2,112.0,Organic Compost
+Groundnut,Alluvial,18.6,98.8,44.9,Urea
+Maize,Alluvial,63.2,81.3,118.6,Urea
+Banana,Laterite,136.1,72.9,5.8,MOP
+Chickpea,Red,137.9,14.8,61.7,DAP
+Onion,Laterite,100.2,32.4,120.3,DAP
+Banana,Loamy,116.8,18.1,134.5,DAP
+Banana,Red,26.2,111.1,42.7,Urea
+Millets,Black,42.5,11.3,120.5,DAP
+Millets,Desert,137.9,67.3,9.4,MOP
+Potato,Laterite,27.2,76.4,51.7,Urea
+Tomato,Laterite,127.3,42.0,31.2,MOP
+Cotton,Alluvial,131.7,123.2,65.9,Organic Compost
+Soybean,Alluvial,26.7,32.5,65.8,Urea
+Wheat,Sandy,41.5,59.4,17.2,MOP
+Mustard,Alluvial,99.0,56.3,80.8,Organic Compost
+Onion,Laterite,55.3,101.1,30.6,MOP
+Banana,Alluvial,14.7,82.2,80.5,Urea
+Chickpea,Clay,12.9,125.3,68.8,Urea
+Millets,Laterite,97.9,105.6,94.3,Organic Compost
+Wheat,Loamy,110.5,122.0,54.9,Organic Compost
+Maize,Laterite,73.8,85.5,15.1,MOP
+Potato,Black,135.8,71.1,7.6,MOP
+Onion,Clay,92.1,21.7,4.6,NPK 10-26-26
+Groundnut,Red,61.3,102.8,17.5,MOP
+Maize,Alluvial,48.7,127.7,96.1,Urea
+Cotton,Black,41.1,125.4,104.6,Urea
+Tomato,Black,130.0,113.1,33.5,MOP
+Millets,Laterite,82.3,52.5,29.4,MOP
+Rice,Sandy,61.9,68.1,7.1,MOP
+Rice,Clay,82.8,128.9,100.3,Organic Compost
+Millets,Laterite,24.3,127.7,92.3,Urea
+Rice,Loamy,63.6,18.9,55.7,DAP
+Rice,Desert,116.1,71.8,62.7,Organic Compost
+Cotton,Sandy,103.7,73.5,120.7,Organic Compost
+Wheat,Desert,98.0,1.9,98.8,DAP
+Groundnut,Sandy,42.1,29.7,87.9,Urea
+Chickpea,Alluvial,115.1,37.3,86.5,DAP
+Cotton,Alluvial,139.6,62.7,28.7,MOP
+Wheat,Loamy,0.4,42.0,75.1,Urea
+Rice,Red,56.5,31.0,41.0,NPK 20-20-20
+Banana,Red,39.1,41.8,85.8,Urea
+Millets,Laterite,88.5,90.0,1.8,MOP
+Banana,Black,116.1,38.6,44.4,NPK 10-26-26
+Mustard,Loamy,113.5,54.3,39.4,MOP
+Potato,Sandy,139.0,86.6,68.7,Organic Compost
+Millets,Desert,95.9,23.1,64.4,DAP
+Banana,Black,102.5,91.0,32.7,MOP
+Cotton,Desert,37.2,61.9,125.3,Urea
+Tomato,Desert,28.1,101.4,83.9,Urea
+Chickpea,Sandy,3.4,32.3,36.6,NPK 20-20-20
+Banana,Alluvial,49.4,30.6,18.6,NPK 20-20-20
+Millets,Clay,13.3,101.5,7.6,Urea
+Potato,Laterite,53.5,76.4,98.4,Urea
+Groundnut,Black,115.1,23.1,111.8,DAP
+Tomato,Red,44.0,51.9,82.8,Urea
+Banana,Red,131.9,28.7,15.8,NPK 10-26-26
+Banana,Desert,67.9,112.0,66.2,Urea
+Wheat,Clay,96.1,86.2,72.5,Organic Compost
+Tomato,Loamy,47.2,123.5,92.4,Urea
+Potato,Sandy,48.8,58.9,27.4,MOP
+Rice,Sandy,115.4,44.4,139.4,Organic Compost
+Mustard,Red,134.5,91.7,130.7,Organic Compost
+Potato,Black,54.7,120.2,68.5,Urea
+Onion,Black,56.0,117.5,131.7,Urea
+Rice,Black,3.3,17.8,117.0,Urea
+Chickpea,Red,108.6,111.1,50.7,Organic Compost
+Sugarcane,Laterite,36.6,126.0,21.4,Urea
+Banana,Loamy,128.1,25.0,54.5,DAP
+Mustard,Clay,122.1,39.3,86.5,DAP
+Sugarcane,Red,72.8,100.1,72.6,Urea
+Maize,Clay,136.9,50.8,118.9,Organic Compost
+Maize,Red,98.7,131.4,103.6,NPK 20-20-20
+Potato,Black,86.5,4.0,16.8,NPK 10-26-26
+Onion,Desert,134.1,58.1,115.0,MOP
+Mustard,Clay,120.3,50.7,43.3,MOP
+Millets,Clay,83.7,61.1,127.7,Organic Compost
+Cotton,Laterite,69.5,13.8,113.5,DAP
+Millets,Red,43.4,35.3,24.3,NPK 20-20-20
+Soybean,Clay,60.7,15.4,19.5,NPK 10-26-26
+Maize,Black,48.7,134.0,81.4,Urea
+Millets,Alluvial,46.3,125.4,113.5,Urea
+Millets,Loamy,37.7,82.0,7.1,MOP
+Banana,Loamy,0.3,32.5,21.3,NPK 20-20-20
+Onion,Clay,132.6,23.1,32.4,NPK 10-26-26
+Rice,Black,103.8,12.0,90.8,DAP
+Rice,Sandy,72.7,25.0,56.3,DAP
+Potato,Desert,67.3,21.2,77.7,DAP
+Groundnut,Desert,116.8,18.0,82.4,DAP
+Rice,Red,87.7,64.8,67.5,Organic Compost
+Sugarcane,Loamy,99.4,63.3,101.2,Organic Compost
+Tomato,Sandy,36.8,75.8,65.5,Urea
+Millets,Alluvial,71.4,1.4,54.6,DAP
+Tomato,Sandy,138.2,120.1,136.5,Organic Compost
+Rice,Alluvial,39.5,41.6,9.9,Urea
+Rice,Desert,84.7,124.7,100.0,Organic Compost
+Groundnut,Black,134.2,96.9,49.6,Organic Compost
+Banana,Clay,112.3,76.0,140.0,Organic Compost
+Groundnut,Desert,88.2,103.1,128.4,Organic Compost
+Mustard,Red,121.4,75.6,6.3,MOP
+Chickpea,Laterite,75.1,57.6,9.0,MOP
+Soybean,Clay,32.8,87.9,75.9,Urea
+Groundnut,Red,53.7,123.2,131.8,Urea
+Maize,Alluvial,84.1,58.5,68.9,Organic Compost
+Maize,Sandy,42.6,125.0,59.0,Urea
+Groundnut,Desert,50.1,11.6,21.7,NPK 20-20-20
+Potato,Loamy,74.8,11.5,23.0,NPK 10-26-26
+Soybean,Laterite,52.7,70.4,102.7,Urea
+Millets,Loamy,78.1,28.1,84.6,DAP
+Mustard,Sandy,63.3,81.4,120.8,Organic Compost
+Soybean,Alluvial,124.8,51.1,56.9,Organic Compost
+Rice,Laterite,72.9,118.1,100.8,Urea
+Potato,Clay,118.7,8.1,82.9,DAP
+Sugarcane,Red,106.7,110.8,123.7,Organic Compost
+Sugarcane,Alluvial,17.7,34.2,52.1,Urea
+Millets,Sandy,22.8,26.5,24.2,NPK 20-20-20
+Mustard,Red,23.3,60.4,34.7,Urea
+Onion,Clay,46.7,24.5,32.5,DAP
+Banana,Black,64.9,78.5,35.6,Urea
+Tomato,Laterite,115.4,104.1,39.7,MOP
+Cotton,Red,28.4,14.9,33.4,NPK 20-20-20
+Wheat,Red,45.8,49.7,14.0,MOP
+Banana,Laterite,18.8,48.2,26.0,Urea
+Sugarcane,Loamy,131.9,1.7,98.8,DAP
+Tomato,Sandy,96.9,71.2,129.8,Organic Compost
+Potato,Desert,91.4,127.2,68.2,Organic Compost
+Groundnut,Sandy,97.9,114.5,102.7,Organic Compost
+Tomato,Alluvial,5.0,130.6,115.2,Urea
+Onion,Clay,41.3,35.5,36.0,NPK 20-20-20
+Rice,Sandy,95.4,54.4,135.7,Organic Compost
+Banana,Red,55.6,95.7,57.1,Urea
+Tomato,Clay,97.7,48.9,130.1,Organic Compost
+Potato,Desert,8.4,2.4,89.6,Urea
+Potato,Black,3.3,20.3,29.6,NPK 20-20-20
+Chickpea,Clay,14.3,70.2,121.7,Urea
+Groundnut,Desert,80.9,130.1,16.2,MOP
+Maize,Sandy,47.6,125.4,99.8,Urea
+Chickpea,Desert,89.9,69.1,35.9,MOP
+Banana,Desert,5.4,52.5,131.0,Urea
+Banana,Sandy,14.2,96.7,98.0,Urea
+Rice,Alluvial,78.9,96.1,22.0,MOP
+Sugarcane,Sandy,7.0,31.3,128.6,Urea
+Chickpea,Laterite,121.5,88.6,137.4,Organic Compost
+Cotton,Red,65.5,19.9,74.2,DAP
+Potato,Alluvial,12.5,116.9,135.4,Urea
+Tomato,Desert,112.3,77.6,131.0,Organic Compost
+Potato,Clay,66.0,68.3,35.5,MOP
+Sugarcane,Clay,51.9,59.0,52.0,Urea
+Potato,Laterite,46.3,114.5,130.0,Urea
+Chickpea,Laterite,130.3,26.9,26.6,NPK 10-26-26
+Tomato,Alluvial,46.4,78.5,63.1,Urea
+Groundnut,Black,4.0,75.2,37.9,Urea
+Soybean,Desert,100.0,34.6,92.2,DAP
+Rice,Red,18.6,86.0,10.0,Urea
+Groundnut,Laterite,56.3,37.7,99.3,Urea
+Onion,Loamy,106.3,46.8,125.1,Organic Compost
+Maize,Red,35.7,55.7,112.6,Urea
+Sugarcane,Clay,92.3,4.7,7.8,NPK 10-26-26
+Cotton,Black,78.1,34.8,74.4,DAP
+Chickpea,Sandy,135.0,6.9,58.1,DAP
+Soybean,Black,130.9,59.6,21.9,MOP
+Maize,Black,128.8,131.5,78.9,Organic Compost
+Cotton,Loamy,58.5,32.3,10.6,NPK 20-20-20
+Groundnut,Red,98.6,55.2,1.8,MOP
+Millets,Sandy,92.5,22.4,121.3,DAP
+Chickpea,Black,40.3,136.3,57.1,Urea
+Tomato,Loamy,28.8,110.8,111.2,Urea
+Mustard,Loamy,97.2,45.0,123.0,Organic Compost
+Cotton,Red,139.0,134.5,71.1,Organic Compost
+Rice,Alluvial,92.4,4.3,44.0,NPK 10-26-26
+Millets,Desert,135.6,136.4,111.8,Organic Compost
+Tomato,Alluvial,59.6,41.6,91.7,Urea
+Potato,Desert,52.4,52.9,106.3,Urea
+Onion,Red,94.7,78.8,14.6,MOP
+Chickpea,Desert,29.7,58.0,38.6,Urea
+Chickpea,Desert,43.4,116.6,117.4,Urea
+Soybean,Clay,138.3,133.6,84.8,Organic Compost
+Millets,Alluvial,37.4,84.2,54.1,Urea
+Potato,Clay,25.3,126.7,8.5,MOP
+Chickpea,Clay,25.7,30.8,136.6,Urea
+Chickpea,Clay,24.3,35.7,32.9,NPK 20-20-20
+Rice,Desert,23.2,104.5,7.1,Urea
+Millets,Alluvial,8.6,32.2,129.6,Urea
+Cotton,Sandy,41.7,101.3,95.4,Urea
+Banana,Sandy,121.4,134.5,139.5,Organic Compost
+Groundnut,Alluvial,32.1,27.6,42.1,NPK 20-20-20
+Onion,Sandy,73.6,91.0,136.1,Organic Compost
+Maize,Alluvial,93.2,76.5,67.6,Organic Compost
+Banana,Black,80.3,130.5,62.4,Organic Compost
+Maize,Alluvial,48.9,5.8,80.1,DAP
+Soybean,Desert,89.4,0.4,116.7,DAP
+Maize,Sandy,37.0,106.4,129.8,Urea
+Onion,Loamy,75.7,40.1,47.8,MOP
+Rice,Red,4.3,107.7,87.5,Urea
+Maize,Desert,125.8,135.0,71.7,Organic Compost
+Cotton,Black,132.8,124.7,103.7,Organic Compost
+Chickpea,Laterite,98.5,1.3,73.4,DAP
+Chickpea,Clay,63.2,104.3,13.4,MOP
+Sugarcane,Black,47.6,48.2,52.4,Urea
+Rice,Laterite,68.7,105.4,19.9,MOP
+Maize,Alluvial,4.0,84.9,122.6,Urea
+Potato,Laterite,29.4,20.0,123.8,Urea
+Millets,Sandy,123.5,82.4,25.2,MOP
+Onion,Sandy,58.0,86.4,67.8,Urea
+Tomato,Sandy,34.6,45.8,56.8,Urea
+Wheat,Clay,86.1,101.7,41.0,MOP
+Cotton,Alluvial,64.9,96.6,25.2,MOP
+Potato,Laterite,94.0,65.8,102.5,Organic Compost
+Groundnut,Alluvial,129.5,92.4,66.1,Organic Compost
+Millets,Red,107.7,57.6,112.7,Organic Compost
+Cotton,Clay,126.9,137.3,108.7,Organic Compost
+Soybean,Loamy,14.8,78.4,78.9,Urea
+Millets,Sandy,20.9,83.5,66.2,Urea
+Chickpea,Black,24.0,77.2,64.4,Urea
+Soybean,Loamy,126.8,103.6,29.3,MOP
+Wheat,Loamy,94.9,137.1,14.7,MOP
+Chickpea,Desert,15.5,136.2,64.7,Urea
+Maize,Laterite,117.7,127.2,23.3,MOP
+Soybean,Alluvial,38.8,77.3,84.4,Urea
+Mustard,Red,24.0,33.6,18.2,NPK 20-20-20
+Maize,Clay,40.3,127.1,34.3,Urea
+Tomato,Black,2.4,87.6,47.3,Urea
+Tomato,Laterite,108.9,56.0,12.1,MOP
+Groundnut,Loamy,139.1,20.0,45.3,DAP
+Millets,Desert,15.2,111.1,101.2,Urea
+Potato,Clay,80.5,24.0,40.0,NPK 10-26-26
+Maize,Red,104.5,92.4,114.8,Organic Compost
+Soybean,Red,9.5,111.2,10.5,Urea
+Sugarcane,Sandy,107.0,9.6,85.1,DAP
+Cotton,Clay,102.2,104.7,8.9,MOP
+Mustard,Black,69.4,138.5,12.7,MOP
+Sugarcane,Black,71.4,72.9,63.9,Urea
+Groundnut,Desert,112.7,134.2,26.5,MOP
+Mustard,Red,4.8,61.1,34.5,Urea
+Sugarcane,Alluvial,76.7,40.5,28.9,MOP
+Banana,Loamy,45.6,104.5,119.4,Urea
+Mustard,Black,139.2,50.3,28.8,MOP
+Maize,Alluvial,132.0,132.5,71.1,Organic Compost
+Chickpea,Clay,78.0,93.4,135.4,Organic Compost
+Millets,Black,105.4,98.5,26.0,MOP
+Millets,Sandy,69.2,125.1,117.2,Organic Compost
+Potato,Sandy,90.1,12.9,59.6,NPK 10-26-26
+Banana,Desert,123.9,8.1,118.3,DAP
+Soybean,Alluvial,53.4,124.3,50.2,Urea
+Soybean,Loamy,82.6,67.3,67.5,Organic Compost
+Sugarcane,Laterite,26.8,58.8,102.6,Urea
+Banana,Sandy,33.6,81.6,121.0,Urea
+Soybean,Sandy,95.0,103.6,49.0,Organic Compost
+Banana,Laterite,54.7,66.5,57.1,NPK 10-26-26
+Onion,Black,19.3,36.6,85.5,Urea
+Potato,Alluvial,68.5,118.2,10.8,MOP
+Onion,Alluvial,43.0,132.1,120.9,Urea
+Soybean,Laterite,121.4,23.7,130.0,DAP
+Rice,Alluvial,6.3,75.3,26.4,Urea
+Soybean,Red,35.4,88.9,28.3,Urea
+Banana,Clay,95.4,107.9,123.3,Organic Compost
+Cotton,Clay,18.1,6.8,100.9,Urea
+Sugarcane,Laterite,135.1,20.7,39.7,NPK 10-26-26
+Mustard,Laterite,59.6,30.4,124.5,DAP
+Groundnut,Sandy,0.6,106.8,2.2,Urea
+Maize,Alluvial,130.2,108.1,125.2,Organic Compost
+Chickpea,Laterite,24.2,101.9,82.9,Urea
+Potato,Sandy,32.5,56.6,17.4,MOP
+Chickpea,Black,120.1,73.8,127.2,Organic Compost
+Groundnut,Clay,83.6,41.9,119.2,Organic Compost
+Rice,Black,30.1,94.3,11.1,Urea
+Wheat,Alluvial,4.1,97.5,94.6,Urea
+Banana,Sandy,14.3,135.7,94.8,Urea
+Wheat,Sandy,14.5,17.8,27.7,NPK 20-20-20
+Mustard,Sandy,90.0,32.5,108.8,DAP
+Soybean,Loamy,29.3,88.2,35.9,Urea
+Soybean,Alluvial,71.8,109.7,40.9,MOP
+Potato,Sandy,98.1,57.9,61.9,Organic Compost
+Potato,Desert,134.6,15.9,79.5,MOP
+Chickpea,Red,106.6,79.4,11.4,MOP
+Rice,Alluvial,52.3,107.7,36.2,Urea
+Onion,Loamy,119.5,17.0,77.1,Organic Compost
+Wheat,Laterite,100.8,5.8,132.3,DAP
+Sugarcane,Clay,31.1,47.3,101.8,Urea
+Mustard,Sandy,113.3,91.2,117.0,Organic Compost
+Chickpea,Sandy,84.2,85.0,82.4,Organic Compost
+Potato,Alluvial,32.1,14.6,10.4,NPK 20-20-20
+Mustard,Red,58.3,48.9,127.4,Urea
+Tomato,Clay,64.2,37.9,64.4,DAP
+Chickpea,Black,106.2,61.4,31.2,MOP
+Rice,Red,43.9,32.3,8.3,NPK 20-20-20
+Groundnut,Clay,5.6,113.7,113.2,Urea
+Soybean,Desert,67.3,23.6,72.5,DAP
+Mustard,Black,135.9,49.8,30.2,MOP
+Groundnut,Laterite,2.1,127.0,8.6,Urea
+Banana,Desert,35.0,25.2,18.8,NPK 20-20-20
+Cotton,Loamy,82.4,79.8,39.4,MOP
+Maize,Sandy,137.2,61.6,52.4,Organic Compost
+Onion,Red,129.8,85.2,86.5,Organic Compost
+Millets,Laterite,29.9,137.9,117.9,Urea
+Groundnut,Desert,123.5,42.2,97.5,Organic Compost
+Wheat,Laterite,104.6,137.1,70.3,Organic Compost
+Maize,Alluvial,29.8,130.9,58.7,Urea
+Sugarcane,Red,63.1,3.5,136.2,Organic Compost
+Rice,Clay,57.9,42.2,57.2,Urea
+Mustard,Sandy,80.2,36.0,73.9,DAP
+Soybean,Desert,124.9,86.4,135.2,Organic Compost
+Soybean,Alluvial,6.7,116.7,53.7,Urea
+Wheat,Laterite,1.6,74.0,83.2,Urea
+Millets,Clay,90.2,51.1,100.7,Organic Compost
+Banana,Clay,39.2,93.3,58.1,Urea
+Groundnut,Sandy,53.6,88.8,75.6,Urea
+Cotton,Black,98.1,65.5,65.3,NPK 10-26-26
+Cotton,Sandy,124.2,80.4,75.7,Organic Compost
+Tomato,Alluvial,111.7,30.9,100.0,DAP
+Tomato,Laterite,10.5,6.5,39.2,NPK 20-20-20
+Rice,Desert,20.7,5.3,48.1,Urea
+Wheat,Red,9.1,52.5,60.2,Urea
+Chickpea,Loamy,47.1,69.1,97.6,Urea
+Soybean,Alluvial,7.7,124.3,97.3,Urea
+Wheat,Black,75.8,10.3,100.0,DAP
+Banana,Black,56.1,4.0,7.8,NPK 20-20-20
+Tomato,Black,23.9,14.9,52.7,NPK 20-20-20
+Potato,Black,95.8,59.5,61.9,Organic Compost
+Onion,Laterite,2.2,120.4,69.5,Urea
+Tomato,Loamy,36.2,59.8,94.1,Urea
+Sugarcane,Sandy,125.5,32.9,92.6,DAP
+Maize,Red,111.9,131.6,90.1,Organic Compost
+Tomato,Red,95.2,121.3,3.3,MOP
+Potato,Black,59.1,107.6,70.4,Urea
+Soybean,Loamy,72.2,96.4,15.0,DAP
+Mustard,Alluvial,41.8,63.6,91.0,Urea
+Groundnut,Laterite,15.5,120.3,78.7,Urea
+Chickpea,Loamy,114.1,47.9,19.5,MOP
+Onion,Black,123.7,138.5,83.5,Organic Compost
+Banana,Loamy,15.4,109.6,113.7,Urea
+Mustard,Desert,91.9,128.1,22.1,MOP
+Soybean,Black,116.7,91.3,82.7,Organic Compost
+Tomato,Sandy,124.6,50.6,53.3,MOP
+Groundnut,Black,56.7,108.3,63.7,Urea
+Soybean,Desert,122.3,25.0,17.2,NPK 10-26-26
+Groundnut,Black,98.0,86.3,54.6,Organic Compost
+Millets,Black,59.8,99.6,113.5,Urea
+Millets,Red,40.3,3.2,135.7,DAP
+Sugarcane,Red,124.9,21.5,5.9,NPK 10-26-26
+Soybean,Sandy,22.5,9.5,26.0,NPK 20-20-20
+Banana,Red,33.0,112.8,134.4,Urea
+Groundnut,Laterite,114.5,124.0,8.4,MOP
+Millets,Loamy,5.4,105.5,33.8,Urea
+Potato,Alluvial,68.9,3.3,124.6,DAP
+Potato,Desert,96.3,9.7,75.9,DAP
+Mustard,Sandy,20.5,24.2,21.5,NPK 20-20-20
+Banana,Desert,9.0,54.6,135.4,Urea
+Maize,Laterite,20.2,87.0,81.4,Urea
+Onion,Desert,16.9,56.7,0.1,MOP
+Onion,Loamy,63.8,121.5,3.3,MOP
+Millets,Clay,91.5,16.3,122.6,DAP
+Banana,Black,131.6,123.3,28.7,MOP
+Maize,Clay,69.8,124.5,122.4,Urea
+Cotton,Laterite,74.8,63.1,100.1,Organic Compost
+Chickpea,Sandy,48.7,124.4,45.6,Urea
+Sugarcane,Sandy,120.0,97.9,42.6,MOP
+Millets,Laterite,57.6,5.1,51.3,DAP
+Potato,Desert,101.8,15.1,42.2,NPK 10-26-26
+Millets,Black,0.7,130.9,126.6,Urea
+Groundnut,Alluvial,116.7,99.2,71.6,Organic Compost
+Soybean,Laterite,33.4,125.4,93.2,Urea
+Maize,Alluvial,11.9,66.9,15.6,Urea
+Chickpea,Alluvial,27.6,71.6,113.0,Urea
+Sugarcane,Red,104.0,4.8,84.6,DAP
+Rice,Alluvial,62.5,0.9,39.7,NPK 20-20-20
+Maize,Black,6.7,94.4,103.9,Urea
+Sugarcane,Black,69.5,57.0,82.0,Urea
+Banana,Red,139.3,89.3,43.1,MOP
+Groundnut,Alluvial,131.0,47.6,95.9,Organic Compost
+Maize,Sandy,101.0,43.7,53.4,Organic Compost
+Wheat,Black,120.4,18.8,113.8,DAP
+Mustard,Black,139.6,0.6,117.9,DAP
+Wheat,Sandy,47.3,50.5,117.7,Urea
+Millets,Clay,90.2,95.6,6.7,MOP
+Potato,Sandy,24.8,118.0,55.2,Urea
+Maize,Clay,121.9,1.4,11.7,NPK 10-26-26
+Wheat,Desert,111.1,49.1,108.7,Organic Compost
+Wheat,Alluvial,67.4,87.6,117.1,Organic Compost
+Cotton,Clay,21.2,111.3,130.7,Urea
+Tomato,Laterite,110.3,123.2,90.8,Organic Compost
+Wheat,Red,42.0,138.8,118.7,Urea
+Onion,Desert,130.6,9.0,127.2,DAP
+Mustard,Loamy,51.9,32.5,61.4,Urea
+Soybean,Clay,50.3,48.7,94.5,Urea
+Maize,Red,109.8,93.4,33.8,MOP
+Onion,Clay,10.4,125.2,12.8,Urea
+Groundnut,Sandy,102.2,40.3,126.7,Organic Compost
+Rice,Red,3.1,84.4,20.9,Urea
+Sugarcane,Desert,88.6,1.5,68.7,DAP
+Mustard,Clay,4.0,51.9,33.3,Urea
+Sugarcane,Alluvial,100.8,66.9,114.3,Organic Compost
+Rice,Clay,133.1,29.8,34.0,NPK 10-26-26
+Tomato,Laterite,116.9,117.9,43.5,MOP
+Maize,Red,82.9,69.6,103.2,Organic Compost
+Mustard,Clay,14.6,61.5,2.2,Urea
+Cotton,Red,126.2,53.2,38.3,MOP
+Soybean,Sandy,67.4,40.4,42.3,MOP
+Banana,Red,23.6,90.0,125.3,Urea
+Cotton,Black,125.7,79.5,102.2,Organic Compost
+Chickpea,Sandy,103.9,54.2,131.3,Organic Compost
+Millets,Alluvial,83.3,13.3,73.1,DAP
+Millets,Sandy,63.9,77.4,90.9,Organic Compost
+Onion,Red,67.5,79.3,129.3,Organic Compost
+Potato,Loamy,129.2,100.5,46.0,MOP
+Soybean,Desert,61.3,35.3,73.2,DAP
+Rice,Loamy,138.8,135.7,85.9,Organic Compost
+Potato,Clay,133.1,122.2,126.0,Organic Compost
+Maize,Black,6.2,92.3,130.7,Urea
+Potato,Clay,116.3,72.6,63.3,Organic Compost
+Maize,Alluvial,111.2,92.0,23.8,MOP
+Maize,Loamy,110.3,117.2,35.5,MOP
+Cotton,Black,55.2,69.0,112.7,Urea
+Groundnut,Alluvial,103.2,122.9,133.6,Organic Compost
+Chickpea,Black,69.9,126.1,44.2,MOP
+Soybean,Desert,63.8,88.0,139.4,Organic Compost
+Tomato,Red,39.6,86.4,22.8,MOP
+Banana,Red,75.7,118.2,74.1,Organic Compost
+Maize,Desert,103.6,90.0,1.1,MOP
+Cotton,Red,71.7,133.2,44.9,MOP
+Chickpea,Clay,138.7,109.2,19.4,MOP
+Groundnut,Laterite,88.7,93.6,113.0,Organic Compost
+Maize,Desert,30.1,17.4,116.0,Urea
+Maize,Laterite,44.6,6.5,27.1,NPK 20-20-20
+Potato,Black,139.0,110.1,118.8,Organic Compost
+Onion,Sandy,65.3,128.4,59.7,MOP
+Sugarcane,Loamy,14.8,91.8,139.7,Urea
+Chickpea,Black,19.3,49.9,20.4,Urea
+Rice,Clay,92.1,86.4,61.0,Organic Compost
+Wheat,Sandy,58.7,42.8,92.3,Urea
+Sugarcane,Black,67.7,40.5,102.7,Urea
+Banana,Clay,64.6,2.2,18.7,NPK 20-20-20
+Maize,Loamy,107.6,123.6,44.8,MOP
+Wheat,Sandy,117.8,58.8,133.2,Organic Compost
+Millets,Clay,11.7,64.9,25.1,Urea
+Potato,Black,99.8,8.8,28.1,NPK 10-26-26
+Maize,Clay,35.2,114.4,110.4,Urea
+Onion,Sandy,89.2,84.2,15.3,MOP
+Rice,Clay,2.9,17.7,84.1,Urea
+Cotton,Red,122.0,47.3,65.2,Organic Compost
+Maize,Laterite,83.9,131.0,37.0,MOP
+Wheat,Desert,78.4,135.2,121.3,Organic Compost
+Soybean,Laterite,67.2,23.2,63.5,DAP
+Mustard,Desert,134.4,134.7,2.7,MOP
+Soybean,Black,86.1,132.4,122.7,Organic Compost
+Banana,Red,70.2,39.5,77.5,Urea
+Wheat,Clay,65.0,98.1,122.2,Organic Compost
+Tomato,Loamy,118.4,133.1,22.8,MOP
+Onion,Laterite,40.0,22.1,82.0,Urea
+Chickpea,Sandy,39.3,0.1,107.4,DAP
+Onion,Red,32.9,47.9,67.9,Urea
+Millets,Sandy,20.4,25.7,118.6,Urea
+Rice,Black,0.5,108.4,103.4,Urea
+Chickpea,Alluvial,110.0,13.9,64.5,DAP
+Rice,Black,53.2,92.5,94.2,Urea
+Onion,Laterite,58.7,68.0,48.5,MOP
+Cotton,Red,66.9,53.5,82.0,Organic Compost
+Groundnut,Desert,86.1,102.8,13.7,MOP
+Soybean,Loamy,121.3,135.9,32.3,MOP
+Rice,Sandy,103.5,66.1,49.7,Organic Compost
+Groundnut,Alluvial,75.7,10.3,35.6,NPK 10-26-26
+Soybean,Clay,124.5,100.2,94.5,Organic Compost
+Cotton,Loamy,91.5,121.5,106.9,Organic Compost
+Chickpea,Loamy,73.9,90.8,98.1,Organic Compost
+Cotton,Black,34.8,69.0,28.6,Urea
+Banana,Black,20.5,118.1,75.9,Urea
+Banana,Alluvial,40.0,2.5,0.5,DAP
+Chickpea,Red,111.8,72.3,34.3,MOP
+Wheat,Desert,49.1,79.5,94.2,Urea
+Chickpea,Clay,49.6,57.4,120.2,Urea
+Millets,Loamy,110.9,71.8,88.9,Organic Compost
+Millets,Alluvial,57.0,39.4,94.9,Urea
+Wheat,Alluvial,11.1,65.5,55.8,Urea
+Millets,Alluvial,68.8,92.0,43.9,MOP
+Wheat,Clay,51.7,127.0,3.5,MOP
+Sugarcane,Alluvial,20.6,55.6,63.6,Urea
+Millets,Black,87.7,131.7,55.0,Organic Compost
+Potato,Black,17.9,132.7,132.8,Urea
+Millets,Desert,80.9,117.3,43.9,MOP
+Rice,Sandy,18.1,119.3,137.4,Urea
+Sugarcane,Black,82.4,12.1,88.4,DAP
+Wheat,Loamy,105.9,15.9,42.2,NPK 10-26-26
+Soybean,Desert,39.9,87.0,34.6,Urea
+Wheat,Clay,37.8,61.0,2.6,MOP
+Mustard,Red,120.4,12.4,109.5,DAP
+Cotton,Loamy,102.8,33.3,58.3,DAP
+Onion,Laterite,68.8,97.7,67.0,Organic Compost
+Sugarcane,Laterite,62.0,56.6,81.7,Urea
+Tomato,Loamy,72.9,94.2,50.2,MOP
+Sugarcane,Clay,50.8,34.2,106.8,Urea
+Sugarcane,Clay,138.9,90.4,19.9,MOP
+Cotton,Black,70.0,32.7,113.5,DAP
+Onion,Desert,114.4,112.2,88.2,MOP
+Maize,Red,119.4,101.0,113.5,Organic Compost
+Sugarcane,Desert,32.1,46.5,117.7,Urea
+Tomato,Sandy,77.3,121.3,21.9,MOP
+Wheat,Sandy,118.2,129.2,56.0,Organic Compost
+Soybean,Laterite,44.6,3.4,35.0,NPK 20-20-20
+Chickpea,Red,40.4,120.2,28.5,Urea
+Tomato,Clay,64.9,101.4,44.6,DAP
+Tomato,Black,64.6,125.8,101.8,Organic Compost
+Potato,Alluvial,122.7,137.8,88.8,Organic Compost
+Rice,Desert,33.1,127.7,96.4,Urea
+Chickpea,Red,71.7,8.2,92.5,NPK 20-20-20
+Maize,Black,21.8,47.6,127.2,Urea
+Wheat,Red,106.3,120.8,103.1,Organic Compost
+Tomato,Sandy,104.3,59.1,42.3,MOP
+Wheat,Clay,91.0,108.1,87.9,Organic Compost
+Groundnut,Black,45.3,78.6,2.3,MOP
+Tomato,Black,12.4,93.0,27.1,Urea
+Onion,Black,23.2,102.9,54.4,Urea
+Soybean,Black,77.3,59.0,7.2,MOP
+Cotton,Loamy,129.8,113.1,80.0,Organic Compost
+Groundnut,Clay,76.9,116.9,80.9,DAP
+Mustard,Alluvial,13.9,95.7,73.7,Urea
+Mustard,Red,34.9,1.8,29.2,NPK 20-20-20
+Banana,Desert,94.4,110.6,113.8,DAP
+Potato,Alluvial,138.5,73.8,8.9,Urea
+Mustard,Red,73.4,52.0,98.3,Organic Compost
+Cotton,Desert,35.9,26.7,43.5,NPK 20-20-20
+Banana,Laterite,100.1,69.7,93.5,Organic Compost
+Maize,Laterite,72.7,80.2,26.1,MOP
+Cotton,Alluvial,13.8,35.0,91.6,Urea
+Millets,Alluvial,66.1,48.5,21.9,MOP
+Groundnut,Sandy,17.1,32.2,51.1,Urea
+Cotton,Clay,47.2,135.2,63.7,Urea
+Chickpea,Desert,103.1,76.7,84.1,Organic Compost
+Potato,Black,48.6,58.9,137.9,Urea
+Soybean,Alluvial,61.0,23.7,95.9,DAP
+Banana,Clay,104.8,65.9,118.3,Organic Compost
+Groundnut,Loamy,84.7,34.4,6.9,NPK 10-26-26
+Chickpea,Loamy,91.5,29.8,25.2,NPK 10-26-26
+Maize,Alluvial,139.9,100.8,88.1,Organic Compost
+Sugarcane,Clay,127.4,101.1,99.4,Organic Compost
+Maize,Alluvial,139.9,2.2,69.4,DAP
+Millets,Clay,103.0,87.9,10.5,MOP
+Onion,Alluvial,137.1,17.9,135.4,DAP
+Potato,Clay,80.4,116.4,88.8,Organic Compost
+Chickpea,Sandy,36.4,130.9,90.1,Urea
+Sugarcane,Red,74.6,123.5,111.5,Urea
+Millets,Sandy,0.2,46.6,117.5,Urea
+Tomato,Red,0.1,3.2,20.4,NPK 20-20-20
+Sugarcane,Laterite,126.0,11.8,121.8,DAP
+Soybean,Black,40.6,27.2,110.5,Urea
+Wheat,Red,7.6,23.6,88.2,Urea
+Chickpea,Loamy,85.8,96.3,17.5,MOP
+Sugarcane,Laterite,116.9,65.6,57.0,Organic Compost
+Cotton,Sandy,86.8,100.4,91.9,Organic Compost
+Onion,Desert,43.1,25.5,129.7,Urea
+Wheat,Desert,69.6,134.7,17.2,MOP
+Onion,Laterite,0.4,27.0,21.5,NPK 20-20-20
+Cotton,Desert,135.2,124.8,138.4,Organic Compost
+Rice,Desert,27.7,36.0,120.7,Urea
+Cotton,Sandy,78.7,42.8,39.9,MOP
+Mustard,Loamy,50.3,86.4,58.8,Urea
+Millets,Sandy,64.1,133.0,67.9,Organic Compost
+Chickpea,Clay,124.7,106.9,84.6,Organic Compost
+Wheat,Loamy,28.2,30.0,4.8,NPK 20-20-20
+Potato,Alluvial,81.5,19.3,9.3,NPK 10-26-26
+Mustard,Clay,49.8,128.7,1.4,MOP
+Tomato,Black,44.2,3.3,4.9,NPK 20-20-20
+Banana,Sandy,29.2,126.2,96.3,Urea
+Tomato,Laterite,41.0,116.3,69.2,Urea
+Potato,Black,41.5,56.4,83.0,Urea
+Banana,Red,46.0,3.4,52.2,DAP
+Soybean,Desert,103.6,16.5,124.6,DAP
+Rice,Black,130.8,100.0,109.6,Organic Compost
+Wheat,Black,111.9,66.8,135.4,Organic Compost
+Maize,Red,103.0,80.1,60.7,Organic Compost
+Cotton,Sandy,80.8,44.7,86.6,Organic Compost
+Potato,Clay,91.5,69.5,2.6,MOP
+Sugarcane,Red,84.2,110.9,134.4,Organic Compost
+Rice,Sandy,87.0,60.2,85.4,Organic Compost
+Banana,Laterite,127.5,78.9,14.1,MOP
+Chickpea,Desert,14.0,136.0,138.3,Urea
+Millets,Red,1.2,2.2,54.3,Urea
+Banana,Desert,21.7,68.3,70.2,Urea
+Millets,Loamy,129.5,61.4,19.3,MOP
+Mustard,Alluvial,131.6,131.6,12.9,MOP
+Groundnut,Clay,65.0,67.0,135.8,Organic Compost
+Banana,Loamy,16.1,42.3,119.1,Urea
+Onion,Loamy,15.9,119.1,41.7,Urea
+Maize,Black,72.9,78.7,47.7,Urea
+Onion,Laterite,97.6,76.1,122.9,Organic Compost
+Onion,Alluvial,26.4,16.6,73.6,Urea
+Rice,Alluvial,39.6,71.3,100.0,Urea
+Onion,Desert,27.9,72.0,35.4,Urea
+Mustard,Black,134.6,100.3,78.0,Organic Compost
+Millets,Red,2.9,128.1,111.3,Urea
+Wheat,Alluvial,43.1,106.8,70.4,Urea
+Rice,Alluvial,129.3,23.2,44.6,NPK 10-26-26
+Cotton,Sandy,71.5,120.8,8.6,MOP
+Rice,Black,37.0,99.3,74.5,Urea
+Mustard,Clay,44.4,12.0,55.5,DAP
+Maize,Laterite,136.8,119.9,110.7,Organic Compost
+Groundnut,Loamy,126.2,82.6,52.2,Organic Compost
+Banana,Clay,52.0,110.7,137.6,Urea
+Tomato,Red,23.8,66.5,91.6,Urea
+Cotton,Laterite,75.2,38.5,3.3,NPK 10-26-26
+Onion,Clay,38.9,1.9,59.5,NPK 20-20-20
+Groundnut,Clay,57.9,80.1,104.4,Urea
+Banana,Sandy,96.7,13.8,58.9,DAP
+Wheat,Black,43.4,94.9,126.3,Urea
+Wheat,Clay,30.8,120.5,124.5,Urea
+Rice,Desert,134.6,129.5,71.8,Organic Compost
+Millets,Alluvial,30.3,91.3,17.8,Urea
+Tomato,Black,12.3,32.9,6.8,NPK 20-20-20
+Soybean,Loamy,40.5,112.2,56.7,Urea
+Onion,Sandy,19.0,7.9,117.9,Urea
+Soybean,Black,95.2,46.1,7.9,MOP
+Banana,Clay,54.7,76.3,19.1,MOP
+Cotton,Black,66.2,118.6,106.9,Organic Compost
+Onion,Alluvial,31.6,119.3,72.2,Urea
+Maize,Red,82.7,83.3,87.7,Organic Compost
+Sugarcane,Black,60.0,136.5,38.1,Urea
+Maize,Desert,79.3,68.5,16.9,MOP
+Millets,Desert,137.3,28.2,128.8,DAP
+Rice,Loamy,31.3,34.8,86.7,Urea
+Banana,Desert,37.0,122.9,64.5,Urea
+Onion,Black,105.8,115.7,5.5,MOP
+Cotton,Laterite,86.1,91.1,116.3,Organic Compost
+Potato,Alluvial,26.1,131.2,76.5,Urea
+Soybean,Clay,82.2,51.4,2.6,MOP
+Maize,Sandy,36.7,37.2,38.0,NPK 20-20-20
+Potato,Red,43.5,52.7,137.2,Urea
+Soybean,Laterite,65.8,100.7,123.7,Organic Compost
+Banana,Laterite,64.4,46.2,109.1,Urea
+Cotton,Red,72.6,28.8,97.2,DAP
+Banana,Red,9.5,30.8,27.3,NPK 20-20-20
+Groundnut,Sandy,75.3,54.2,124.5,Organic Compost
+Onion,Loamy,92.1,111.5,101.2,Organic Compost
+Banana,Loamy,21.3,113.3,91.5,Urea
+Mustard,Black,71.4,101.4,121.4,Organic Compost
+Cotton,Black,137.5,137.4,135.7,Organic Compost
+Chickpea,Clay,10.6,35.8,12.9,NPK 20-20-20
+Chickpea,Desert,90.9,64.6,111.0,Organic Compost
+Potato,Laterite,88.1,71.7,89.8,Organic Compost
+Maize,Laterite,58.1,78.2,126.7,Urea
+Chickpea,Clay,86.4,1.7,66.7,DAP
+Millets,Black,32.8,99.7,87.8,Urea
+Mustard,Laterite,54.5,124.1,130.5,Urea
+Wheat,Red,127.9,114.7,17.4,MOP
+Chickpea,Red,102.2,73.3,37.4,MOP
+Banana,Laterite,93.2,71.2,36.5,MOP
+Maize,Desert,24.7,74.0,52.6,Urea
+Rice,Desert,134.1,49.0,48.6,Organic Compost
+Millets,Loamy,3.7,69.5,21.4,Urea
+Maize,Desert,12.4,108.9,116.3,Urea
+Soybean,Desert,86.9,74.9,94.0,Organic Compost
+Potato,Alluvial,61.9,104.1,128.6,Organic Compost
+Wheat,Red,18.4,131.0,32.3,Urea
+Onion,Black,2.5,31.4,69.0,Urea
+Chickpea,Desert,76.3,16.5,87.5,DAP
+Soybean,Sandy,110.1,138.0,80.7,Organic Compost
+Wheat,Laterite,56.4,63.1,4.2,MOP
+Groundnut,Desert,129.9,6.8,137.1,DAP
+Banana,Alluvial,127.9,134.5,88.0,Organic Compost
+Mustard,Red,80.1,102.4,78.6,Organic Compost
+Mustard,Sandy,117.4,117.0,18.5,MOP
+Millets,Alluvial,88.6,33.9,130.2,DAP
+Chickpea,Laterite,102.4,29.0,12.8,NPK 10-26-26
+Groundnut,Loamy,124.4,31.2,106.4,NPK 20-20-20
+Cotton,Laterite,115.7,132.0,88.6,Organic Compost
+Tomato,Sandy,38.6,129.2,81.6,Urea
+Rice,Sandy,15.9,105.2,57.7,Urea
+Sugarcane,Black,114.6,18.2,21.1,NPK 10-26-26
+Groundnut,Alluvial,136.7,113.1,48.8,Organic Compost
+Maize,Black,85.0,14.5,48.9,DAP
+Chickpea,Alluvial,56.5,101.8,128.9,Urea
+Banana,Red,47.1,93.9,70.0,Urea
+Wheat,Black,97.9,103.1,15.3,MOP
+Rice,Red,9.5,46.7,102.3,Urea
+Cotton,Laterite,39.2,58.5,53.4,Urea
+Groundnut,Alluvial,63.7,14.3,40.6,NPK 10-26-26
+Groundnut,Sandy,59.2,94.1,12.3,MOP
+Potato,Black,12.9,108.3,18.3,Urea
+Maize,Clay,41.0,128.8,138.4,Urea
+Soybean,Laterite,69.7,69.4,65.2,DAP
+Millets,Black,19.7,49.2,81.3,Urea
+Wheat,Black,108.0,31.7,4.6,NPK 10-26-26
+Cotton,Black,128.8,130.7,14.7,MOP
+Chickpea,Black,127.6,10.9,105.2,DAP
+Cotton,Loamy,24.8,112.9,93.9,MOP
+Sugarcane,Alluvial,74.4,115.8,54.2,Urea
+Groundnut,Clay,120.1,126.6,87.7,Organic Compost
+Maize,Sandy,97.9,1.4,38.5,NPK 10-26-26
+Soybean,Alluvial,133.4,81.1,119.8,Organic Compost
+Banana,Desert,15.6,67.0,68.1,Urea
+Onion,Sandy,114.8,133.9,77.7,Organic Compost
+Potato,Black,87.6,66.6,134.3,Organic Compost
+Chickpea,Red,46.1,68.0,120.8,Urea
+Onion,Alluvial,102.8,102.3,13.1,MOP
+Millets,Black,121.0,1.6,130.8,DAP
+Cotton,Sandy,84.1,96.9,109.2,Organic Compost
+Wheat,Sandy,11.5,120.8,137.7,Urea
+Chickpea,Black,105.8,37.7,134.7,DAP
+Rice,Desert,25.4,105.4,91.2,Urea
+Wheat,Black,123.1,62.5,18.8,MOP
+Cotton,Alluvial,83.1,53.9,99.5,NPK 10-26-26
+Soybean,Laterite,59.8,104.5,37.2,MOP
+Soybean,Red,67.3,29.4,95.8,DAP
+Chickpea,Laterite,78.1,52.8,98.2,Organic Compost
+Tomato,Clay,73.2,51.4,28.2,MOP
+Groundnut,Clay,16.9,30.2,93.1,Urea
+Millets,Desert,4.1,123.0,101.6,Urea
+Chickpea,Laterite,43.0,2.0,110.2,DAP
+Rice,Black,38.7,121.8,40.3,Urea
+Maize,Sandy,124.9,110.8,75.0,DAP
+Maize,Desert,57.9,50.7,72.0,Urea
+Sugarcane,Red,7.3,139.3,118.0,Urea
+Onion,Alluvial,134.9,131.0,55.0,MOP
+Soybean,Clay,91.5,97.0,38.4,MOP
+Millets,Alluvial,65.8,103.8,52.1,Organic Compost
+Chickpea,Loamy,89.5,136.0,78.8,Organic Compost
+Tomato,Red,74.8,16.7,82.3,DAP
+Cotton,Loamy,26.9,69.4,5.3,MOP
+Cotton,Red,126.7,73.7,109.3,Organic Compost
+Sugarcane,Sandy,121.9,31.6,42.5,NPK 10-26-26
+Banana,Desert,85.3,94.9,16.0,MOP
+Chickpea,Clay,87.6,114.4,97.1,Organic Compost
+Potato,Sandy,54.7,52.0,107.4,Urea
+Rice,Alluvial,70.6,40.4,70.6,Urea
+Banana,Clay,70.0,57.9,4.5,MOP
+Rice,Desert,10.3,99.4,11.6,Urea
+Tomato,Alluvial,69.9,104.6,54.0,MOP
+Potato,Red,47.9,21.2,66.0,DAP
+Groundnut,Red,83.0,109.5,119.4,Organic Compost
+Groundnut,Alluvial,78.1,99.5,107.9,Organic Compost
+Banana,Desert,126.3,66.2,133.5,Organic Compost
+Onion,Loamy,25.5,78.2,2.0,MOP
+Rice,Desert,87.4,23.2,80.5,DAP
+Soybean,Desert,92.5,35.0,139.6,DAP
+Onion,Alluvial,4.1,74.0,121.1,Urea
+Soybean,Sandy,135.7,99.8,22.7,Organic Compost
+Wheat,Black,28.2,8.6,63.5,Urea
+Maize,Alluvial,112.5,129.5,21.3,DAP
+Groundnut,Alluvial,103.2,4.9,94.3,DAP
+Banana,Black,91.5,69.2,28.8,MOP
+Sugarcane,Sandy,117.7,98.2,30.9,MOP
+Sugarcane,Clay,33.1,40.0,124.5,Urea
+Rice,Alluvial,66.5,137.4,93.2,Urea
+Sugarcane,Laterite,59.0,42.9,72.8,Urea
+Soybean,Red,49.2,103.1,74.8,Urea
+Tomato,Sandy,56.7,55.3,49.3,MOP
+Wheat,Laterite,54.0,75.1,98.6,Urea
+Chickpea,Loamy,119.2,103.5,25.2,MOP
+Onion,Sandy,93.2,138.7,41.2,MOP
+Cotton,Black,137.8,59.8,109.7,Organic Compost
+Maize,Laterite,8.8,114.2,14.9,Urea
+Maize,Desert,127.3,57.2,73.6,NPK 10-26-26
+Tomato,Laterite,82.7,14.1,137.4,Organic Compost
+Sugarcane,Loamy,69.7,33.5,138.1,DAP
+Potato,Sandy,16.2,7.9,68.3,Urea
+Chickpea,Laterite,41.1,2.3,131.7,DAP
+Chickpea,Clay,2.2,13.6,23.8,NPK 20-20-20
+Potato,Desert,55.6,112.2,16.3,MOP
+Chickpea,Alluvial,32.3,13.4,1.5,MOP
+Mustard,Laterite,7.6,55.2,61.2,Urea
+Chickpea,Black,69.8,54.9,138.5,Organic Compost
+Soybean,Alluvial,115.4,37.2,25.7,NPK 10-26-26
+Maize,Loamy,86.2,1.1,36.5,NPK 10-26-26
+Banana,Clay,54.0,80.8,130.5,Urea
+Groundnut,Black,77.8,97.9,109.5,Organic Compost
+Soybean,Sandy,96.6,7.6,76.3,DAP
+Chickpea,Sandy,81.7,57.3,68.2,Organic Compost
+Banana,Red,109.8,85.0,62.1,Organic Compost
+Potato,Loamy,112.0,17.1,127.5,DAP
+Potato,Red,1.4,14.7,20.2,NPK 20-20-20
+Potato,Alluvial,134.4,92.2,114.9,Organic Compost
+Soybean,Loamy,123.3,36.7,97.2,DAP
+Onion,Desert,62.2,119.9,70.5,Organic Compost
+Tomato,Red,63.2,36.1,4.2,NPK 10-26-26
+Onion,Clay,123.6,122.2,77.5,Organic Compost
+Tomato,Laterite,64.8,66.4,35.6,MOP
+Chickpea,Laterite,136.5,24.1,10.7,NPK 10-26-26
+Onion,Black,138.9,78.2,50.4,MOP
+Rice,Laterite,29.2,55.2,40.1,Urea
+Potato,Clay,36.8,87.0,99.2,Urea
+Cotton,Laterite,50.2,52.2,62.5,Urea
+Potato,Laterite,105.3,55.2,132.4,Organic Compost
+Cotton,Laterite,84.2,76.1,132.6,Organic Compost
+Maize,Laterite,83.4,83.5,110.2,Organic Compost
+Millets,Alluvial,107.0,100.5,82.0,Organic Compost
+Banana,Desert,103.4,36.0,42.7,NPK 10-26-26
+Wheat,Desert,68.7,123.1,53.5,Organic Compost
+Chickpea,Sandy,7.1,19.4,102.0,Urea
+Cotton,Black,12.5,31.5,35.1,NPK 20-20-20
+Maize,Desert,90.2,97.1,18.6,MOP
+Groundnut,Desert,88.8,113.4,50.0,Organic Compost
+Onion,Loamy,28.8,115.5,46.7,Urea
+Cotton,Black,89.4,110.8,57.5,Organic Compost
+Rice,Red,122.2,101.0,129.8,Organic Compost
+Maize,Laterite,57.9,116.1,117.7,Urea
+Soybean,Sandy,64.8,30.6,7.0,NPK 10-26-26
+Sugarcane,Sandy,93.1,78.7,47.9,Organic Compost
+Maize,Alluvial,20.7,88.0,107.5,Urea
+Millets,Alluvial,114.0,83.6,42.2,MOP
+Sugarcane,Desert,53.1,87.8,36.5,Urea
+Wheat,Black,4.5,101.3,20.4,Urea
+Mustard,Clay,118.5,41.9,17.4,MOP
+Potato,Black,52.3,79.6,90.2,Urea
+Millets,Black,121.2,132.3,89.9,Organic Compost
+Maize,Sandy,18.0,125.6,29.2,Urea
+Banana,Black,98.8,105.5,103.7,Organic Compost
+Soybean,Loamy,83.7,100.8,69.9,Organic Compost
+Potato,Sandy,23.8,91.3,20.8,MOP
+Rice,Laterite,117.5,12.4,64.5,DAP
+Groundnut,Clay,17.5,67.9,14.7,Urea
+Wheat,Red,83.2,23.8,49.2,DAP
+Rice,Loamy,0.5,139.0,58.3,Urea
+Chickpea,Red,35.5,118.5,106.1,Urea
+Maize,Clay,24.5,130.8,63.7,Urea
+Mustard,Sandy,40.0,79.7,135.3,NPK 10-26-26
+Soybean,Loamy,47.6,44.5,104.8,Urea
+Potato,Clay,132.7,14.2,31.8,NPK 10-26-26
+Chickpea,Laterite,87.7,28.1,62.8,DAP
+Groundnut,Laterite,88.1,84.8,138.1,Organic Compost
+Potato,Red,133.2,120.4,13.3,MOP
+Banana,Loamy,13.6,79.0,29.8,Urea
+Soybean,Clay,55.1,133.0,107.3,Urea
+Mustard,Laterite,131.9,4.8,118.1,Urea
+Groundnut,Black,44.1,103.3,125.9,Urea
+Onion,Sandy,40.6,136.6,57.1,Urea
+Tomato,Clay,51.4,48.0,95.1,Urea
+Tomato,Sandy,120.0,135.3,46.2,MOP
+Millets,Loamy,30.4,111.7,36.6,Urea
+Soybean,Loamy,117.1,71.6,82.1,Organic Compost
+Groundnut,Clay,56.3,81.2,118.4,Urea
+Wheat,Red,37.2,79.3,40.8,Urea
+Mustard,Black,62.5,65.3,73.6,Organic Compost
+Rice,Loamy,51.4,126.1,71.6,Urea
+Cotton,Loamy,51.9,103.4,24.8,MOP
+Rice,Loamy,14.6,59.0,99.8,Urea
+Cotton,Red,129.4,49.9,22.3,MOP
+Soybean,Loamy,78.1,90.7,134.1,Organic Compost
+Groundnut,Black,32.7,59.8,16.9,MOP
+Chickpea,Clay,22.9,128.3,127.6,Urea
+Cotton,Clay,99.6,49.9,78.6,Organic Compost
+Cotton,Laterite,116.2,81.9,53.5,Organic Compost
+Tomato,Desert,9.4,46.3,21.8,Urea
+Cotton,Loamy,18.2,85.7,70.1,Urea
+Cotton,Clay,99.3,0.7,134.4,DAP
+Mustard,Alluvial,59.8,19.7,79.8,DAP
+Tomato,Black,137.9,46.6,58.1,MOP
+Wheat,Clay,27.5,17.9,123.4,Urea
+Wheat,Clay,80.9,115.3,9.8,MOP
+Rice,Red,8.2,107.1,25.0,Urea
+Onion,Loamy,9.6,28.3,68.5,Urea
+Cotton,Loamy,102.0,49.4,56.6,Organic Compost
+Mustard,Red,7.1,81.2,24.2,Urea
+Potato,Alluvial,8.4,39.9,61.4,Urea
+Millets,Sandy,136.3,49.2,8.3,MOP
+Cotton,Sandy,9.5,11.7,66.7,Urea
+Onion,Loamy,30.7,134.3,71.7,Urea
+Millets,Black,86.4,121.1,3.2,MOP
+Soybean,Black,67.0,114.2,96.6,Organic Compost
+Sugarcane,Black,116.6,86.0,9.7,MOP
+Cotton,Alluvial,4.0,116.7,1.8,Urea
+Mustard,Alluvial,123.2,6.3,52.2,DAP
+Groundnut,Red,40.7,124.3,107.6,Urea
+Cotton,Sandy,46.2,26.0,74.2,DAP
+Tomato,Sandy,5.5,99.8,41.9,Urea
+Groundnut,Desert,30.2,16.5,29.4,NPK 20-20-20
+Sugarcane,Loamy,137.2,121.8,100.1,Organic Compost
+Mustard,Red,129.9,75.5,22.8,MOP
+Chickpea,Loamy,21.8,102.9,32.7,Urea
+Chickpea,Red,81.0,41.0,5.7,MOP
+Banana,Black,71.6,64.3,10.9,MOP
+Wheat,Red,67.9,115.1,30.6,MOP
+Rice,Alluvial,84.9,45.6,93.8,Organic Compost
+Maize,Alluvial,58.6,135.5,38.5,Urea
+Sugarcane,Loamy,36.5,109.1,0.5,MOP
+Wheat,Loamy,128.4,1.3,84.1,MOP
+Potato,Desert,60.8,135.5,95.5,Organic Compost
+Soybean,Clay,35.9,96.0,95.2,Urea
+Millets,Loamy,97.4,87.6,61.1,Organic Compost
+Soybean,Red,31.4,88.3,26.6,Urea
+Sugarcane,Red,59.0,95.5,123.9,Urea
+Cotton,Red,47.3,105.0,127.1,Urea
+Wheat,Loamy,53.1,66.9,60.5,Urea
+Potato,Loamy,86.4,71.4,34.3,MOP
+Rice,Black,98.1,110.4,117.6,Organic Compost
+Maize,Desert,64.1,87.3,120.1,Urea
+Mustard,Black,22.3,79.1,19.7,Urea
+Tomato,Red,31.9,50.5,98.2,Urea
+Soybean,Sandy,23.5,98.8,79.6,Urea
+Rice,Sandy,121.4,36.1,68.0,NPK 10-26-26
+Cotton,Desert,112.2,70.7,138.9,Organic Compost
+Wheat,Sandy,107.7,116.3,95.9,Organic Compost
+Cotton,Alluvial,25.3,120.2,56.3,Urea
+Rice,Alluvial,68.8,57.3,74.8,Urea
+Cotton,Alluvial,6.2,133.0,84.5,Urea
+Chickpea,Desert,77.1,86.2,73.2,Organic Compost
+Maize,Red,123.8,62.1,28.6,MOP
+Onion,Alluvial,89.5,98.0,42.5,MOP
+Onion,Laterite,105.7,124.1,114.1,Organic Compost
+Soybean,Black,86.4,99.4,1.2,MOP
+Rice,Alluvial,47.8,95.3,132.0,Urea
+Rice,Loamy,52.1,55.8,9.5,MOP
+Onion,Red,100.6,89.9,89.1,Organic Compost
+Onion,Red,34.1,1.6,20.7,NPK 20-20-20
+Chickpea,Desert,135.9,107.5,85.4,Organic Compost
+Millets,Loamy,90.6,30.7,136.7,DAP
+Sugarcane,Black,71.9,110.5,127.6,Urea
+Groundnut,Laterite,43.4,52.7,31.9,MOP
+Soybean,Alluvial,109.2,73.2,45.7,Organic Compost
+Groundnut,Desert,67.3,77.7,24.2,NPK 20-20-20
+Potato,Desert,37.5,48.7,16.1,MOP
+Chickpea,Sandy,96.0,119.8,40.1,MOP
+Millets,Desert,63.9,116.8,85.6,Organic Compost
+Maize,Desert,45.4,89.9,35.6,Urea
+Sugarcane,Loamy,36.5,138.4,19.7,Urea
+Onion,Alluvial,95.6,64.7,78.4,Organic Compost
+Banana,Clay,135.2,121.0,45.3,Organic Compost
+Wheat,Alluvial,19.1,64.3,64.3,Urea
+Banana,Laterite,89.8,133.6,24.2,MOP
+Maize,Alluvial,28.0,138.2,5.5,Urea
+Chickpea,Laterite,41.0,76.3,138.7,Urea
+Potato,Laterite,95.6,122.1,32.1,MOP
+Onion,Loamy,102.7,11.8,102.6,DAP
+Sugarcane,Sandy,27.6,22.6,103.4,Urea
+Wheat,Desert,63.7,32.1,107.8,DAP
+Tomato,Loamy,104.4,43.5,30.2,MOP
+Chickpea,Red,91.6,36.2,123.7,DAP
+Mustard,Sandy,73.9,29.6,77.9,DAP
+Millets,Desert,40.8,75.1,21.1,MOP
+Chickpea,Red,130.1,88.6,25.9,MOP
+Cotton,Sandy,18.9,111.9,78.1,Urea
+Mustard,Black,38.9,23.4,112.5,Urea
+Soybean,Laterite,135.5,139.2,110.8,Organic Compost
+Maize,Desert,111.6,63.1,8.4,MOP
+Cotton,Laterite,37.2,46.1,8.3,MOP
+Groundnut,Red,36.2,85.5,38.7,Urea
+Chickpea,Black,95.3,119.6,11.4,MOP
+Maize,Clay,135.1,115.9,77.3,Organic Compost
+Tomato,Alluvial,27.5,62.6,133.8,Urea
+Cotton,Loamy,139.7,1.9,6.6,NPK 10-26-26
+Sugarcane,Black,69.8,58.9,81.7,Urea
+Tomato,Sandy,30.1,63.3,4.7,MOP
+Millets,Sandy,29.2,84.2,61.2,Urea
+Rice,Desert,17.4,68.6,36.1,Urea
+Cotton,Alluvial,76.2,120.0,54.5,Organic Compost
+Mustard,Black,128.6,110.8,54.8,Organic Compost
+Onion,Loamy,93.9,18.0,130.6,DAP
+Sugarcane,Desert,41.9,60.7,33.6,Urea
+Banana,Black,17.5,93.9,22.0,Urea
+Mustard,Loamy,98.6,108.9,81.2,Organic Compost
+Potato,Loamy,87.6,36.1,20.2,NPK 10-26-26
+Soybean,Alluvial,38.8,32.4,124.9,Urea
+Mustard,Desert,116.0,105.7,24.7,MOP
+Mustard,Clay,137.7,122.9,132.8,Organic Compost
+Sugarcane,Laterite,72.1,64.2,21.7,MOP
+Cotton,Alluvial,12.4,43.7,93.3,Urea
+Maize,Loamy,104.9,59.2,61.9,Organic Compost
+Mustard,Alluvial,81.4,105.0,36.9,MOP
+Cotton,Red,71.8,122.4,103.3,Organic Compost
+Banana,Loamy,15.2,97.9,85.7,Urea
+Wheat,Alluvial,135.9,24.9,125.4,DAP
+Cotton,Laterite,77.8,87.6,69.7,Organic Compost
+Millets,Laterite,98.1,55.5,76.3,Organic Compost
+Onion,Red,41.8,31.4,106.5,Urea
+Millets,Alluvial,27.4,135.0,47.8,Urea
+Onion,Sandy,49.4,69.0,126.1,Urea
+Soybean,Sandy,30.4,36.6,124.8,Urea
+Onion,Clay,17.1,114.6,2.7,MOP
+Chickpea,Sandy,59.7,67.1,103.9,Urea
+Soybean,Black,19.4,88.2,32.3,Urea
+Mustard,Black,27.6,66.8,135.0,Urea
+Wheat,Loamy,11.4,94.2,63.2,Urea
+Maize,Laterite,93.6,28.0,116.7,DAP
+Mustard,Red,134.9,22.5,2.8,NPK 10-26-26
+Wheat,Loamy,15.5,22.3,18.3,NPK 20-20-20
+Banana,Laterite,7.1,72.7,84.8,Urea
+Onion,Desert,11.5,4.9,19.5,NPK 20-20-20
+Sugarcane,Loamy,0.6,96.9,134.0,Urea
+Onion,Alluvial,105.5,107.8,6.1,MOP
+Maize,Black,88.6,101.7,31.2,MOP
+Banana,Loamy,81.5,124.1,71.5,Organic Compost
+Soybean,Sandy,93.2,26.8,38.7,NPK 10-26-26
+Banana,Alluvial,6.3,7.0,129.0,Urea
+Maize,Clay,134.9,98.1,72.1,Organic Compost
+Maize,Sandy,121.5,116.1,69.0,Organic Compost
+Cotton,Laterite,53.8,41.7,7.6,MOP
+Sugarcane,Sandy,24.0,126.2,11.0,Urea
+Potato,Laterite,31.2,14.4,8.4,NPK 20-20-20
+Chickpea,Red,77.8,20.8,3.4,NPK 20-20-20
+Wheat,Black,62.8,87.3,122.5,Organic Compost
+Mustard,Loamy,104.4,102.1,121.9,Organic Compost
+Banana,Loamy,67.7,93.0,33.3,MOP
+Chickpea,Black,65.2,32.5,18.0,NPK 10-26-26
+Millets,Loamy,25.6,133.3,4.1,MOP
+Maize,Alluvial,30.4,25.5,77.9,Urea
+Tomato,Loamy,109.4,114.1,87.2,Organic Compost
+Groundnut,Loamy,2.1,71.5,18.0,Urea
+Mustard,Red,0.5,43.0,21.6,Urea
+Millets,Loamy,54.7,117.2,61.6,Urea
+Mustard,Clay,25.0,123.9,27.0,Urea
+Mustard,Loamy,54.1,138.0,107.1,Urea
+Maize,Red,50.4,24.2,116.1,Organic Compost
+Groundnut,Clay,3.1,39.8,49.8,Urea
+Tomato,Black,15.1,0.4,108.5,Urea
+Maize,Black,11.5,39.0,49.6,Urea
+Soybean,Alluvial,137.2,37.6,61.8,DAP
+Potato,Red,11.5,52.7,77.4,Urea
+Maize,Red,124.5,76.5,100.4,MOP
+Banana,Clay,45.6,73.3,134.4,Urea
+Maize,Desert,134.5,113.2,92.9,Organic Compost
+Sugarcane,Black,133.1,9.7,106.1,DAP
+Soybean,Loamy,78.2,39.3,109.2,DAP
+Millets,Red,41.3,48.5,105.7,Urea
+Banana,Alluvial,19.9,12.0,25.0,NPK 20-20-20
+Rice,Red,94.7,7.7,85.0,DAP
+Millets,Red,123.7,9.1,137.2,DAP
+Onion,Red,126.4,105.2,21.1,MOP
+Onion,Black,18.4,8.5,7.5,NPK 20-20-20
+Rice,Loamy,59.5,99.4,2.1,MOP
+Wheat,Alluvial,75.1,66.6,102.3,Organic Compost
+Onion,Clay,112.3,117.3,51.6,MOP
+Chickpea,Clay,76.3,96.2,10.5,MOP
+Mustard,Sandy,114.7,44.3,134.5,Organic Compost
+Chickpea,Alluvial,116.8,35.6,46.2,DAP
+Onion,Clay,5.0,105.2,112.4,Urea
+Soybean,Desert,94.1,104.0,135.7,Organic Compost
+Groundnut,Black,119.5,13.6,110.0,DAP
+Sugarcane,Red,82.9,107.5,16.0,MOP
+Groundnut,Alluvial,111.1,131.2,122.1,Organic Compost
+Mustard,Clay,113.2,136.5,89.2,Organic Compost
+Potato,Sandy,111.4,138.5,29.4,MOP
+Sugarcane,Loamy,57.8,127.1,134.7,Urea
+Sugarcane,Loamy,117.9,121.3,121.6,Organic Compost
+Millets,Desert,23.1,10.4,33.9,NPK 20-20-20
+Rice,Black,82.5,19.7,44.2,NPK 10-26-26
+Sugarcane,Desert,94.7,125.0,100.2,Organic Compost
+Wheat,Loamy,102.4,6.6,30.6,NPK 10-26-26
+Millets,Loamy,116.6,22.2,137.4,DAP
+Potato,Desert,74.1,26.2,49.1,NPK 10-26-26
+Banana,Sandy,124.7,52.8,25.6,MOP
+Sugarcane,Alluvial,28.1,7.1,122.1,Urea
+Potato,Clay,6.6,91.1,93.1,Urea
+Millets,Black,54.3,53.4,122.8,Urea
+Tomato,Loamy,95.8,21.7,4.9,NPK 10-26-26
+Maize,Alluvial,101.7,71.0,133.2,Organic Compost
+Potato,Black,29.1,83.5,46.7,Urea
+Millets,Alluvial,57.1,73.3,91.5,Urea
+Onion,Desert,117.4,49.8,74.9,Organic Compost
+Tomato,Desert,75.0,35.0,101.4,DAP
+Soybean,Desert,10.5,47.0,131.9,Urea
+Potato,Red,84.7,93.0,13.0,MOP
+Wheat,Red,34.4,53.6,46.9,Urea
+Groundnut,Loamy,60.1,28.0,58.9,DAP
+Groundnut,Desert,24.3,120.2,86.2,Urea
+Soybean,Desert,112.6,82.5,37.4,MOP
+Onion,Alluvial,52.8,120.1,81.3,Urea
+Millets,Desert,2.1,123.6,106.3,Urea
+Rice,Alluvial,133.2,9.4,136.3,DAP
+Wheat,Red,91.0,69.4,54.6,Organic Compost
+Rice,Red,4.8,115.4,72.0,Urea
+Cotton,Loamy,86.0,30.7,130.9,DAP
+Chickpea,Desert,113.0,100.8,64.4,NPK 20-20-20
+Cotton,Loamy,46.3,13.9,72.5,DAP
+Tomato,Clay,70.3,16.3,15.8,NPK 10-26-26
+Cotton,Desert,130.6,33.5,100.8,DAP
+Potato,Desert,19.3,118.4,104.0,Urea
+Potato,Red,117.1,21.1,74.7,DAP
+Rice,Desert,114.7,99.2,105.9,Organic Compost
+Potato,Loamy,70.2,82.1,96.8,Organic Compost
+Soybean,Loamy,21.1,55.3,127.9,Urea
+Tomato,Red,104.3,27.2,64.1,DAP
+Maize,Red,126.2,122.9,70.4,Organic Compost
+Groundnut,Sandy,32.7,93.8,80.2,Urea
+Cotton,Red,32.6,33.2,51.5,Urea
+Soybean,Alluvial,71.7,66.9,4.4,MOP
+Mustard,Laterite,109.0,49.8,128.7,Organic Compost
+Potato,Black,126.4,31.2,129.3,DAP
+Wheat,Laterite,61.1,78.8,118.1,Organic Compost
+Soybean,Laterite,118.9,66.1,58.5,Organic Compost
+Soybean,Laterite,86.8,60.4,92.7,Organic Compost
+Mustard,Red,54.9,53.2,10.6,MOP
+Maize,Laterite,35.5,113.5,133.7,Urea
+Onion,Red,18.4,96.9,67.5,Urea
+Soybean,Red,108.7,72.2,123.5,Organic Compost
+Onion,Alluvial,5.4,108.6,124.9,Urea
+Potato,Black,49.8,70.3,111.7,Urea
+Tomato,Desert,2.4,52.3,54.7,Urea
+Wheat,Clay,107.0,75.1,97.7,Organic Compost
+Rice,Laterite,61.2,48.4,89.1,Urea
+Mustard,Clay,127.9,101.3,27.6,MOP
+Cotton,Laterite,60.4,30.4,15.9,NPK 10-26-26
+Sugarcane,Black,42.3,10.5,34.9,NPK 20-20-20
+Chickpea,Black,39.5,74.7,65.8,Urea
+Potato,Clay,93.5,95.2,60.7,Organic Compost
+Onion,Laterite,134.3,60.8,93.1,Organic Compost
+Potato,Red,37.1,64.2,69.1,Urea
+Millets,Clay,103.5,102.6,65.8,Organic Compost
+Onion,Laterite,45.5,15.4,18.0,NPK 20-20-20
+Banana,Loamy,92.9,85.7,15.0,MOP
+Soybean,Alluvial,107.3,121.9,3.1,MOP
+Banana,Sandy,63.3,94.3,38.1,Urea
+Banana,Laterite,67.7,4.0,58.3,DAP
+Mustard,Alluvial,68.1,138.0,16.4,MOP
+Tomato,Loamy,112.5,106.8,108.2,Organic Compost
+Sugarcane,Clay,44.6,84.1,57.4,Urea
+Groundnut,Alluvial,55.5,66.2,12.2,MOP
+Wheat,Clay,128.7,11.2,120.3,DAP
+Rice,Red,32.4,49.2,111.2,Urea
+Maize,Red,97.0,86.0,58.9,Organic Compost
+Sugarcane,Sandy,32.1,85.7,38.4,Urea
+Chickpea,Sandy,80.0,117.1,139.0,Organic Compost
+Potato,Loamy,120.9,25.4,107.0,DAP
+Potato,Red,121.3,99.4,100.3,Organic Compost
+Chickpea,Red,35.8,25.7,71.8,Urea
+Tomato,Alluvial,118.0,40.9,127.9,Organic Compost
+Tomato,Sandy,27.8,64.6,89.6,Urea
+Millets,Red,124.8,33.1,59.1,DAP
+Banana,Black,134.3,104.6,116.0,Organic Compost
+Wheat,Laterite,59.1,91.2,115.1,Urea
+Maize,Clay,90.4,41.2,56.9,Organic Compost
+Wheat,Sandy,14.6,57.3,121.0,Urea
+Maize,Laterite,58.6,88.5,21.7,MOP
+Wheat,Black,73.2,4.3,72.3,DAP
+Mustard,Clay,106.4,7.6,0.0,NPK 10-26-26
+Groundnut,Sandy,36.5,56.6,109.2,Urea
+Millets,Red,130.1,80.7,115.7,Organic Compost
+Cotton,Alluvial,26.2,106.1,121.0,Urea
+Tomato,Laterite,63.0,2.6,13.4,NPK 10-26-26
+Millets,Alluvial,48.9,96.7,59.5,Urea
+Cotton,Alluvial,122.4,18.9,28.7,NPK 10-26-26
+Mustard,Clay,58.0,41.1,56.2,Urea
+Onion,Clay,128.1,94.6,62.3,Organic Compost
+Groundnut,Loamy,7.2,55.2,92.0,Urea
+Cotton,Red,114.7,106.0,130.1,Organic Compost
+Groundnut,Alluvial,61.2,108.3,115.2,Organic Compost
+Sugarcane,Loamy,125.8,31.8,48.6,DAP
+Onion,Laterite,78.6,8.5,109.1,DAP
+Soybean,Clay,2.4,110.2,49.7,Urea
+Banana,Black,75.2,41.9,0.5,MOP
+Wheat,Black,131.6,76.1,0.2,MOP
+Chickpea,Black,116.8,46.1,79.5,Organic Compost
+Onion,Alluvial,95.2,20.8,100.3,DAP
+Mustard,Alluvial,21.8,87.6,138.0,Urea
+Wheat,Sandy,115.4,122.4,74.0,Organic Compost
+Chickpea,Sandy,19.8,116.5,57.7,Urea
+Soybean,Clay,15.6,136.5,133.1,Urea
+Wheat,Sandy,5.2,61.2,123.8,Urea
+Cotton,Red,94.5,98.7,9.1,MOP
+Cotton,Laterite,26.9,40.1,22.7,Urea
+Mustard,Desert,42.3,74.5,0.8,MOP
+Rice,Black,90.6,61.5,21.7,MOP
+Banana,Red,89.3,20.4,100.4,DAP
+Sugarcane,Alluvial,22.7,35.9,63.0,Urea
+Chickpea,Laterite,47.0,11.8,73.4,DAP
+Millets,Sandy,29.4,119.8,92.9,Urea
+Banana,Sandy,68.9,73.1,55.6,Urea
+Soybean,Red,70.9,84.3,120.3,Organic Compost
+Onion,Sandy,34.7,18.4,40.9,NPK 20-20-20
+Soybean,Alluvial,30.4,98.3,11.1,MOP
+Onion,Clay,65.8,25.3,15.7,NPK 10-26-26
+Cotton,Red,58.2,43.1,52.0,Urea
+Soybean,Alluvial,75.9,73.1,126.8,Organic Compost
+Sugarcane,Clay,32.2,124.3,44.1,Urea
+Rice,Clay,76.1,0.7,28.9,NPK 10-26-26
+Tomato,Sandy,20.6,87.2,56.9,Urea
+Maize,Laterite,133.0,21.7,35.5,NPK 10-26-26
+Wheat,Laterite,27.7,10.2,137.3,Urea
+Maize,Laterite,124.4,83.2,36.8,MOP
+Chickpea,Alluvial,55.7,105.5,15.4,MOP
+Groundnut,Laterite,10.0,138.2,69.4,Urea
+Soybean,Loamy,109.4,57.1,67.3,Organic Compost
+Potato,Loamy,83.7,88.3,112.7,Organic Compost
+Sugarcane,Loamy,17.7,114.3,94.6,Urea
+Millets,Red,120.4,108.4,8.0,MOP
+Banana,Black,137.5,38.8,38.8,NPK 10-26-26
+Banana,Sandy,83.3,135.6,41.6,MOP
+Wheat,Laterite,40.2,57.7,77.2,Urea
+Chickpea,Sandy,129.5,16.4,134.1,DAP
+Chickpea,Sandy,10.6,41.5,61.3,Urea
+Soybean,Laterite,8.3,45.9,68.8,Urea
+Onion,Clay,30.3,7.1,18.5,NPK 20-20-20
+Onion,Loamy,35.0,115.0,56.3,Urea
+Wheat,Loamy,37.1,1.1,73.8,DAP
+Onion,Black,126.9,107.5,72.8,MOP
+Tomato,Red,69.2,35.0,117.3,DAP
+Maize,Black,109.1,85.2,27.6,MOP
+Wheat,Sandy,62.8,42.3,96.6,Organic Compost
+Onion,Alluvial,32.8,90.5,31.4,MOP
+Millets,Black,104.8,139.8,48.5,Organic Compost
+Rice,Alluvial,87.1,138.3,136.2,Organic Compost
+Potato,Clay,115.7,45.8,115.2,Organic Compost
+Mustard,Desert,121.0,71.5,53.9,Organic Compost
+Onion,Alluvial,69.8,68.2,53.4,MOP
+Potato,Red,137.6,113.1,117.4,Organic Compost
+Wheat,Sandy,70.7,94.8,120.9,Organic Compost
+Cotton,Desert,127.9,58.7,136.8,Organic Compost
+Rice,Alluvial,5.9,99.0,109.7,Urea
+Maize,Laterite,75.5,62.4,9.7,MOP
+Banana,Clay,10.2,87.1,88.8,Urea
+Soybean,Desert,132.3,75.8,5.8,MOP
+Mustard,Laterite,5.5,5.2,45.4,Urea
+Groundnut,Loamy,130.6,54.8,6.7,MOP
+Soybean,Red,126.2,60.4,45.1,Organic Compost
+Mustard,Laterite,77.7,21.3,52.5,DAP
+Potato,Clay,34.4,16.9,82.5,Urea
+Maize,Red,134.7,89.0,129.7,Organic Compost
+Groundnut,Loamy,57.9,57.9,6.7,MOP
+Rice,Clay,119.0,14.7,2.5,NPK 10-26-26
+Maize,Sandy,33.6,106.8,0.8,MOP
+Tomato,Desert,6.3,121.4,128.5,Urea
+Chickpea,Red,78.8,43.5,130.6,Organic Compost
+Mustard,Clay,85.4,40.4,70.0,Organic Compost
+Cotton,Laterite,47.8,133.9,46.8,Urea
+Potato,Black,110.8,86.1,16.8,MOP
+Wheat,Red,92.0,50.4,38.0,MOP
+Tomato,Desert,17.1,90.2,127.7,Urea
+Wheat,Desert,83.7,94.2,110.8,Organic Compost
+Groundnut,Loamy,86.0,16.8,63.8,DAP
+Rice,Alluvial,57.9,20.4,24.6,NPK 20-20-20
+Onion,Alluvial,59.5,3.6,129.6,DAP
+Onion,Black,9.2,35.1,4.0,NPK 20-20-20
+Tomato,Loamy,76.1,119.3,113.3,Organic Compost
+Onion,Loamy,61.9,87.4,21.2,MOP
+Maize,Red,23.4,57.9,101.7,Urea
+Mustard,Desert,42.3,132.7,27.1,MOP
+Maize,Black,33.3,22.0,87.5,Urea
+Rice,Alluvial,37.3,95.0,60.0,Urea
+Groundnut,Alluvial,102.1,98.6,64.6,Organic Compost
+Mustard,Black,67.9,102.0,108.0,Organic Compost
+Sugarcane,Sandy,68.1,103.5,96.7,Urea
+Potato,Black,45.1,37.1,62.6,Urea
+Maize,Sandy,79.7,81.2,88.6,Organic Compost
+Potato,Black,30.1,109.1,13.6,MOP
+Potato,Red,82.9,129.4,123.0,Organic Compost
+Chickpea,Loamy,5.2,110.9,52.5,Urea
+Cotton,Laterite,60.9,132.0,4.6,MOP
+Soybean,Black,20.3,103.9,73.2,Urea
+Soybean,Loamy,70.8,28.9,133.0,DAP
+Potato,Loamy,110.6,14.2,121.3,DAP
+Mustard,Clay,99.8,63.2,107.8,Organic Compost
+Maize,Alluvial,99.3,71.2,117.5,Organic Compost
+Mustard,Black,3.0,27.5,103.8,Urea
+Sugarcane,Sandy,114.9,82.2,70.9,Organic Compost
+Maize,Alluvial,59.0,38.9,17.1,NPK 20-20-20
+Millets,Red,64.8,19.1,54.6,DAP
+Soybean,Desert,73.1,111.9,68.0,Organic Compost
+Chickpea,Sandy,6.7,55.3,76.6,Urea
+Onion,Desert,28.7,92.9,65.8,Urea
+Potato,Desert,74.6,40.1,111.8,Organic Compost
+Potato,Desert,79.3,131.2,2.5,MOP
+Banana,Red,93.6,131.9,91.5,Organic Compost
+Potato,Black,23.9,80.3,60.3,Urea
+Tomato,Sandy,97.9,12.8,6.8,NPK 10-26-26
+Maize,Sandy,125.1,60.8,11.8,MOP
+Millets,Alluvial,89.2,57.9,127.3,Organic Compost
+Soybean,Alluvial,52.2,25.2,39.7,NPK 20-20-20
+Maize,Loamy,111.8,12.1,61.8,DAP
+Mustard,Laterite,72.7,109.0,99.8,Organic Compost
+Mustard,Desert,5.1,7.6,59.8,Urea
+Rice,Black,21.0,96.9,59.0,Urea
+Banana,Red,87.3,29.9,2.0,NPK 10-26-26
+Groundnut,Black,97.1,96.7,93.5,Organic Compost
+Potato,Desert,10.6,130.5,9.2,MOP
+Banana,Desert,37.7,117.3,83.0,Urea
+Potato,Alluvial,77.8,26.4,2.5,NPK 10-26-26
+Sugarcane,Sandy,103.1,101.8,112.0,Organic Compost
+Rice,Red,107.9,93.3,28.0,MOP
+Millets,Black,109.0,34.6,87.2,DAP
+Mustard,Desert,60.6,122.1,93.0,NPK 10-26-26
+Soybean,Sandy,16.7,61.2,16.3,Urea
+Soybean,Clay,25.6,84.3,120.1,Urea
+Soybean,Black,123.5,48.7,70.8,Organic Compost
+Banana,Red,13.0,77.6,34.6,Urea
+Banana,Alluvial,120.9,129.9,24.1,MOP
+Cotton,Sandy,56.5,38.4,86.3,Urea
+Cotton,Black,109.0,55.3,0.7,MOP
+Onion,Desert,133.5,55.1,104.2,Organic Compost
+Sugarcane,Alluvial,78.6,119.3,86.1,Organic Compost
+Cotton,Red,126.6,107.6,105.4,Organic Compost
+Onion,Sandy,34.7,127.5,18.0,MOP
+Potato,Loamy,94.3,112.7,111.8,Organic Compost
+Soybean,Clay,30.0,15.7,71.9,Urea
+Potato,Sandy,80.3,108.1,35.0,MOP
+Millets,Red,110.0,103.9,14.6,MOP
+Tomato,Clay,110.1,43.6,60.2,Organic Compost
+Rice,Clay,49.6,101.8,40.0,Urea
+Rice,Desert,16.5,37.6,95.8,Urea
+Millets,Alluvial,4.8,122.9,68.4,Urea
+Millets,Sandy,57.7,25.1,30.7,NPK 20-20-20
+Chickpea,Clay,11.6,12.4,46.4,Urea
+Chickpea,Loamy,1.7,136.1,96.0,Urea
+Millets,Clay,64.8,109.9,77.2,Organic Compost
+Chickpea,Sandy,74.3,80.3,63.9,Organic Compost
+Banana,Clay,91.1,8.7,134.9,DAP
+Tomato,Desert,29.5,9.7,64.0,Urea
+Sugarcane,Red,0.7,24.5,139.3,Urea
+Maize,Desert,79.0,84.1,76.7,Organic Compost
+Rice,Desert,20.0,30.7,139.3,Urea
+Tomato,Sandy,30.4,101.4,16.3,MOP
+Maize,Sandy,31.9,66.8,15.4,Urea
+Cotton,Black,135.8,84.7,10.5,MOP
+Rice,Alluvial,102.4,51.1,20.8,MOP
+Onion,Black,13.6,48.4,105.1,Urea
+Sugarcane,Loamy,16.9,83.5,73.1,Urea
+Rice,Loamy,69.6,66.5,134.6,Urea
+Potato,Clay,91.5,2.9,2.9,NPK 10-26-26
+Soybean,Alluvial,129.6,95.6,98.9,NPK 20-20-20
+Maize,Desert,12.2,132.6,19.8,MOP
+Chickpea,Desert,4.0,93.5,103.4,Urea
+Wheat,Clay,82.0,22.5,61.6,DAP
+Chickpea,Black,58.6,97.9,70.2,Urea
+Banana,Alluvial,74.3,8.6,122.6,DAP
+Mustard,Black,71.3,24.4,68.1,DAP
+Potato,Red,20.9,106.7,63.9,Urea
+Soybean,Alluvial,70.6,10.3,102.7,DAP
+Rice,Desert,136.2,45.6,59.2,Organic Compost
+Groundnut,Alluvial,92.2,136.7,97.4,Organic Compost
+Chickpea,Sandy,121.8,6.7,71.3,DAP
+Maize,Desert,16.2,103.7,53.5,Urea
+Onion,Alluvial,76.8,1.2,35.0,NPK 10-26-26
+Potato,Red,72.8,119.4,4.8,MOP
+Onion,Sandy,92.2,70.3,55.8,MOP
+Potato,Alluvial,126.5,113.2,98.2,Organic Compost
+Tomato,Red,108.7,1.0,50.1,NPK 10-26-26
+Onion,Laterite,99.4,43.3,111.7,Organic Compost
+Mustard,Clay,75.0,80.0,49.2,Organic Compost
+Sugarcane,Loamy,25.2,40.4,98.0,Urea
+Tomato,Loamy,18.2,79.8,112.0,Urea
+Banana,Alluvial,59.9,92.8,4.5,MOP
+Tomato,Alluvial,58.6,16.0,61.1,DAP
+Cotton,Loamy,42.1,24.8,136.1,Urea
+Rice,Loamy,56.3,40.2,119.6,Urea
+Potato,Red,13.1,36.3,38.7,NPK 20-20-20
+Potato,Black,56.5,45.9,9.9,MOP
+Banana,Sandy,51.1,135.5,77.8,Urea
+Rice,Black,80.0,2.7,125.9,DAP
+Cotton,Laterite,100.3,28.0,3.0,NPK 10-26-26
+Groundnut,Desert,1.7,130.0,110.4,Urea
+Maize,Red,9.5,112.4,58.0,Urea
+Banana,Clay,13.8,127.1,20.1,Urea
+Tomato,Alluvial,24.1,8.1,55.7,NPK 20-20-20
+Wheat,Clay,116.0,74.0,71.4,Organic Compost
+Potato,Clay,127.2,49.7,49.9,MOP
+Tomato,Laterite,79.3,14.8,116.9,DAP
+Sugarcane,Laterite,9.6,53.4,106.1,Urea
+Maize,Desert,32.9,101.6,96.3,Urea
+Groundnut,Clay,79.1,8.7,35.0,NPK 10-26-26
+Groundnut,Loamy,42.2,31.7,18.2,NPK 20-20-20
+Rice,Loamy,68.5,117.5,0.5,MOP
+Wheat,Sandy,20.7,25.6,82.8,Urea
+Cotton,Black,128.2,32.1,29.7,NPK 10-26-26
+Potato,Alluvial,55.5,68.5,25.6,MOP
+Millets,Black,95.4,55.0,102.8,Organic Compost
+Onion,Laterite,87.7,1.0,96.7,DAP
+Groundnut,Loamy,73.3,78.2,98.3,Organic Compost
+Rice,Laterite,11.6,32.8,26.5,NPK 20-20-20
+Groundnut,Loamy,116.3,73.1,104.3,Organic Compost
+Tomato,Black,100.9,45.9,38.9,MOP
+Maize,Black,128.0,115.3,123.0,Organic Compost
+Sugarcane,Loamy,56.4,56.1,119.1,Urea
+Millets,Laterite,139.5,49.6,115.2,Organic Compost
+Chickpea,Alluvial,83.1,67.1,110.1,MOP
+Rice,Laterite,67.3,70.9,31.5,MOP
+Banana,Black,72.3,30.5,137.6,DAP
+Banana,Alluvial,87.7,61.6,28.8,MOP
+Chickpea,Red,76.6,114.0,63.3,Organic Compost
+Tomato,Clay,134.7,28.7,22.4,NPK 10-26-26
+Sugarcane,Loamy,23.5,102.1,43.1,Urea
+Wheat,Clay,53.9,54.1,67.3,Urea
+Maize,Sandy,46.0,2.1,86.3,DAP
+Soybean,Black,29.6,124.8,33.3,Urea
+Soybean,Clay,136.0,58.8,74.6,Organic Compost
+Sugarcane,Sandy,39.6,102.2,2.9,MOP
+Millets,Alluvial,65.9,90.1,107.5,Organic Compost
+Onion,Red,55.5,102.3,38.0,MOP
+Sugarcane,Desert,130.2,84.4,65.6,Organic Compost
+Maize,Loamy,13.6,43.0,64.2,Urea
+Mustard,Sandy,49.3,19.9,16.7,NPK 20-20-20
+Cotton,Desert,71.4,21.4,9.5,NPK 10-26-26
+Rice,Laterite,125.8,137.7,83.1,Organic Compost
+Potato,Sandy,97.8,76.9,94.7,Organic Compost
+Maize,Sandy,58.4,108.6,138.7,Urea
+Millets,Loamy,56.3,90.8,75.3,Urea
+Cotton,Sandy,127.3,43.3,18.0,MOP
+Tomato,Desert,126.8,104.0,55.6,MOP
+Potato,Desert,48.6,1.9,87.7,Organic Compost
+Maize,Desert,23.5,52.4,132.5,Urea
+Millets,Alluvial,14.5,138.0,136.0,Urea
+Millets,Sandy,103.0,14.0,32.9,NPK 10-26-26
+Chickpea,Black,72.9,34.2,78.1,DAP
+Wheat,Black,6.6,138.6,15.8,Urea
+Rice,Laterite,42.5,111.2,47.3,Urea
+Onion,Loamy,121.0,114.7,30.5,MOP
+Soybean,Clay,128.7,134.9,103.2,Organic Compost
+Maize,Red,121.1,128.2,13.7,MOP
+Wheat,Black,35.2,53.6,43.6,Urea
+Soybean,Alluvial,85.9,81.4,110.2,Organic Compost
+Onion,Red,97.6,99.6,62.9,Organic Compost
+Onion,Desert,45.7,21.0,133.4,DAP
+Banana,Black,120.0,35.3,115.8,DAP
+Chickpea,Laterite,129.9,113.3,18.2,MOP
+Mustard,Clay,75.8,38.6,32.8,NPK 10-26-26
+Onion,Laterite,72.6,83.7,14.1,MOP
+Mustard,Black,9.1,125.8,20.7,Urea
+Onion,Loamy,125.5,6.9,30.2,NPK 10-26-26
+Banana,Loamy,83.2,2.4,121.4,DAP
+Rice,Clay,134.9,102.5,4.3,MOP
+Potato,Loamy,14.5,37.9,23.6,NPK 20-20-20
+Soybean,Clay,98.1,106.9,84.2,Organic Compost
+Cotton,Black,35.1,82.8,113.4,Urea
+Chickpea,Desert,106.7,32.6,32.3,NPK 10-26-26
+Sugarcane,Sandy,71.8,9.4,67.5,DAP
+Cotton,Black,88.9,37.8,77.8,DAP
+Maize,Black,103.5,94.7,43.8,MOP
+Banana,Clay,73.0,11.6,61.7,DAP
+Millets,Red,90.1,129.0,20.5,MOP
+Banana,Loamy,93.4,118.3,52.6,Organic Compost
+Wheat,Red,39.8,71.9,1.0,MOP
+Cotton,Black,16.8,53.8,14.6,Urea
+Tomato,Sandy,91.2,132.3,128.8,Organic Compost
+Maize,Sandy,37.3,24.9,132.9,Urea
+Tomato,Loamy,76.8,0.8,20.8,NPK 10-26-26
+Banana,Black,67.0,111.3,112.1,Urea
+Maize,Black,60.5,87.8,81.4,Urea
+Wheat,Red,10.0,54.3,72.5,Urea
+Tomato,Red,36.0,59.8,96.5,Urea
+Cotton,Clay,89.8,15.0,3.3,NPK 10-26-26
+Cotton,Alluvial,90.1,131.7,18.7,MOP
+Banana,Clay,70.8,59.8,66.3,Urea
+Wheat,Black,134.7,90.1,40.1,MOP
+Maize,Laterite,19.7,135.1,93.2,Urea
+Groundnut,Alluvial,39.6,132.4,21.8,MOP
+Millets,Clay,53.0,124.1,129.2,Urea
+Rice,Laterite,82.2,42.9,18.2,MOP
+Sugarcane,Desert,8.2,96.3,132.9,Urea
+Groundnut,Alluvial,2.1,70.6,131.6,Urea
+Tomato,Red,111.4,112.2,132.1,Organic Compost
+Cotton,Loamy,131.4,86.0,84.2,Organic Compost
+Groundnut,Clay,125.8,1.5,43.0,NPK 10-26-26
+Rice,Loamy,106.1,99.8,7.2,MOP
+Mustard,Red,125.4,49.0,36.3,MOP
+Mustard,Black,40.8,3.0,54.7,DAP
+Chickpea,Black,48.0,43.9,39.7,Urea
+Potato,Laterite,128.4,39.4,110.7,DAP
+Sugarcane,Laterite,97.9,24.4,53.2,DAP
+Potato,Sandy,127.3,83.5,98.2,Organic Compost
+Chickpea,Desert,103.7,18.4,17.0,NPK 10-26-26
+Groundnut,Red,134.7,22.2,14.7,NPK 10-26-26
+Sugarcane,Red,51.6,27.6,12.3,NPK 20-20-20
+Maize,Red,72.8,104.4,24.7,MOP
+Mustard,Loamy,12.0,61.4,41.4,Organic Compost
+Chickpea,Loamy,77.0,44.9,66.1,Organic Compost
+Soybean,Laterite,118.7,100.0,39.2,MOP
+Rice,Sandy,31.4,127.1,116.6,Urea
+Wheat,Clay,26.8,3.5,134.6,DAP
+Rice,Laterite,118.0,10.6,103.6,DAP
+Cotton,Clay,60.4,48.5,124.9,Organic Compost
+Onion,Desert,44.8,17.5,33.0,NPK 20-20-20
+Soybean,Black,53.2,126.8,13.1,MOP
+Wheat,Laterite,90.6,68.5,122.7,Organic Compost
+Mustard,Loamy,18.2,68.6,16.1,Urea
+Groundnut,Laterite,109.7,58.6,88.3,Organic Compost
+Chickpea,Sandy,134.0,62.7,1.4,MOP
+Cotton,Black,65.5,4.5,62.0,DAP
+Sugarcane,Black,69.8,35.5,36.5,NPK 20-20-20
+Onion,Sandy,122.3,39.0,9.9,NPK 10-26-26
+Tomato,Loamy,103.5,105.9,120.9,NPK 10-26-26
+Millets,Alluvial,5.0,43.9,107.2,Urea
+Millets,Alluvial,49.7,81.1,123.1,Urea
+Rice,Alluvial,65.5,111.8,14.1,MOP
+Millets,Red,117.4,91.8,20.9,MOP
+Banana,Alluvial,45.6,46.1,118.7,NPK 20-20-20
+Tomato,Laterite,33.4,3.8,30.3,NPK 20-20-20
+Onion,Loamy,60.9,66.0,122.9,Organic Compost
+Banana,Sandy,90.6,72.4,42.7,MOP
+Maize,Laterite,80.0,78.3,115.9,Organic Compost
+Potato,Laterite,64.4,109.2,46.2,MOP
+Soybean,Clay,19.4,44.4,126.8,Urea
+Tomato,Red,30.4,7.6,67.0,DAP
+Maize,Sandy,3.9,73.3,46.2,Urea
+Onion,Laterite,137.3,116.0,98.1,Organic Compost
+Chickpea,Loamy,61.9,111.3,127.2,Organic Compost
+Tomato,Loamy,95.5,56.0,1.2,MOP
+Banana,Desert,120.3,123.0,56.3,Organic Compost
+Rice,Sandy,75.7,21.2,80.6,DAP
+Maize,Sandy,132.3,101.9,36.3,MOP
+Rice,Loamy,101.7,20.7,73.6,DAP
+Wheat,Alluvial,101.9,123.3,111.4,Organic Compost
+Wheat,Clay,72.5,66.8,4.5,NPK 10-26-26
+Potato,Clay,43.0,113.0,15.6,MOP
+Sugarcane,Black,4.3,72.8,12.0,Urea
+Tomato,Sandy,85.2,31.0,101.5,DAP
+Potato,Laterite,12.9,13.5,27.2,NPK 20-20-20
+Chickpea,Clay,16.6,123.1,77.6,Urea
+Wheat,Sandy,7.8,135.6,7.6,Urea
+Cotton,Black,57.1,104.5,107.1,Urea
+Tomato,Sandy,29.9,80.2,13.9,MOP
+Chickpea,Laterite,35.3,121.1,136.6,Urea
+Potato,Clay,66.2,5.3,13.0,NPK 10-26-26
+Maize,Black,34.6,59.3,2.9,MOP
+Rice,Laterite,55.3,28.2,124.9,Urea
+Mustard,Red,54.9,75.5,34.9,MOP
+Chickpea,Alluvial,57.6,95.9,103.4,Urea
+Tomato,Red,25.8,98.1,114.7,Urea
+Chickpea,Clay,131.8,93.6,15.5,MOP
+Banana,Red,42.5,5.1,101.5,DAP
+Cotton,Black,54.4,57.7,63.4,Urea
+Groundnut,Sandy,53.2,9.0,108.6,DAP
+Wheat,Alluvial,60.1,21.4,41.9,NPK 10-26-26
+Mustard,Red,110.4,16.3,56.0,DAP
+Groundnut,Black,81.6,9.7,9.3,NPK 10-26-26
+Soybean,Laterite,49.2,96.1,11.9,MOP
+Soybean,Sandy,54.6,65.6,55.7,Urea
+Onion,Clay,94.0,42.4,109.1,Organic Compost
+Rice,Sandy,62.4,76.7,77.1,Urea
+Sugarcane,Laterite,101.3,132.2,101.6,Organic Compost
+Potato,Alluvial,13.7,88.8,87.5,Urea
+Sugarcane,Sandy,24.1,31.5,66.7,Urea
+Groundnut,Sandy,15.1,57.7,47.3,Urea
+Maize,Loamy,25.7,105.5,67.2,Urea
+Mustard,Desert,28.6,27.4,135.4,Urea
+Potato,Alluvial,79.0,76.6,106.9,Organic Compost
+Groundnut,Clay,45.4,79.6,49.2,Urea
+Wheat,Alluvial,33.9,124.5,100.2,Urea
+Millets,Red,57.5,139.3,90.8,Urea
+Wheat,Sandy,44.9,68.3,89.8,Urea
+Rice,Clay,38.4,39.4,19.3,NPK 20-20-20
+Groundnut,Laterite,107.3,57.9,120.3,Organic Compost
+Cotton,Desert,99.5,11.9,10.0,NPK 10-26-26
+Wheat,Desert,92.8,100.3,89.5,Organic Compost
+Wheat,Desert,108.2,121.8,97.0,Organic Compost
+Onion,Desert,68.7,15.1,113.6,DAP
+Chickpea,Loamy,34.7,13.4,15.5,NPK 20-20-20
+Millets,Laterite,105.9,126.7,31.7,MOP
+Potato,Sandy,36.3,70.8,62.1,Urea
+Mustard,Clay,14.5,67.8,134.3,Urea
+Millets,Desert,130.1,33.7,11.4,NPK 10-26-26
+Onion,Clay,49.1,17.7,56.7,NPK 20-20-20
+Wheat,Desert,67.1,17.8,97.8,DAP
+Cotton,Sandy,133.7,107.7,91.3,Organic Compost
+Wheat,Desert,41.8,70.0,115.5,Urea
+Soybean,Sandy,52.7,100.5,97.6,Urea
+Potato,Desert,18.8,56.3,106.8,Urea
+Groundnut,Sandy,45.9,20.6,103.8,DAP
+Potato,Sandy,95.1,114.4,21.7,MOP
+Mustard,Red,104.5,81.2,7.6,MOP
+Soybean,Black,36.8,91.6,117.7,Urea
+Onion,Clay,124.3,17.7,37.7,NPK 10-26-26
+Potato,Red,111.1,88.1,80.6,Organic Compost
+Potato,Red,82.8,21.9,139.4,DAP
+Wheat,Red,110.2,14.2,56.7,DAP
+Wheat,Red,32.6,35.1,82.9,Urea
+Mustard,Alluvial,22.2,112.4,48.3,Urea
+Wheat,Sandy,83.9,70.7,45.7,Organic Compost
+Maize,Loamy,119.9,104.1,40.2,MOP
+Wheat,Laterite,59.1,50.9,111.9,Organic Compost
+Banana,Sandy,30.2,97.2,61.3,NPK 10-26-26
+Banana,Alluvial,43.9,98.5,69.4,NPK 10-26-26
+Maize,Sandy,135.7,31.1,120.8,DAP
+Sugarcane,Alluvial,102.2,61.8,111.1,Organic Compost
+Chickpea,Alluvial,17.7,49.3,67.5,Urea
+Maize,Clay,112.2,75.5,13.0,MOP
+Maize,Alluvial,12.8,35.7,129.2,Urea
+Potato,Alluvial,128.6,109.7,84.5,Organic Compost
+Sugarcane,Red,42.1,89.6,82.3,Urea
+Maize,Red,72.6,118.4,17.7,MOP
+Cotton,Desert,105.0,61.8,102.4,Organic Compost
+Cotton,Clay,1.8,18.4,15.0,NPK 10-26-26
+Onion,Loamy,101.1,93.3,73.3,Organic Compost
+Sugarcane,Sandy,3.8,127.4,43.2,Urea
+Cotton,Laterite,85.6,86.9,139.3,Organic Compost
+Rice,Sandy,109.1,42.6,46.3,Organic Compost
+Rice,Loamy,56.0,133.1,37.1,NPK 10-26-26
+Onion,Black,6.2,57.1,116.3,Urea
+Millets,Sandy,129.7,57.2,42.4,MOP
+Rice,Loamy,45.8,15.1,130.5,Urea
+Wheat,Sandy,9.5,73.8,94.5,Urea
+Chickpea,Alluvial,83.1,84.4,43.7,MOP
+Tomato,Alluvial,41.4,123.6,24.0,MOP
+Millets,Sandy,112.4,11.4,82.9,DAP
+Maize,Black,4.3,118.2,61.6,Urea
+Wheat,Loamy,52.8,11.2,40.2,NPK 20-20-20
+Wheat,Loamy,56.5,15.0,88.9,DAP
+Millets,Loamy,8.9,14.5,132.3,Urea
+Millets,Red,96.3,110.9,127.5,Organic Compost
+Wheat,Desert,14.5,115.7,38.1,Urea
+Soybean,Clay,106.7,84.5,30.0,MOP
+Tomato,Alluvial,99.3,16.2,36.2,NPK 10-26-26
+Tomato,Clay,56.1,74.8,29.2,MOP
+Soybean,Loamy,27.2,96.6,62.9,Urea
+Onion,Black,55.4,129.5,124.0,Urea
+Onion,Alluvial,57.2,82.2,35.6,MOP
+Groundnut,Loamy,24.6,122.4,10.4,Urea
+Wheat,Loamy,137.7,105.2,21.4,MOP
+Groundnut,Alluvial,102.1,23.6,100.0,DAP
+Millets,Laterite,92.5,125.3,105.4,Organic Compost
+Groundnut,Red,75.0,37.0,70.8,DAP
+Tomato,Laterite,36.6,20.5,126.2,Urea
+Chickpea,Black,77.2,64.6,54.0,Organic Compost
+Groundnut,Loamy,9.6,58.1,100.9,Urea
+Potato,Desert,33.0,69.5,94.4,Urea
+Mustard,Alluvial,71.9,135.3,56.9,Organic Compost
+Soybean,Alluvial,57.7,25.9,116.9,DAP
+Rice,Desert,52.4,63.7,44.1,Urea
+Sugarcane,Loamy,26.1,8.3,118.9,Urea
+Soybean,Desert,45.8,121.9,55.8,Urea
+Maize,Laterite,77.5,60.5,110.0,Organic Compost
+Potato,Desert,10.4,100.9,130.1,Urea
+Maize,Desert,96.9,2.0,94.0,DAP
+Chickpea,Alluvial,57.3,5.4,41.0,NPK 20-20-20
+Mustard,Desert,95.9,51.4,55.5,MOP
+Cotton,Clay,72.7,66.7,12.8,MOP
+Onion,Sandy,53.6,46.3,46.0,MOP
+Sugarcane,Clay,83.8,9.6,135.7,DAP
+Potato,Black,22.4,130.5,101.0,Urea
+Banana,Black,35.4,117.4,53.1,Urea
+Rice,Desert,108.6,53.5,127.4,Organic Compost
+Onion,Black,59.5,32.8,48.1,NPK 20-20-20
+Mustard,Laterite,19.1,17.4,96.2,Urea
+Potato,Sandy,104.9,45.2,9.6,MOP
+Maize,Red,84.2,8.2,63.5,DAP
+Chickpea,Sandy,5.8,41.4,90.1,Urea
+Groundnut,Sandy,139.1,50.5,95.3,Organic Compost
+Millets,Red,54.3,137.3,17.9,MOP
+Maize,Laterite,23.5,74.9,128.4,Urea
+Potato,Alluvial,35.8,105.1,80.8,Urea
+Maize,Red,137.0,27.4,113.7,DAP
+Mustard,Loamy,35.9,55.9,125.9,Urea
+Maize,Sandy,4.7,9.0,131.4,Urea
+Potato,Laterite,28.1,5.6,136.5,MOP
+Millets,Black,95.7,131.3,16.4,MOP
+Potato,Red,95.2,13.5,121.1,DAP
+Groundnut,Desert,70.3,124.3,75.7,Organic Compost
+Millets,Alluvial,114.0,57.7,84.0,Organic Compost
+Soybean,Clay,80.5,86.8,72.9,Organic Compost
+Sugarcane,Laterite,108.7,113.5,72.4,Organic Compost
+Tomato,Red,117.6,128.3,37.4,MOP
+Millets,Red,128.6,131.0,70.7,Organic Compost
+Millets,Loamy,53.0,113.4,15.2,MOP
+Wheat,Black,87.1,99.2,117.2,Organic Compost
+Onion,Desert,95.5,128.1,38.6,MOP
+Banana,Alluvial,17.5,31.7,14.4,NPK 20-20-20
+Chickpea,Laterite,126.9,66.7,98.0,Organic Compost
+Tomato,Desert,4.9,97.6,133.1,Urea
+Onion,Clay,41.9,63.3,19.1,MOP
+Onion,Alluvial,109.0,133.4,98.1,Organic Compost
+Soybean,Loamy,26.8,100.9,41.9,Urea
+Chickpea,Desert,52.2,40.5,4.4,MOP
+Maize,Black,89.5,51.3,110.3,Organic Compost
+Sugarcane,Black,110.9,21.4,19.7,NPK 10-26-26
+Potato,Red,138.2,112.6,124.6,Organic Compost
+Banana,Sandy,84.6,13.9,111.1,DAP
+Onion,Desert,131.6,15.1,123.5,DAP
+Banana,Sandy,25.7,56.1,12.6,Urea
+Banana,Clay,128.7,35.6,87.0,DAP
+Millets,Black,60.0,131.8,110.7,Urea
+Groundnut,Alluvial,57.7,83.7,92.2,Urea
+Rice,Clay,12.6,125.0,70.9,Urea
+Maize,Laterite,105.0,102.3,26.0,MOP
+Banana,Alluvial,85.5,80.6,3.7,MOP
+Groundnut,Red,70.0,13.9,125.8,DAP
+Groundnut,Red,92.9,100.7,52.9,Organic Compost
+Groundnut,Black,23.1,34.2,84.5,Urea
+Maize,Loamy,95.4,8.9,127.3,DAP
+Maize,Red,40.0,71.6,59.7,Urea
+Potato,Clay,64.2,110.8,76.2,Organic Compost
+Wheat,Loamy,52.6,0.3,129.6,Organic Compost
+Banana,Clay,19.5,2.9,49.7,Urea
+Potato,Alluvial,36.8,39.1,13.3,NPK 20-20-20
+Millets,Desert,97.3,43.6,33.4,MOP
+Cotton,Red,42.2,128.4,30.9,Urea
+Cotton,Sandy,45.0,109.5,101.7,MOP
+Mustard,Desert,13.4,97.8,104.6,Urea
+Soybean,Loamy,125.4,93.7,74.7,Organic Compost
+Cotton,Clay,91.4,9.6,46.8,DAP
+Potato,Loamy,104.0,84.8,82.1,Organic Compost
+Onion,Sandy,128.3,118.5,122.1,Organic Compost
+Mustard,Black,71.9,74.8,68.0,Organic Compost
+Maize,Black,22.6,38.4,20.0,NPK 20-20-20
+Cotton,Alluvial,12.3,63.1,84.2,Urea
+Wheat,Loamy,136.0,17.0,92.5,DAP
+Wheat,Laterite,71.7,38.8,115.9,DAP
+Banana,Loamy,56.0,127.9,130.1,Urea
+Mustard,Sandy,63.5,27.2,91.8,DAP
+Millets,Alluvial,36.5,87.4,25.3,Urea
+Groundnut,Loamy,23.3,114.8,27.8,Urea
+Banana,Laterite,11.6,12.6,134.2,Urea
+Millets,Alluvial,64.3,0.9,26.3,NPK 10-26-26
+Cotton,Clay,55.1,95.5,45.5,Urea
+Chickpea,Black,108.4,77.6,73.7,Organic Compost
+Millets,Clay,47.5,58.5,25.7,MOP
+Potato,Laterite,55.8,50.4,127.0,Urea
+Tomato,Alluvial,117.0,127.4,52.2,MOP
+Onion,Black,132.2,1.6,79.8,DAP
+Cotton,Alluvial,30.3,12.2,118.5,Urea
+Banana,Desert,14.7,128.8,88.6,Urea
+Cotton,Laterite,118.1,63.3,22.4,MOP
+Banana,Loamy,6.6,125.9,46.9,Urea
+Tomato,Black,127.7,23.9,51.6,NPK 10-26-26
+Chickpea,Alluvial,61.6,55.8,130.9,Organic Compost
+Millets,Desert,24.6,90.2,65.4,Urea
+Maize,Laterite,131.6,104.6,78.2,Organic Compost
+Tomato,Red,139.5,92.3,38.7,MOP
+Cotton,Alluvial,51.9,32.1,125.4,Urea
+Cotton,Laterite,57.1,120.2,27.4,MOP
+Rice,Clay,119.9,34.0,27.3,NPK 10-26-26
+Cotton,Black,87.1,98.2,87.1,Organic Compost
+Banana,Clay,130.2,98.8,58.7,Organic Compost
+Mustard,Laterite,16.3,25.6,48.7,Urea
+Chickpea,Clay,2.0,56.8,122.9,Urea
+Cotton,Loamy,130.7,10.0,49.0,Urea
+Tomato,Black,132.6,96.8,84.3,Organic Compost
+Soybean,Loamy,109.7,102.2,94.3,Organic Compost
+Wheat,Red,114.0,88.9,108.0,Organic Compost
+Wheat,Clay,134.0,15.3,0.6,NPK 10-26-26
+Chickpea,Alluvial,77.5,39.2,96.3,DAP
+Sugarcane,Loamy,58.8,138.0,108.0,Urea
+Onion,Loamy,96.2,9.9,32.9,DAP
+Millets,Sandy,2.9,62.9,90.8,Urea
+Cotton,Red,121.5,126.2,120.2,Organic Compost
+Millets,Red,10.5,68.4,129.4,Urea
+Millets,Black,109.2,82.9,56.6,Organic Compost
+Groundnut,Loamy,128.8,51.5,62.2,Organic Compost
+Maize,Red,25.2,4.6,35.8,NPK 20-20-20
+Soybean,Black,15.3,63.2,20.7,Urea
+Onion,Desert,66.6,112.3,23.9,MOP
+Cotton,Alluvial,57.7,115.7,125.0,Urea
+Millets,Red,102.7,89.4,65.9,Organic Compost
+Maize,Laterite,47.5,72.7,8.0,MOP
+Sugarcane,Laterite,58.9,45.4,87.0,Urea
+Tomato,Alluvial,52.4,10.7,53.1,NPK 20-20-20
+Tomato,Laterite,47.8,39.4,53.4,NPK 20-20-20
+Wheat,Desert,77.7,89.1,25.6,MOP
+Cotton,Loamy,58.0,99.8,42.6,MOP
+Wheat,Black,116.6,135.3,68.8,Organic Compost
+Tomato,Alluvial,86.9,49.9,51.0,MOP
+Rice,Loamy,86.2,39.0,53.8,DAP
+Groundnut,Sandy,14.3,59.3,137.0,Urea
+Millets,Loamy,34.6,81.7,68.4,Urea
+Millets,Desert,45.8,55.9,71.9,Urea
+Soybean,Clay,28.8,100.3,122.4,Urea
+Rice,Black,75.4,117.4,27.4,MOP
+Millets,Sandy,89.0,14.9,38.8,NPK 10-26-26
+Groundnut,Black,46.7,58.1,1.9,MOP
+Cotton,Desert,57.2,38.4,35.4,NPK 20-20-20
+Potato,Laterite,120.7,89.5,55.8,MOP
+Potato,Loamy,35.5,59.2,39.9,Urea
+Mustard,Loamy,118.6,35.2,126.7,DAP
+Groundnut,Sandy,85.6,116.1,92.8,NPK 20-20-20
+Soybean,Sandy,63.2,116.0,121.7,Organic Compost
+Millets,Red,52.8,3.6,97.2,DAP
+Banana,Clay,24.3,86.1,103.4,Urea
+Groundnut,Loamy,51.6,76.9,27.1,MOP
+Cotton,Black,68.1,120.3,74.1,Organic Compost
+Wheat,Laterite,62.4,99.8,124.4,Organic Compost
+Sugarcane,Clay,20.5,117.8,77.6,Urea
+Sugarcane,Alluvial,17.7,14.7,128.8,Urea
+Groundnut,Sandy,123.4,139.8,123.8,Organic Compost
+Sugarcane,Red,27.6,122.9,50.2,Organic Compost
+Wheat,Alluvial,26.3,109.1,125.5,Urea
+Maize,Clay,105.8,7.3,102.4,Organic Compost
+Sugarcane,Desert,127.3,14.7,48.8,DAP
+Chickpea,Red,128.2,65.6,117.7,Organic Compost
+Onion,Loamy,81.1,43.9,98.5,Organic Compost
+Maize,Black,132.4,127.2,63.2,Organic Compost
+Sugarcane,Clay,12.4,84.9,35.5,Urea
+Millets,Loamy,110.4,28.1,63.8,DAP
+Wheat,Alluvial,129.9,30.4,70.1,DAP
+Rice,Alluvial,85.2,72.2,82.0,Organic Compost
+Wheat,Clay,41.8,25.7,131.5,Urea
+Soybean,Clay,7.4,105.2,73.9,Urea
+Sugarcane,Red,130.7,123.3,78.5,Organic Compost
+Banana,Red,52.8,85.7,31.7,Urea
+Maize,Black,102.4,12.8,121.4,DAP
+Potato,Laterite,131.6,23.5,123.8,DAP
+Potato,Clay,55.0,17.8,2.0,NPK 20-20-20
+Millets,Red,42.8,138.2,61.9,Urea
+Wheat,Loamy,38.0,74.3,22.0,MOP
+Onion,Laterite,108.2,51.1,44.6,MOP
+Wheat,Black,77.5,132.2,29.6,MOP
+Mustard,Laterite,79.8,43.1,113.6,Organic Compost
+Millets,Loamy,102.4,9.7,7.1,NPK 10-26-26
+Maize,Clay,65.8,103.7,79.6,Urea
+Soybean,Red,44.2,135.3,59.9,Urea
+Rice,Alluvial,57.6,67.0,31.3,Urea
+Millets,Red,85.4,106.0,91.3,Organic Compost
+Maize,Alluvial,117.9,126.6,19.0,MOP
+Wheat,Clay,117.0,127.3,97.8,Organic Compost
+Tomato,Desert,120.3,49.2,69.2,Organic Compost
+Onion,Desert,121.8,12.4,106.7,DAP
+Cotton,Sandy,81.5,0.5,94.6,DAP
+Cotton,Red,136.5,58.3,4.2,MOP
+Onion,Red,20.8,123.1,32.6,Urea
+Sugarcane,Red,99.7,90.8,71.3,Organic Compost
+Sugarcane,Loamy,3.1,112.1,124.5,Urea
+Sugarcane,Sandy,66.1,81.7,96.8,NPK 20-20-20
+Potato,Laterite,31.5,51.0,104.9,Urea
+Maize,Sandy,136.1,129.3,115.9,Organic Compost
+Cotton,Laterite,102.4,93.4,137.6,Organic Compost
+Rice,Laterite,117.2,104.9,17.5,MOP
+Wheat,Loamy,88.4,131.8,84.3,Organic Compost
+Cotton,Red,8.0,52.5,74.6,Urea
+Maize,Sandy,61.9,64.7,139.5,Urea
+Wheat,Black,87.5,98.2,55.3,NPK 10-26-26
+Chickpea,Sandy,7.8,48.3,19.0,Urea
+Maize,Desert,6.6,70.0,69.6,NPK 20-20-20
+Millets,Sandy,12.6,130.5,89.5,Urea
+Mustard,Desert,56.1,36.4,53.8,Urea
+Tomato,Sandy,92.7,129.0,133.9,Organic Compost
+Wheat,Desert,14.9,134.0,36.3,Urea
+Chickpea,Laterite,25.4,115.9,17.5,Urea
+Potato,Desert,89.0,85.0,139.3,Organic Compost
+Cotton,Red,25.8,30.2,87.8,Urea
+Wheat,Alluvial,103.3,56.3,75.1,Organic Compost
+Tomato,Black,58.7,116.8,73.7,Urea
+Onion,Red,52.0,61.1,89.0,Urea
+Soybean,Red,7.7,126.1,129.6,Urea
+Mustard,Laterite,80.1,9.0,32.2,NPK 10-26-26
+Wheat,Red,27.2,130.6,25.4,Urea
+Potato,Alluvial,130.1,123.0,4.6,MOP
+Maize,Sandy,10.5,10.6,116.1,Urea
+Wheat,Loamy,4.3,126.1,137.5,Urea
+Chickpea,Alluvial,95.0,135.3,67.7,Organic Compost
+Tomato,Loamy,89.5,66.1,11.1,MOP
+Soybean,Laterite,67.0,73.3,68.8,Organic Compost
+Banana,Sandy,60.7,62.7,139.7,Urea
+Wheat,Red,69.4,118.6,64.6,Organic Compost
+Cotton,Black,41.6,76.8,96.6,Urea
+Chickpea,Desert,5.4,92.2,135.8,Urea
+Potato,Desert,76.8,98.6,43.4,MOP
+Mustard,Red,22.3,6.4,75.8,Urea
+Sugarcane,Black,24.1,91.2,23.1,Urea
+Tomato,Black,59.1,51.4,51.5,MOP
+Sugarcane,Sandy,73.8,56.1,41.1,MOP
+Millets,Clay,108.2,84.9,57.7,Organic Compost
+Groundnut,Laterite,96.5,57.5,17.0,MOP
+Rice,Red,20.7,119.9,43.5,Urea
+Tomato,Alluvial,30.8,1.0,62.4,DAP
+Tomato,Sandy,64.1,93.2,118.4,Organic Compost
+Groundnut,Black,8.8,67.2,52.7,Urea
+Mustard,Loamy,19.4,41.1,38.3,Urea
+Wheat,Alluvial,31.0,86.7,52.6,Urea
+Groundnut,Laterite,78.4,85.0,112.0,Organic Compost
+Sugarcane,Sandy,66.7,118.8,102.2,Urea
+Chickpea,Sandy,49.7,133.6,39.9,Urea
+Millets,Red,8.9,100.2,14.7,Urea
+Chickpea,Alluvial,134.5,136.2,68.5,Organic Compost
+Cotton,Desert,58.5,137.8,110.7,Urea
+Maize,Black,106.8,135.3,138.3,Organic Compost
+Sugarcane,Sandy,135.0,75.8,5.4,MOP
+Maize,Black,116.9,131.8,132.2,Organic Compost
+Potato,Desert,20.9,13.3,4.2,NPK 20-20-20
+Millets,Alluvial,117.6,131.5,76.7,Organic Compost
+Banana,Alluvial,107.3,105.4,61.0,Organic Compost
+Cotton,Clay,123.9,82.2,56.7,Organic Compost
+Sugarcane,Laterite,45.9,107.9,49.7,Urea
+Soybean,Laterite,60.2,45.1,2.2,MOP
+Onion,Sandy,119.2,86.5,28.1,MOP
+Chickpea,Alluvial,103.6,76.7,89.1,Organic Compost
+Soybean,Laterite,123.5,63.5,92.6,Organic Compost
+Sugarcane,Desert,102.9,49.1,122.6,Organic Compost
+Sugarcane,Black,53.2,126.4,132.2,Urea
+Tomato,Laterite,127.0,14.2,41.7,NPK 10-26-26
+Chickpea,Desert,133.2,53.2,73.8,Organic Compost
+Groundnut,Alluvial,128.5,97.2,132.4,Organic Compost
+Groundnut,Clay,99.1,18.4,57.8,DAP
+Millets,Laterite,130.1,134.4,2.0,MOP
+Sugarcane,Clay,118.7,85.6,79.2,Organic Compost
+Sugarcane,Alluvial,38.6,17.3,85.1,Urea
+Millets,Alluvial,124.9,125.5,30.7,MOP
+Tomato,Desert,14.2,91.2,38.1,Urea
+Banana,Clay,52.3,94.7,77.8,Urea
+Sugarcane,Loamy,124.0,138.4,97.2,DAP
+Sugarcane,Sandy,90.0,57.7,31.9,MOP
+Wheat,Alluvial,89.5,47.2,72.5,Organic Compost
+Tomato,Loamy,83.2,72.7,21.7,Organic Compost
+Potato,Red,57.4,60.2,15.9,MOP
+Soybean,Red,71.9,85.4,18.1,MOP
+Tomato,Laterite,85.8,65.2,65.6,Organic Compost
+Soybean,Clay,10.5,14.1,139.3,Urea
+Wheat,Black,62.7,11.9,114.9,DAP
+Tomato,Alluvial,117.7,36.0,118.2,DAP
+Sugarcane,Red,94.4,49.3,91.4,Organic Compost
+Mustard,Laterite,120.7,137.7,96.6,Organic Compost
+Onion,Sandy,136.3,127.4,5.8,MOP
+Sugarcane,Laterite,114.2,17.7,73.9,DAP
+Chickpea,Desert,138.9,75.5,57.9,Organic Compost
+Soybean,Desert,40.3,39.0,130.7,Urea
+Wheat,Loamy,44.7,65.5,80.0,Urea
+Potato,Black,18.3,127.1,89.7,Urea
+Sugarcane,Black,57.6,102.6,24.7,MOP
+Millets,Desert,133.8,101.8,31.8,MOP
+Wheat,Alluvial,5.6,16.0,94.2,Urea
+Mustard,Desert,80.4,2.5,52.8,NPK 10-26-26
+Banana,Desert,30.1,96.6,94.3,Urea
+Onion,Red,25.8,74.3,97.2,Urea
+Onion,Alluvial,105.4,15.7,73.5,DAP
+Soybean,Black,135.0,89.3,31.3,MOP
+Wheat,Clay,117.8,12.7,36.0,NPK 10-26-26
+Banana,Laterite,48.0,59.4,70.7,Urea
+Maize,Laterite,9.8,0.8,136.5,Urea
+Maize,Alluvial,124.6,136.6,118.2,Organic Compost
+Onion,Sandy,97.6,108.0,15.8,MOP
+Maize,Red,91.6,48.1,71.2,Organic Compost
+Rice,Clay,128.9,97.1,21.9,MOP
+Millets,Black,7.4,61.2,95.8,Urea
+Soybean,Red,11.2,86.5,99.2,Urea
+Wheat,Laterite,118.7,58.7,61.8,Organic Compost
+Rice,Sandy,108.8,5.7,119.2,DAP
+Potato,Desert,75.1,66.6,27.4,MOP
+Chickpea,Laterite,125.2,124.2,68.1,Organic Compost
+Tomato,Clay,132.8,50.6,29.7,MOP
+Tomato,Loamy,65.3,57.6,11.9,MOP
+Cotton,Red,77.2,72.3,76.0,Organic Compost
+Mustard,Alluvial,64.8,27.1,124.8,DAP
+Wheat,Red,76.2,88.0,11.5,MOP
+Maize,Black,54.1,50.0,79.7,Urea
+Tomato,Clay,73.8,21.8,97.4,DAP
+Groundnut,Loamy,62.1,58.3,98.2,Organic Compost
+Cotton,Clay,104.1,66.7,30.0,NPK 10-26-26
+Maize,Loamy,16.5,93.7,45.7,DAP
+Tomato,Laterite,109.8,47.6,126.3,Organic Compost
+Groundnut,Desert,93.5,112.9,54.5,Organic Compost
+Potato,Black,28.7,132.1,76.8,Urea
+Cotton,Black,64.6,118.4,125.4,Organic Compost
+Chickpea,Alluvial,17.0,94.0,74.6,Urea
+Soybean,Loamy,13.4,36.1,46.4,Urea
+Mustard,Loamy,132.6,20.4,131.4,DAP
+Cotton,Red,4.8,41.5,28.0,Urea
+Mustard,Loamy,109.3,104.3,116.1,Organic Compost
+Wheat,Desert,2.6,138.3,57.4,Urea
+Banana,Loamy,1.2,25.4,62.4,Urea
+Potato,Clay,20.7,36.8,85.0,Urea
+Sugarcane,Red,53.7,98.2,27.8,Urea
+Groundnut,Alluvial,73.7,35.0,78.6,DAP
+Sugarcane,Red,25.7,0.2,137.4,Urea
+Rice,Clay,120.1,139.3,120.3,Organic Compost
+Mustard,Loamy,134.8,88.7,107.7,Organic Compost
+Banana,Loamy,96.9,82.4,47.4,Organic Compost
+Maize,Sandy,137.4,128.3,29.4,MOP
+Wheat,Alluvial,82.5,130.2,134.3,Organic Compost
+Soybean,Sandy,54.6,101.3,34.4,MOP
+Mustard,Sandy,93.1,61.2,6.1,MOP
+Rice,Sandy,30.0,88.9,79.9,Urea
+Wheat,Red,105.4,95.6,83.8,Organic Compost
+Mustard,Red,36.4,41.7,103.7,Urea
+Sugarcane,Loamy,5.6,53.6,21.7,Urea
+Millets,Black,86.8,83.7,11.1,MOP
+Groundnut,Alluvial,85.0,39.3,101.4,DAP
+Mustard,Black,16.4,127.4,124.2,Urea
+Banana,Laterite,36.9,32.9,89.8,Urea
+Onion,Loamy,92.4,133.3,4.8,Urea
+Mustard,Alluvial,0.2,130.0,66.4,Urea
+Millets,Laterite,139.6,67.2,131.5,Organic Compost
+Maize,Desert,69.3,123.0,46.7,Urea
+Maize,Loamy,68.2,70.2,23.8,MOP
+Sugarcane,Laterite,21.2,98.6,101.8,Urea
+Sugarcane,Red,81.8,115.0,43.5,MOP
+Rice,Sandy,30.7,125.4,110.7,Urea
+Potato,Red,23.2,81.9,26.6,Urea
+Wheat,Laterite,64.8,45.1,39.9,MOP
+Wheat,Sandy,42.8,97.2,104.0,Urea
+Sugarcane,Desert,133.6,20.6,44.9,NPK 10-26-26
+Chickpea,Clay,9.9,134.7,119.9,Urea
+Groundnut,Black,70.1,61.7,50.4,Organic Compost
+Cotton,Black,121.9,74.3,84.1,Organic Compost
+Rice,Desert,131.1,94.0,44.9,MOP
+Potato,Loamy,116.6,135.4,9.5,MOP
+Groundnut,Laterite,51.7,93.5,76.6,Urea
+Cotton,Black,55.9,75.8,114.4,Urea
+Tomato,Clay,72.7,33.8,101.7,DAP
+Millets,Red,27.8,3.1,93.3,DAP
+Tomato,Black,27.9,92.7,61.0,Urea
+Potato,Loamy,7.4,2.3,36.5,NPK 20-20-20
+Cotton,Alluvial,16.1,23.5,101.4,Urea
+Groundnut,Black,91.9,32.7,123.2,DAP
+Sugarcane,Black,61.5,21.6,27.8,NPK 20-20-20
+Groundnut,Sandy,16.4,39.8,120.2,Urea
+Onion,Black,74.7,4.7,112.6,DAP
+Wheat,Black,113.1,118.0,102.9,Organic Compost
+Cotton,Loamy,135.7,66.9,132.9,Organic Compost
+Groundnut,Clay,26.9,129.7,119.5,Urea
+Mustard,Desert,110.4,80.7,90.8,Organic Compost
+Onion,Sandy,82.9,83.7,123.2,NPK 20-20-20
+Onion,Loamy,117.4,28.8,73.5,DAP
+Chickpea,Alluvial,106.9,87.3,77.7,Organic Compost
+Tomato,Desert,125.9,101.0,3.2,MOP
+Potato,Sandy,70.6,82.8,127.6,Organic Compost
+Onion,Black,71.5,87.1,119.3,Organic Compost
+Wheat,Loamy,83.6,65.5,36.1,MOP
+Wheat,Loamy,7.7,8.2,28.2,NPK 20-20-20
+Cotton,Alluvial,11.3,78.6,57.2,Urea
+Soybean,Alluvial,138.9,58.4,51.4,Organic Compost
+Millets,Loamy,109.0,84.2,27.9,MOP
+Soybean,Alluvial,77.5,99.4,99.4,Organic Compost
+Banana,Loamy,83.5,15.8,83.6,DAP
+Cotton,Laterite,104.1,25.4,109.9,DAP
+Banana,Red,46.9,73.2,82.0,Urea
+Onion,Alluvial,34.2,122.5,134.4,Urea
+Chickpea,Sandy,30.3,121.1,22.9,Urea
+Cotton,Black,44.3,108.8,63.4,Urea
+Mustard,Red,63.5,7.7,88.8,DAP
+Banana,Laterite,50.4,95.0,40.8,Urea
+Potato,Alluvial,85.9,113.5,13.7,DAP
+Maize,Clay,45.2,45.3,79.1,Urea
+Maize,Alluvial,106.5,24.7,115.6,DAP
+Rice,Black,106.1,92.5,137.5,Organic Compost
+Potato,Laterite,86.8,92.7,104.4,Organic Compost
+Tomato,Clay,40.2,134.9,43.5,NPK 20-20-20
+Maize,Red,110.6,61.5,126.7,Organic Compost
+Banana,Alluvial,18.1,61.9,72.0,Urea
+Sugarcane,Clay,54.7,32.6,80.4,Urea
+Wheat,Sandy,1.9,90.3,108.2,Urea
+Maize,Clay,134.6,107.5,46.7,Organic Compost
+Potato,Alluvial,73.1,96.9,60.1,Organic Compost
+Chickpea,Alluvial,59.1,9.1,98.8,DAP
+Maize,Laterite,124.1,26.1,0.3,NPK 10-26-26
+Soybean,Desert,7.7,41.5,33.5,Urea
+Groundnut,Desert,42.7,68.5,37.2,Urea
+Mustard,Alluvial,59.3,101.8,44.1,MOP
+Onion,Red,79.0,48.9,56.2,MOP
+Groundnut,Black,125.2,80.6,88.1,Organic Compost
+Banana,Black,103.3,15.6,125.2,DAP
+Soybean,Alluvial,38.4,113.6,37.6,Urea
+Sugarcane,Clay,91.9,82.8,139.7,Organic Compost
+Cotton,Desert,27.8,64.9,117.2,Urea
+Cotton,Alluvial,1.8,112.7,96.8,Urea
+Millets,Laterite,95.3,6.9,55.2,DAP
+Chickpea,Sandy,109.5,43.2,49.4,Organic Compost
+Wheat,Sandy,87.4,127.9,13.1,MOP
+Wheat,Desert,72.5,102.3,129.7,Organic Compost
+Rice,Desert,4.1,45.5,71.7,Urea
+Maize,Desert,109.4,67.3,121.5,Organic Compost
+Sugarcane,Black,56.2,48.5,29.0,Urea
+Banana,Alluvial,134.7,84.8,57.7,Organic Compost
+Potato,Laterite,29.5,13.1,13.1,NPK 20-20-20
+Tomato,Clay,131.6,69.5,96.8,Organic Compost
+Soybean,Sandy,22.8,30.3,21.0,NPK 20-20-20
+Banana,Loamy,91.1,50.8,135.0,Organic Compost
+Maize,Sandy,96.4,5.5,11.7,NPK 10-26-26
+Onion,Desert,13.2,58.8,111.1,Urea
+Banana,Laterite,130.9,8.0,86.3,DAP
+Millets,Laterite,125.7,10.3,131.2,DAP
+Groundnut,Clay,49.9,35.1,60.6,Urea
+Tomato,Loamy,8.8,92.9,2.9,MOP
+Rice,Laterite,24.5,46.5,4.4,Urea
+Tomato,Laterite,17.7,66.1,17.8,Urea
+Sugarcane,Alluvial,91.5,53.6,130.4,Organic Compost
+Onion,Alluvial,61.1,8.4,57.8,NPK 10-26-26
+Potato,Clay,133.2,15.7,137.1,DAP
+Millets,Laterite,126.5,45.5,55.9,Organic Compost
+Tomato,Sandy,99.3,113.4,123.9,Organic Compost
+Wheat,Sandy,12.0,120.5,67.5,Urea
+Tomato,Laterite,70.8,71.2,65.1,Organic Compost
+Mustard,Alluvial,112.7,4.2,48.7,DAP
+Onion,Desert,105.2,73.2,0.3,MOP
+Wheat,Sandy,101.8,25.2,0.2,NPK 10-26-26
+Cotton,Clay,104.7,84.5,2.1,MOP
+Groundnut,Black,111.5,35.9,100.7,DAP
+Groundnut,Clay,56.8,1.8,26.3,NPK 20-20-20
+Potato,Laterite,80.9,73.6,10.8,MOP
+Potato,Alluvial,17.6,128.9,10.2,MOP
+Potato,Laterite,120.9,115.8,46.6,MOP
+Cotton,Loamy,85.1,0.8,108.8,DAP
+Millets,Desert,116.5,135.5,8.7,MOP
+Sugarcane,Sandy,125.7,121.5,126.2,Organic Compost
+Sugarcane,Desert,77.2,23.4,15.8,NPK 10-26-26
+Rice,Laterite,94.0,109.9,8.8,MOP
+Tomato,Sandy,43.8,85.4,111.9,Urea
+Groundnut,Loamy,79.7,86.8,123.1,Organic Compost
+Mustard,Loamy,47.0,71.4,117.1,Urea
+Potato,Laterite,110.6,97.9,107.4,Organic Compost
+Onion,Red,77.8,76.9,83.6,Organic Compost
+Soybean,Alluvial,115.9,116.3,111.1,Organic Compost
+Mustard,Loamy,119.8,39.2,101.5,DAP
+Sugarcane,Laterite,44.6,98.6,119.7,NPK 10-26-26
+Tomato,Alluvial,129.6,33.5,102.3,DAP
+Wheat,Sandy,4.5,103.0,134.6,Urea
+Potato,Sandy,38.7,139.6,29.2,MOP
+Maize,Black,133.7,80.0,34.6,MOP
+Wheat,Clay,8.8,90.1,85.4,Urea
+Cotton,Sandy,117.1,5.3,60.2,DAP
+Soybean,Laterite,78.5,83.1,129.5,Organic Compost
+Millets,Red,97.9,99.8,134.0,Organic Compost
+Sugarcane,Loamy,57.0,48.6,86.4,Urea
+Cotton,Alluvial,108.9,12.2,45.9,DAP
+Mustard,Loamy,93.3,139.2,56.2,Organic Compost
+Potato,Black,71.4,53.7,127.8,Organic Compost
+Chickpea,Laterite,120.7,111.5,99.9,Organic Compost
+Onion,Black,79.4,16.2,75.2,DAP
+Potato,Loamy,9.6,4.4,120.5,Urea
+Maize,Loamy,108.8,35.4,103.2,DAP
+Onion,Sandy,9.0,38.8,35.9,NPK 20-20-20
+Wheat,Loamy,118.0,81.5,113.0,Organic Compost
+Soybean,Laterite,92.1,40.1,128.6,Organic Compost
+Chickpea,Alluvial,128.4,25.5,95.4,DAP
+Chickpea,Black,15.8,105.9,61.9,Urea
+Millets,Clay,35.5,13.6,134.1,DAP
+Maize,Sandy,46.6,139.4,31.2,Urea
+Sugarcane,Red,103.5,33.2,43.8,NPK 10-26-26
+Millets,Sandy,20.9,91.6,53.3,Urea
+Banana,Alluvial,136.4,97.0,14.0,MOP
+Groundnut,Alluvial,75.8,98.0,7.9,MOP
+Potato,Red,32.9,18.2,20.4,NPK 20-20-20
+Cotton,Laterite,111.8,31.8,44.5,NPK 10-26-26
+Groundnut,Laterite,13.7,6.3,139.4,Urea
+Rice,Alluvial,108.2,50.6,111.5,Organic Compost
+Cotton,Alluvial,135.0,23.2,41.6,NPK 10-26-26
+Tomato,Sandy,23.8,19.2,40.1,NPK 20-20-20
+Wheat,Red,24.0,135.9,111.7,Urea
+Chickpea,Alluvial,10.6,75.0,86.0,Urea
+Sugarcane,Alluvial,118.1,68.6,51.5,Organic Compost
+Banana,Alluvial,30.1,139.8,77.4,Urea
+Millets,Red,25.9,129.5,112.9,Urea
+Mustard,Desert,52.2,121.1,65.5,Urea
+Groundnut,Desert,64.8,24.9,26.9,NPK 10-26-26
+Millets,Black,54.4,70.9,12.2,MOP
+Millets,Alluvial,19.4,1.2,138.1,Urea
+Maize,Black,16.6,51.9,136.6,Urea
+Wheat,Red,51.0,16.4,72.4,DAP
+Chickpea,Sandy,26.9,19.2,81.4,Urea
+Groundnut,Laterite,110.6,117.8,128.3,Organic Compost
+Soybean,Desert,99.3,87.5,77.5,NPK 10-26-26
+Chickpea,Sandy,138.4,60.6,138.6,Organic Compost
+Onion,Clay,82.6,92.8,80.3,Organic Compost
+Millets,Loamy,57.5,122.5,23.4,MOP
+Rice,Laterite,113.0,128.6,36.2,MOP
+Chickpea,Red,92.8,28.1,38.2,NPK 10-26-26
+Chickpea,Loamy,100.3,22.6,130.4,DAP
+Rice,Sandy,124.7,138.2,108.5,Organic Compost
+Potato,Clay,113.9,98.6,66.2,Organic Compost
+Groundnut,Black,110.4,123.0,2.3,MOP
+Sugarcane,Loamy,24.9,103.1,67.3,Urea
+Millets,Black,19.3,80.9,52.9,Urea
+Wheat,Black,113.7,56.8,67.5,Organic Compost
+Millets,Sandy,62.6,120.0,91.3,Organic Compost
+Tomato,Black,94.8,120.1,49.1,MOP
+Soybean,Red,126.7,80.5,107.6,Organic Compost
+Maize,Laterite,100.8,21.5,77.0,DAP
+Millets,Clay,109.6,69.2,42.3,MOP
+Mustard,Laterite,70.7,100.4,40.0,MOP
+Mustard,Red,103.1,10.1,64.1,DAP
+Millets,Black,139.3,19.0,44.0,NPK 10-26-26

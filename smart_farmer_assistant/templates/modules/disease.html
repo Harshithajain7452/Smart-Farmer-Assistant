@@ -1,0 +1,139 @@
+{% extends 'app.html' %}
+{% block title %}Crop disease detection · Smart Farmer Assistant{% endblock %}
+{% block page_title %}{{ t('nav_disease') }}{% endblock %}
+{% block page_subtitle %}Upload a clear photo of an affected leaf. The CNN returns the disease, a
+confidence score and a full treatment plan.{% endblock %}
+
+{% block content %}
+<div class="row g-3">
+  <div class="col-lg-5">
+    <div class="card-soft p-4 fade-up">
+      <form method="post" enctype="multipart/form-data" id="scanForm" data-loading>
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <label class="upload-zone" for="image" data-upload-zone>
+          <input type="file" id="image" name="image" accept="image/png,image/jpeg,image/webp"
+                 required hidden data-upload-input>
+          <img alt="Preview" data-upload-preview hidden>
+          <div data-upload-placeholder>
+            <i class="bi bi-cloud-arrow-up"></i>
+            <div class="fw-semibold mt-2">Drop a leaf photo here</div>
+            <div class="small text-muted-2">or tap to browse · JPG, PNG or WebP up to 8 MB</div>
+          </div>
+        </label>
+        <button class="btn btn-brand w-100 mt-3" type="submit">
+          <i class="bi bi-search me-2"></i>Diagnose the leaf</button>
+      </form>
+
+      <hr class="my-4">
+      <div class="section-label mb-2">How to photograph</div>
+      <ul class="small text-muted-2 mb-0 ps-3">
+        <li>Fill the frame with a single affected leaf.</li>
+        <li>Shoot in daylight, avoiding direct shadow.</li>
+        <li>Keep the background plain — soil or a hand works well.</li>
+        <li>Capture both spotted and healthy areas for context.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-lg-7">
+    {% if result %}
+    <div class="card-soft fade-up">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span>Diagnosis</span>
+        <span class="pill">{{ 'CNN model' if result.source == 'cnn' else 'Heuristic engine' }}</span>
+      </div>
+      <div class="card-body">
+        <div class="row g-3 align-items-center mb-3">
+          <div class="col-auto">
+            <img src="{{ url_for('detection.uploaded_file', filename=result.image) }}"
+                 alt="Uploaded leaf" width="120" height="120"
+                 style="object-fit: cover; border-radius: 14px;">
+          </div>
+          <div class="col">
+            <div class="section-label">{{ result.crop }}</div>
+            <h2 class="h4 mb-1 {{ 'text-success' if result.healthy }}">{{ result.disease }}</h2>
+            <div class="confidence-track"><div class="confidence-fill" style="width: {{ result.confidence }}%"></div></div>
+            <div class="small text-muted-2 mt-1">{{ result.confidence }}% {{ t('confidence') }}</div>
+          </div>
+        </div>
+
+        {% if result.healthy %}
+        <div class="alert alert-success small mb-3">
+          <i class="bi bi-check-circle me-1"></i> This leaf looks healthy. Keep monitoring weekly,
+          especially after rainfall.
+        </div>
+        {% endif %}
+
+        <div class="accordion" id="diagnosisAccordion">
+          {% set sections = [
+            ('causes', 'Causes', 'bi-virus', result.causes),
+            ('symptoms', 'Symptoms', 'bi-clipboard-pulse', result.symptoms),
+            ('treatment', 'Treatment', 'bi-capsule', result.treatment),
+            ('prevention', 'Prevention', 'bi-shield-check', result.prevention)
+          ] %}
+          {% for key, label, icon, body in sections %}
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button {{ '' if loop.first else 'collapsed' }}" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#sec-{{ key }}">
+                <i class="bi {{ icon }} me-2"></i>{{ label }}
+              </button>
+            </h3>
+            <div id="sec-{{ key }}" class="accordion-collapse collapse {{ 'show' if loop.first }}"
+                 data-bs-parent="#diagnosisAccordion">
+              <div class="accordion-body small">{{ body }}</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+        {% if result.top_predictions %}
+        <div class="mt-4">
+          <div class="section-label mb-2">Other possibilities</div>
+          {% for p in result.top_predictions[1:] %}
+          <div class="d-flex justify-content-between align-items-center small py-1">
+            <span>{{ p.label }}</span>
+            <span class="text-muted-2">{{ p.confidence }}%</span>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="alert alert-warning small mt-3 mb-0">
+          <i class="bi bi-info-circle me-1"></i> Confirm chemical names and doses with your local
+          Krishi Vigyan Kendra before spraying.
+        </div>
+      </div>
+    </div>
+    {% else %}
+    <div class="card-soft p-5 text-center fade-up">
+      <i class="bi bi-image fs-1 text-muted-2 d-block mb-2"></i>
+      <h2 class="h5">Your diagnosis appears here</h2>
+      <p class="small text-muted-2 mb-0">The model recognises 15 PlantVillage classes across tomato,
+        potato, maize, grape, apple and pepper, including healthy leaves.</p>
+    </div>
+    {% endif %}
+
+    {% if history %}
+    <div class="card-soft mt-3 fade-up">
+      <div class="card-header">Recent scans</div>
+      <div class="card-body">
+        <div class="row g-2">
+          {% for h in history %}
+          <div class="col-6 col-md-3">
+            <div class="card-soft p-2 h-100">
+              <img src="{{ url_for('detection.uploaded_file', filename=h.image_path) }}"
+                   alt="{{ h.disease_name }}" class="w-100 mb-2"
+                   style="height: 76px; object-fit: cover; border-radius: 8px;">
+              <div class="small fw-semibold text-truncate" title="{{ h.disease_name }}">{{ h.disease_name }}</div>
+              <div class="small text-muted-2">{{ h.confidence }}% · {{ h.created_at.strftime('%d %b') }}</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

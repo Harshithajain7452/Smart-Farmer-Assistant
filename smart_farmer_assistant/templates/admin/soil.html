@@ -1,0 +1,77 @@
+{% extends 'app.html' %}
+{% block title %}Manage soil records · Admin{% endblock %}
+{% block page_title %}Soil information{% endblock %}
+{% block page_subtitle %}Maintain the soil knowledge base used by the advisory modules.{% endblock %}
+{% block content %}
+<div class="row g-3">
+  <div class="col-lg-5">
+    <div class="card-soft fade-up">
+      <div class="card-header" id="formTitle">Add a soil record</div>
+      <div class="card-body">
+        <form method="post">
+          <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+          <input type="hidden" name="id" id="f_id">
+          <div class="mb-2"><label class="form-label" for="f_soil_type">Soil type</label>
+            <input class="form-control" id="f_soil_type" name="soil_type" list="soilList" required>
+            <datalist id="soilList">{% for s in soil_types %}<option value="{{ s }}">{% endfor %}</datalist></div>
+          {% set areas = [('description','Description'),('nutrients','Nutrient profile'),
+                          ('advantages','Advantages'),('limitations','Limitations'),
+                          ('suitable_crops','Suitable crops'),
+                          ('fertilizer_recommendation','Fertiliser recommendation'),
+                          ('irrigation_recommendation','Irrigation recommendation'),
+                          ('regions','Regions found in')] %}
+          {% for name, label in areas %}
+          <div class="mb-2"><label class="form-label" for="f_{{ name }}">{{ label }}</label>
+            <textarea class="form-control" id="f_{{ name }}" name="{{ name }}" rows="2"></textarea></div>
+          {% endfor %}
+          <button class="btn btn-brand w-100">Save soil record</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-7">
+    <div class="card-soft fade-up">
+      <div class="card-header">{{ items|length }} soil types</div>
+      <div class="table-responsive">
+        <table class="table table-clean align-middle">
+          <thead><tr><th>Soil</th><th>Regions</th><th>Suitable crops</th><th></th></tr></thead>
+          <tbody>
+            {% for s in items %}
+            <tr>
+              <td class="fw-semibold">{{ s.soil_type }}</td>
+              <td class="small text-muted-2">{{ (s.regions or '')|truncate(48) }}</td>
+              <td class="small text-muted-2">{{ (s.suitable_crops or '')|truncate(60) }}</td>
+              <td class="text-end">
+                <button class="btn btn-ghost btn-sm edit-btn"
+                        data-row='{{ {"id": s.id, "soil_type": s.soil_type, "description": s.description or "",
+                                      "nutrients": s.nutrients or "", "advantages": s.advantages or "",
+                                      "limitations": s.limitations or "", "suitable_crops": s.suitable_crops or "",
+                                      "fertilizer_recommendation": s.fertilizer_recommendation or "",
+                                      "irrigation_recommendation": s.irrigation_recommendation or "",
+                                      "regions": s.regions or ""} | tojson }}'>
+                  <i class="bi bi-pencil"></i></button>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+document.querySelectorAll('.edit-btn').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    const r = JSON.parse(btn.dataset.row);
+    Object.keys(r).forEach(function (k) {
+      const el = document.getElementById('f_' + k);
+      if (el) el.value = r[k];
+    });
+    document.getElementById('formTitle').textContent = 'Edit: ' + r.soil_type;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
+</script>
+{% endblock %}

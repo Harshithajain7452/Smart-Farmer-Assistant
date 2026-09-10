@@ -1,0 +1,62 @@
+{% extends 'app.html' %}
+{% block title %}Detection records · Admin{% endblock %}
+{% block page_title %}Detection records{% endblock %}
+{% block page_subtitle %}Every disease and pest prediction made on the platform.{% endblock %}
+{% block content %}
+<div class="card-soft fade-up mb-3">
+  <div class="card-header">Disease predictions ({{ items.total }})</div>
+  <div class="table-responsive">
+    <table class="table table-clean align-middle">
+      <thead><tr><th>Image</th><th>Farmer</th><th>Crop</th><th>Disease</th><th>Confidence</th><th>Date</th></tr></thead>
+      <tbody>
+        {% for d in items.items %}
+        <tr>
+          <td><img src="{{ url_for('detection.uploaded_file', filename=d.image_path) }}" width="42" height="42"
+                   alt="scan" style="object-fit:cover;border-radius:8px;"></td>
+          <td class="small">{{ d.user.name if d.user else '—' }}</td>
+          <td class="small">{{ d.crop }}</td>
+          <td class="fw-semibold small">{{ d.disease_name }}</td>
+          <td><span class="pill {{ 'pill-amber' if not d.is_healthy }}">{{ d.confidence }}%</span></td>
+          <td class="small text-muted-2">{{ d.created_at.strftime('%d %b %Y, %H:%M') }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="6" class="text-center text-muted-2 py-4">No records yet.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% if items.pages > 1 %}
+<nav class="mb-3"><ul class="pagination justify-content-center">
+  {% for p in items.iter_pages() %}
+    {% if p %}<li class="page-item {{ 'active' if p == items.page }}">
+      <a class="page-link" href="{{ url_for('admin.detections', page=p) }}">{{ p }}</a></li>
+    {% else %}<li class="page-item disabled"><span class="page-link">…</span></li>{% endif %}
+  {% endfor %}
+</ul></nav>
+{% endif %}
+
+<div class="card-soft fade-up">
+  <div class="card-header">Recent pest predictions</div>
+  <div class="table-responsive">
+    <table class="table table-clean align-middle">
+      <thead><tr><th>Image</th><th>Farmer</th><th>Pest</th><th>Confidence</th><th>Date</th></tr></thead>
+      <tbody>
+        {% for p in pests %}
+        <tr>
+          <td><img src="{{ url_for('detection.uploaded_file', filename=p.image_path) }}" width="42" height="42"
+                   alt="scan" style="object-fit:cover;border-radius:8px;"></td>
+          <td class="small">{{ p.user.name if p.user else '—' }}</td>
+          <td class="fw-semibold small">{{ p.pest_name }}</td>
+          <td><span class="pill">{{ p.confidence }}%</span></td>
+          <td class="small text-muted-2">{{ p.created_at.strftime('%d %b %Y, %H:%M') }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="5" class="text-center text-muted-2 py-4">No records yet.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

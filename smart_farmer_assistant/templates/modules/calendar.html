@@ -1,0 +1,70 @@
+{% extends 'app.html' %}
+{% block title %}Crop calendar · Smart Farmer Assistant{% endblock %}
+{% block page_title %}{{ t('nav_calendar') }}{% endblock %}
+{% block page_subtitle %}Sowing, irrigation, fertiliser and harvest windows for your state and crop.{% endblock %}
+{% block content %}
+
+<form class="card-soft p-3 mb-3 fade-up" method="get">
+  <div class="row g-2 align-items-end">
+    <div class="col-md-4">
+      <label class="form-label" for="state">{{ t('state') }}</label>
+      <select class="form-select" id="state" name="state">
+        {% for s in states %}<option value="{{ s }}" {{ 'selected' if sel.state == s }}>{{ s }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="col-md-4">
+      <label class="form-label" for="crop">{{ t('crop') }}</label>
+      <select class="form-select" id="crop" name="crop">
+        <option value="">All crops</option>
+        {% for c in crops %}<option value="{{ c }}" {{ 'selected' if sel.crop == c }}>{{ c }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="col-md-4"><button class="btn btn-brand w-100">Show calendar</button></div>
+  </div>
+</form>
+
+{% for r in rows %}
+<div class="card-soft mb-3 fade-up">
+  <div class="card-header d-flex justify-content-between align-items-center">
+    <span>{{ r.crop }} — {{ r.state }}</span>
+    <span class="d-flex gap-2">
+      <span class="pill">{{ r.season }}</span>
+      <span class="pill pill-amber">{{ r.duration_days }} days</span>
+    </span>
+  </div>
+  <div class="card-body">
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="fw-semibold small"><i class="bi bi-seedling me-1"></i>Sowing</div>
+        <div class="small text-muted-2">{{ r.sowing_time }}</div>
+      </div>
+      <div class="timeline-item">
+        <div class="fw-semibold small"><i class="bi bi-flower3 me-1"></i>Transplanting / planting</div>
+        <div class="small text-muted-2">{{ r.planting_time }}</div>
+      </div>
+      <div class="timeline-item">
+        <div class="fw-semibold small"><i class="bi bi-moisture me-1"></i>Irrigation schedule</div>
+        <div class="small text-muted-2">{{ r.irrigation_schedule }}</div>
+      </div>
+      <div class="timeline-item">
+        <div class="fw-semibold small"><i class="bi bi-basket me-1"></i>Fertiliser schedule</div>
+        <div class="small text-muted-2">{{ r.fertilizer_schedule }}</div>
+      </div>
+      <div class="timeline-item">
+        <div class="fw-semibold small"><i class="bi bi-scissors me-1"></i>Harvesting</div>
+        <div class="small text-muted-2">{{ r.harvesting_time }}</div>
+      </div>
+    </div>
+    {% if r.notes %}
+    <div class="alert alert-warning small mt-3 mb-0"><i class="bi bi-lightbulb me-1"></i>{{ r.notes }}</div>
+    {% endif %}
+  </div>
+</div>
+{% else %}
+<div class="card-soft p-5 text-center">
+  <i class="bi bi-calendar3 fs-1 text-muted-2 d-block mb-2"></i>
+  <h2 class="h5">No calendar entries for this selection</h2>
+  <p class="small text-muted-2 mb-0">Pick another state or crop, or ask an administrator to add this entry.</p>
+</div>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment & secrets
+.env
+*.pem
+
+# Databases
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Uploads (user content — keep the folder, ignore the files)
+uploads/*
+!uploads/.gitkeep
+
+# Datasets & trained artefacts (large binaries — regenerate with ml/train_all.py)
+datasets/plantvillage/
+datasets/pests/
+trained_models/*.h5
+trained_models/*.keras
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

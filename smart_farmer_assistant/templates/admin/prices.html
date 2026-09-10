@@ -1,0 +1,74 @@
+{% extends 'app.html' %}
+{% block title %}Manage market prices · Admin{% endblock %}
+{% block page_title %}Market prices{% endblock %}
+{% block page_subtitle %}Add mandi price records manually or let the data.gov.in feed populate them.{% endblock %}
+{% block content %}
+<div class="row g-3">
+  <div class="col-lg-4">
+    <div class="card-soft fade-up">
+      <div class="card-header">Add a price record</div>
+      <div class="card-body">
+        <form method="post">
+          <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+          <div class="mb-2"><label class="form-label" for="state">State</label>
+            <select class="form-select" id="state" name="state" required data-state-select data-district-target="#district">
+              {% for s in states %}<option value="{{ s }}">{{ s }}</option>{% endfor %}</select></div>
+          <div class="mb-2"><label class="form-label" for="district">District</label>
+            <select class="form-select" id="district" name="district" required></select></div>
+          <div class="mb-2"><label class="form-label" for="market">Market</label>
+            <input class="form-control" id="market" name="market" placeholder="Bazar Samiti"></div>
+          <div class="mb-2"><label class="form-label" for="crop">Crop</label>
+            <select class="form-select" id="crop" name="crop" required>
+              {% for c in crops %}<option value="{{ c }}">{{ c }}</option>{% endfor %}</select></div>
+          <div class="mb-2"><label class="form-label" for="variety">Variety</label>
+            <input class="form-control" id="variety" name="variety"></div>
+          <div class="row g-2 mb-2">
+            <div class="col-4"><label class="form-label" for="min_price">Min ₹</label>
+              <input type="number" class="form-control" id="min_price" name="min_price" required min="0"></div>
+            <div class="col-4"><label class="form-label" for="max_price">Max ₹</label>
+              <input type="number" class="form-control" id="max_price" name="max_price" required min="0"></div>
+            <div class="col-4"><label class="form-label" for="modal_price">Modal ₹</label>
+              <input type="number" class="form-control" id="modal_price" name="modal_price" required min="0"></div>
+          </div>
+          <div class="mb-3"><label class="form-label" for="price_date">Date</label>
+            <input type="date" class="form-control" id="price_date" name="price_date" value="{{ today }}"></div>
+          <button class="btn btn-brand w-100">Add record</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-8">
+    <div class="card-soft fade-up">
+      <div class="card-header">{{ items.total }} price records</div>
+      <div class="table-responsive">
+        <table class="table table-clean">
+          <thead><tr><th>Date</th><th>Crop</th><th>Market</th><th>State</th>
+            <th class="text-end">Min</th><th class="text-end">Max</th><th class="text-end">Modal</th></tr></thead>
+          <tbody>
+            {% for r in items.items %}
+            <tr>
+              <td class="small text-muted-2">{{ r.price_date.strftime('%d %b %Y') }}</td>
+              <td class="fw-semibold small">{{ r.crop }}</td>
+              <td class="small">{{ r.market or '—' }}, {{ r.district }}</td>
+              <td class="small">{{ r.state }}</td>
+              <td class="text-end small">₹{{ '{:,.0f}'.format(r.min_price) }}</td>
+              <td class="text-end small">₹{{ '{:,.0f}'.format(r.max_price) }}</td>
+              <td class="text-end fw-bold" style="color: var(--brand);">₹{{ '{:,.0f}'.format(r.modal_price) }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {% if items.pages > 1 %}
+    <nav class="mt-3"><ul class="pagination justify-content-center">
+      {% for p in items.iter_pages() %}
+        {% if p %}<li class="page-item {{ 'active' if p == items.page }}">
+          <a class="page-link" href="{{ url_for('admin.prices', page=p) }}">{{ p }}</a></li>
+        {% else %}<li class="page-item disabled"><span class="page-link">…</span></li>{% endif %}
+      {% endfor %}
+    </ul></nav>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

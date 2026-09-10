@@ -1,0 +1,89 @@
+{% extends 'app.html' %}
+{% block title %}Manage crop calendar · Admin{% endblock %}
+{% block page_title %}Crop calendar{% endblock %}
+{% block page_subtitle %}State-wise sowing, irrigation, fertiliser and harvest schedules.{% endblock %}
+{% block content %}
+<div class="row g-3">
+  <div class="col-lg-5">
+    <div class="card-soft fade-up">
+      <div class="card-header" id="formTitle">Add a calendar entry</div>
+      <div class="card-body">
+        <form method="post">
+          <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+          <input type="hidden" name="id" id="f_id">
+          <div class="row g-2 mb-2">
+            <div class="col-6"><label class="form-label" for="f_crop">Crop</label>
+              <select class="form-select" id="f_crop" name="crop" required>
+                {% for c in crops %}<option value="{{ c }}">{{ c }}</option>{% endfor %}</select></div>
+            <div class="col-6"><label class="form-label" for="f_state">State</label>
+              <select class="form-select" id="f_state" name="state" required>
+                {% for s in states %}<option value="{{ s }}">{{ s }}</option>{% endfor %}</select></div>
+            <div class="col-6"><label class="form-label" for="f_season">Season</label>
+              <select class="form-select" id="f_season" name="season">
+                {% for s in seasons %}<option value="{{ s }}">{{ s }}</option>{% endfor %}</select></div>
+            <div class="col-6"><label class="form-label" for="f_duration_days">Duration (days)</label>
+              <input type="number" class="form-control" id="f_duration_days" name="duration_days" value="120" min="20" max="500"></div>
+            <div class="col-6"><label class="form-label" for="f_sowing_time">Sowing window</label>
+              <input class="form-control" id="f_sowing_time" name="sowing_time" placeholder="Mid June – early July"></div>
+            <div class="col-6"><label class="form-label" for="f_planting_time">Planting window</label>
+              <input class="form-control" id="f_planting_time" name="planting_time"></div>
+            <div class="col-12"><label class="form-label" for="f_harvesting_time">Harvest window</label>
+              <input class="form-control" id="f_harvesting_time" name="harvesting_time"></div>
+          </div>
+          {% for name, label in [('irrigation_schedule','Irrigation schedule'),
+                                 ('fertilizer_schedule','Fertiliser schedule'),('notes','Notes')] %}
+          <div class="mb-2"><label class="form-label" for="f_{{ name }}">{{ label }}</label>
+            <textarea class="form-control" id="f_{{ name }}" name="{{ name }}" rows="2"></textarea></div>
+          {% endfor %}
+          <button class="btn btn-brand w-100">Save entry</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-7">
+    <div class="card-soft fade-up">
+      <div class="card-header">{{ items|length }} entries</div>
+      <div class="table-responsive" style="max-height: 720px; overflow-y: auto;">
+        <table class="table table-clean align-middle">
+          <thead><tr><th>Crop</th><th>State</th><th>Season</th><th>Sowing</th><th></th></tr></thead>
+          <tbody>
+            {% for r in items %}
+            <tr>
+              <td class="fw-semibold small">{{ r.crop }}</td>
+              <td class="small">{{ r.state }}</td>
+              <td><span class="pill">{{ r.season }}</span></td>
+              <td class="small text-muted-2">{{ r.sowing_time }}</td>
+              <td class="text-end">
+                <button class="btn btn-ghost btn-sm edit-btn"
+                        data-row='{{ {"id": r.id, "crop": r.crop, "state": r.state, "season": r.season or "",
+                                      "sowing_time": r.sowing_time or "", "planting_time": r.planting_time or "",
+                                      "harvesting_time": r.harvesting_time or "",
+                                      "irrigation_schedule": r.irrigation_schedule or "",
+                                      "fertilizer_schedule": r.fertilizer_schedule or "",
+                                      "duration_days": r.duration_days or 120, "notes": r.notes or ""} | tojson }}'>
+                  <i class="bi bi-pencil"></i></button>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+document.querySelectorAll('.edit-btn').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    const r = JSON.parse(btn.dataset.row);
+    Object.keys(r).forEach(function (k) {
+      const el = document.getElementById('f_' + k);
+      if (el) el.value = r[k];
+    });
+    document.getElementById('formTitle').textContent = 'Edit: ' + r.crop + ' — ' + r.state;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
+</script>
+{% endblock %}

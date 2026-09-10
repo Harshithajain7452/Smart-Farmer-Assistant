@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="{{ current_lang }}" data-theme="light">
+<head><title>{% block title %}Smart Farmer Assistant{% endblock %}</title>
+  {% include 'partials/head.html' %}
+  {% block head %}{% endblock %}</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top" style="background: var(--surface); border-bottom: 1px solid var(--border);">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="{{ url_for('main.index') }}"
+       style="color: var(--brand); font-weight: 800;">
+      {% include 'partials/logo.html' %}
+      <span style="color: var(--text);">Smart Farmer<span style="color: var(--brand);"> Assistant</span></span>
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#publicNav" aria-label="Menu">
+      <i class="bi bi-list fs-3" style="color: var(--text);"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="publicNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="{{ url_for('main.index') }}#features">{{ t('nav_features') }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ url_for('main.index') }}#modules">{{ t('nav_modules') }}</a></li>
+        <li class="nav-item ms-lg-2">{% include 'partials/language_menu.html' %}</li>
+        <li class="nav-item ms-lg-2">
+          <button class="icon-btn" type="button" id="themeToggle" aria-label="Toggle dark mode">
+            <i class="bi bi-moon-stars"></i>
+          </button>
+        </li>
+        <li class="nav-item ms-lg-2"><a class="btn btn-ghost btn-sm" href="{{ url_for('auth.login') }}">{{ t('login') }}</a></li>
+        <li class="nav-item ms-lg-1"><a class="btn btn-brand btn-sm" href="{{ url_for('auth.register') }}">{{ t('register') }}</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main>{% block content %}{% endblock %}</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="d-flex align-items-center gap-2 mb-2" style="color:#dff2e4;">
+          {% include 'partials/logo.html' %}<strong>Smart Farmer Assistant</strong>
+        </div>
+        <p class="small mb-0">AI-powered decision support for Indian farmers — disease detection,
+          weather, mandi prices, schemes and agronomy advice in nine languages.</p>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6 class="text-white">Platform</h6>
+        <ul class="list-unstyled small">
+          <li><a href="{{ url_for('auth.register') }}">Create account</a></li>
+          <li><a href="{{ url_for('auth.login') }}">Sign in</a></li>
+          <li><a href="{{ url_for('main.index') }}#modules">Modules</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-3">
+        <h6 class="text-white">Official resources</h6>
+        <ul class="list-unstyled small">
+          <li><a href="https://pmkisan.gov.in" target="_blank" rel="noopener">PM-KISAN</a></li>
+          <li><a href="https://pmfby.gov.in" target="_blank" rel="noopener">PMFBY crop insurance</a></li>
+          <li><a href="https://www.enam.gov.in" target="_blank" rel="noopener">e-NAM</a></li>
+          <li><a href="https://soilhealth.dac.gov.in" target="_blank" rel="noopener">Soil Health Card</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h6 class="text-white">Kisan Call Centre</h6>
+        <p class="small mb-1"><i class="bi bi-telephone me-1"></i> 1800-180-1551 (toll free)</p>
+        <p class="small">Advice here is decision support only. Confirm chemical doses with your
+          local Krishi Vigyan Kendra.</p>
+      </div>
+    </div>
+    <hr style="border-color: rgba(255,255,255,.12);">
+    <p class="small mb-0">© {{ 2026 }} Smart Farmer Assistant. Built for Indian agriculture.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>
